@@ -109,20 +109,21 @@ Sparse topology augmentation builds the stress split and robustness signals. It 
 
 The final pipeline should produce standard train/validation/test samples, STB-Mask-Stress samples, and a data card recording source domains, split strategy, version, and conversion scripts.
 
-## 39.5 Why Empty Cells and Sparse Layouts Break Traditional Evaluation
+## 39.5 How Empty Cells and Sparse Layouts Induce Structural Errors
 
-Sparse tables are hard not just because blanks reduce information. Blanks carry structure. A blank region can be an empty cell, a whole missing-value column, an area occupied by a spanning cell, or simple page whitespace. If a model cannot distinguish these cases, it hallucinates structure.
+Sparse tables are hard not simply because blanks reduce information. Blanks carry structural meaning. A blank region can be an empty cell, a whole missing-value column, an area occupied by a spanning cell, or simple page whitespace. If a model cannot distinguish these cases, it may generate structural hallucinations.
 
-Typical failures include empty-column skipping, cascading left/right shift, and misleading metrics. If empty cells are not annotated, deleting them is not penalized. If only text is compared, structural drift is hidden. If only HTML is checked, geometric mismatch can pass. STB keeps HTML, text, and bbox together to reduce these blind spots.
+Typical failures include empty-column skipping and cascading left/right shift. These structural errors are reflected in evaluation results. Empty-position omission, column left shift, and filling empty cells with nonexistent content change the number of HTML nodes, node order, and row-column expansion relations, which usually lowers TEDS or TEDS-S. STB keeps HTML, text, and bbox together so that score drops can be traced back to inspectable data objects rather than remaining at the aggregate metric level.
 
 | Error Type | Symptom | Main Cause | Observation in STB |
 | --- | --- | --- | --- |
 | Empty-position omission | Empty `<td>` missing and column count shrinks | No visual text anchor | `[EMPTY_CELL]` recall, TEDS-S, row/column expansion check |
 | Column left/right shift | Non-empty content moves to neighboring column | Empty middle column skipped or merged | HTML matrix alignment, bbox-column consistency |
+| Empty-cell filling | Model generates nonexistent text in empty positions | Contextual completion or overly strong language prior | `[EMPTY_CELL]` precision, cell-text inspection |
 | Merge error | `rowspan` / `colspan` missing or wrong | Weak sparse-region boundary, complex headers | Tree edit, merged-region coverage |
 | Spatial drift | HTML parseable but bbox mismatched | Model learns sequence but lacks geometry | Cell bbox IoU, row/column geometry alignment |
 
-STB's value is that it turns unstable, hard-to-explain evaluation issues into annotatable, computable, and attributable supervision objects.
+STB's value is not only that it provides a more difficult dataset, but that it turns structural failure modes in sparse tables into annotatable, computable, and attributable supervision objects.
 
 ## 39.6 STB-Mask-Stress
 
@@ -151,6 +152,8 @@ STB uses Tree-Edit-Distance-based Similarity (TEDS) and its structural variant T
 
 These metrics are useful for comparison but must be interpreted carefully.
 
+In extremely sparse tables or tables with many empty cells, lower TEDS/TEDS-S usually comes from structural prediction errors. Numerous empty positions weaken visible text anchors. A model may fill empty cells with nonexistent content, skip empty columns, or assign neighboring-column content to the wrong column position. Once these errors enter the HTML output, the number of `<td>` nodes, node order, and row-column expansion relations change, leading to lower TEDS or TEDS-S. TEDS-S focuses further on structural topology and empty-cell positions, so it is especially useful for exposing these row-column alignment errors.
+
 | Metric Pattern | Possible Explanation | Do Not Conclude Directly | Complementary Check |
 | --- | --- | --- | --- |
 | High TEDS and high TEDS-S | Structure and text are stable | Bbox is definitely correct | Cell bbox IoU, row/column geometry |
@@ -159,7 +162,7 @@ These metrics are useful for comparison but must be interpreted carefully.
 | Standard high, Mask-Stress low | Relies on visible text anchors | Model unusable in normal scenarios | Report by body/header/random mask type |
 | Mask-Stress high TEDS-S, low TEDS | Topology preserved, masked text unrecoverable | Model should recover invisible content | Verify masked text removed from target |
 
-TEDS is a mixed structure-text metric. TEDS-S is structural but not geometric. For geometry-aware models, add bbox IoU, center-point distance, row/column alignment error, or cell-to-region assignment checks. Pressure-test scores should also be reported by masking type; one average can hide collapse under header masking or stability under body masking.
+When interpreting TEDS/TEDS-S on STB, three types of information should be considered together. TEDS is a mixed structure-text metric. TEDS-S is structural but not geometric. For geometry-aware models, add bbox IoU, center-point distance, row/column alignment error, or cell-to-region assignment checks. Pressure-test scores should also be reported by masking type; one average can hide collapse under header masking or stability under body masking.
 
 Diagnostic metrics such as empty-cell recall, column expansion consistency, merged-cell accuracy, and bbox match rate are not always leaderboard metrics, but they are excellent for debugging.
 
@@ -214,8 +217,10 @@ STB connects naturally to several parts of the book. It extends document underst
 
 Looking ahead, STB connects directly to Chapter 47's VLM data recipes: its input is a table image, and its output contains HTML structure, cell text, bbox, and empty-cell placeholders. It can also support P03's multimodal instruction factory and P05's multimodal RAG project by providing instruction sources such as “recognize table structure,” “point out empty-cell positions,” and “explain column-shift errors.”
 
-## 39.11 Summary
+## Chapter Summary
 
-SparseTable-Bench turns sparse-table structure robustness into an annotatable, trainable, and evaluable data engineering problem. It synchronizes HTML structure, cell-level text, and fine-grained bbox, and uses `[EMPTY_CELL]` to preserve empty-cell topology. STB-Mask-Stress adds column-aware occlusion so structural recovery under severe information loss can be measured separately.
+This chapter used SparseTable-Bench table-structure robustness data engineering to organize the core problem, processing flow, and acceptance criteria for this topic in large-model data engineering. Its contribution is to place concepts, data objects, quality signals, and engineering delivery in one narrative, so that readers can judge which links must be explicitly recorded and which results must be verified through sampling, evaluation, or audit.
 
-Using STB requires more than one aggregate TEDS score. TEDS, TEDS-S, bbox checks, empty-cell recall, and per-mask error analysis should be combined to distinguish text errors, structure errors, and spatial errors. STB's lesson for large-model data engineering is that complex document datasets draw value not only from scale, but from encoding real failure modes into schema, construction flow, and evaluation protocol.
+The method described in this chapter should be applied according to data sources, business goals, model capability, cost budget, and compliance requirements. For scenarios involving sensitive information, cross-system invocation, automated decision-making, or public release, manual review, version freezing, permission control, and exception rollback mechanisms should be retained, rather than treating the example workflow as a direct production commitment.
+
+In the structure of the book, this chapter belongs to the specialized dataset validation layer. It connects the preceding foundational concepts with later open-source model data recipes and project case studies. Readers can use this framework together with the figures, references, and appendix checklist to turn the chapter method into a reproducible, inspectable, and deliverable engineering workflow.
