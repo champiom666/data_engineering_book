@@ -1,4 +1,4 @@
-# Chapter 50: Multimodal Large Model (VLM) Data Recipes: From Pre-Training to Visual Alignment
+# Chapter 47: Multimodal Large Model (VLM) Data Recipes: From Pre-Training to Visual Alignment
 
 ## Abstract
 
