@@ -38,6 +38,7 @@ OUT_PDF = OUT_DIR / "data_engineering_book_en_16k_compact.pdf"
 PARTS_DIR = OUT_DIR / "data_engineering_book_en_16k_compact_parts"
 CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 FRONT_PDF = PARTS_DIR / "00-book-front-matter.pdf"
+SUBMISSION_PDF_DIR = OUT_DIR / "data_engineering_book_en_16k_compact_submission_pdfs"
 
 
 CSS = r"""
@@ -884,7 +885,7 @@ def write_html(path: Path, html_doc: str) -> None:
     print(f"[ok] HTML written: {path}")
 
 
-def export_pdf(html_path: Path, pdf_path: Path, timeout: int) -> None:
+def export_pdf(html_path: Path, pdf_path: Path, timeout: int, *, min_size: int = 100_000) -> None:
     if not CHROME.exists():
         raise FileNotFoundError(f"Google Chrome not found: {CHROME}")
 
@@ -907,7 +908,7 @@ def export_pdf(html_path: Path, pdf_path: Path, timeout: int) -> None:
         print(proc.stderr.strip(), file=sys.stderr)
     if proc.returncode != 0:
         raise RuntimeError(f"Chrome PDF export failed with rc={proc.returncode}")
-    if not pdf_path.exists() or pdf_path.stat().st_size < 100_000:
+    if not pdf_path.exists() or pdf_path.stat().st_size < min_size:
         raise RuntimeError("PDF was not produced or is suspiciously small")
     print(f"[ok] PDF written: {pdf_path} ({pdf_path.stat().st_size / 1024 / 1024:.1f} MB)")
 
@@ -1157,7 +1158,7 @@ def export_split_pdf(items: list[NavItem], timeout: int, include_mathjax: bool, 
                 ]
             )
         )
-        export_pdf(html_path, pdf_path, timeout)
+        export_pdf(html_path, pdf_path, timeout, min_size=10_000)
         part_pdfs.append(pdf_path)
 
     try:
@@ -1194,10 +1195,78 @@ def export_split_pdf(items: list[NavItem], timeout: int, include_mathjax: bool, 
     merge_formal_book_pdf(FRONT_PDF, part_pdfs, OUT_PDF, items, first_body_page=first_body_page)
 
 
+def export_submission_pdfs(items: list[NavItem], timeout: int, include_mathjax: bool) -> None:
+    """Export a Springer-style PDF folder: full book plus one PDF per navigation unit."""
+
+    if SUBMISSION_PDF_DIR.exists():
+        shutil.rmtree(SUBMISSION_PDF_DIR)
+    SUBMISSION_PDF_DIR.mkdir(parents=True, exist_ok=True)
+
+    if OUT_PDF.exists():
+        shutil.copy2(OUT_PDF, SUBMISSION_PDF_DIR / "00_full_book_pagenumbered.pdf")
+    else:
+        print("[WARN] full book PDF does not exist yet; submission folder will contain contribution PDFs only")
+
+    manifest_lines = [
+        "# English Springer PDF Submission Folder",
+        "",
+        "This folder contains the full paginated book PDF plus individual PDF files exported from the English navigation.",
+        "Springer requires a final complete PDF; for edited works, individual chapter/contribution PDFs are also required.",
+        "",
+        "| No. | Title | Source | PDF |",
+        "| --- | --- | --- | --- |",
+    ]
+    width = len(str(len(items)))
+    for index, item in enumerate(items, 1):
+        slug = slugify(Path(item.path).with_suffix("").as_posix().replace("/", "-"))
+        prefix = f"{index:0{width}d}-{slug}"
+        html_path = SUBMISSION_PDF_DIR / f"{prefix}.html"
+        pdf_path = SUBMISSION_PDF_DIR / f"{prefix}.pdf"
+        html_doc, stats = build_book_html(
+            [item],
+            title_suffix=f" - {item.title}",
+            include_mathjax=include_mathjax,
+            include_cover_toc=False,
+        )
+        write_html(html_path, html_doc)
+        print(
+            "[stats] submission "
+            + item.title
+            + " | "
+            + ", ".join(
+                [
+                    f"files={stats['files']}",
+                    f"missing={stats['missing']}",
+                    f"images={stats['images']}",
+                    f"code_blocks={stats['code_blocks']}",
+                    f"tables={stats['tables']}",
+                ]
+            )
+        )
+        export_pdf(html_path, pdf_path, timeout, min_size=10_000)
+        safe_title = item.title.replace("|", "\\|")
+        manifest_lines.append(
+            f"| {index} | {safe_title} | `{item.path}` | `{pdf_path.name}` |"
+        )
+    manifest = SUBMISSION_PDF_DIR / "README.md"
+    manifest.write_text("\n".join(manifest_lines) + "\n", encoding="utf-8")
+    print(f"[ok] submission PDF folder written: {SUBMISSION_PDF_DIR}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export en manuscript to 16K compact PDF")
     parser.add_argument("--no-pdf", action="store_true", help="Only write the intermediate HTML")
     parser.add_argument("--split", action="store_true", help="Export by book part and merge PDFs")
+    parser.add_argument(
+        "--submission-pdfs",
+        action="store_true",
+        help="Also export a Springer-style folder with the full PDF and one PDF per navigation unit",
+    )
+    parser.add_argument(
+        "--submission-pdfs-only",
+        action="store_true",
+        help="Only export the Springer-style submission PDF folder from the current sources",
+    )
     parser.add_argument("--no-mathjax", action="store_true", help="Disable MathJax formula rendering")
     parser.add_argument("--timeout", type=int, default=1200, help="Chrome export timeout in seconds")
     args = parser.parse_args()
@@ -1219,11 +1288,15 @@ def main() -> int:
             ]
         )
     )
-    if not args.no_pdf:
+    if args.submission_pdfs_only:
+        export_submission_pdfs(items, args.timeout, include_mathjax)
+    elif not args.no_pdf:
         if args.split:
             export_split_pdf(items, args.timeout, include_mathjax, stats)
         else:
             export_pdf(OUT_HTML, OUT_PDF, args.timeout)
+        if args.submission_pdfs:
+            export_submission_pdfs(items, args.timeout, include_mathjax)
     return 0
 
 
