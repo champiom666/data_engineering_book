@@ -98,6 +98,8 @@
 
 表 P14-1 总结了各阶段产物。出版稿需要保留这些文件名，因为它们是读者把正文、代码和复现产物对应起来的索引。
 
+*表 P14-1：视频生成数据流水线阶段产物与字段契约*
+
 | 阶段 | 代码入口 | 主要输入 | 主要输出 | 关键字段 |
 | --- | --- | --- | --- | --- |
 | 视频源加载 | `load_pexels.py` | `pexels_manifest.jsonl` 或 `pexels_*.mp4` | `source_videos.jsonl` | `video_id`、`path`、`license`、`duration`、`fps`、`width`、`height` |
@@ -107,8 +109,6 @@
 | 多帧 caption | `caption_with_vlm.py` | `stage4_aesthetic.jsonl`、`stage2_scenes.jsonl` | `stage5_captions.jsonl`、`frames/` | `caption_en`、`n_words`、`caption_short`、`frame_paths` |
 | 镜头语言标注 | `shot_language_tagger.py` | `stage5_captions.jsonl`、`stage2_scenes.jsonl` | `stage6_shot_language.jsonl` | `vlm_tags`、`camera_motion`、`status` |
 | 总清单构建 | `utils.build_manifest` | 各阶段 JSONL | final manifest | 来源、片段、过滤、caption、镜头标签和审计信息 |
-
-*表 P14-1：视频生成数据流水线阶段产物与字段契约*
 
 表 P14-1 的一个重要含义是：本项目不是把中间结果临时存在内存里，而是把每个阶段都保存成 JSONL 或目录资产。这样做会多占用一些磁盘空间，但换来三个工程收益。第一，失败后可以从已完成阶段继续运行；第二，抽检时可以回到具体 `shot_id`、源视频和帧图；第三，后续安全过滤、去重、重采样和 WebDataset 打包可以在不重新跑 VLM 的情况下独立迭代。
 
@@ -339,6 +339,8 @@ bash run_pipeline.sh
 
 表 P14-2 汇总了关键运行参数及其影响。
 
+*表 P14-2：视频生成数据流水线关键运行参数*
+
 | 参数 | 默认或示例 | 影响范围 | 调整建议 |
 | --- | --- | --- | --- |
 | `scene_detect.py --threshold` | `27.0` | 镜头切分数量和完整性 | 先抽样观察切分结果，再固定阈值 |
@@ -350,11 +352,11 @@ bash run_pipeline.sh
 | `caption_with_vlm.py --min-words` | `50` | caption 详尽度 | 不能用字数替代事实准确性 |
 | `MAX_SAMPLES` | `5000` | 实验规模 | 教学或烟测时先设小值 |
 
-*表 P14-2：视频生成数据流水线关键运行参数*
-
 ## 5. 质量验收与发布门禁
 
 视频生成数据集的验收不能只看“是否生成了 caption”。对于 T2V 训练来说，至少要同时检查来源、片段、运动、画质、文本、镜头标签和安全边界。表 P14-3 给出本项目的出版级验收口径。
+
+*表 P14-3：视频生成数据流水线出版验收表*
 
 | 验收维度 | 指标/证据 | 发布前检查 |
 | --- | --- | --- |
@@ -366,8 +368,6 @@ bash run_pipeline.sh
 | 镜头语言 | 受控词表命中率、`unknown` 比例、相机运动分布 | 检查标签是否可用于检索、分桶和控制训练 |
 | 可恢复性 | shard 文件、日志、`_DONE` 标记、merge 结果 | 确认失败重跑不会重复写入或丢失样本 |
 | 安全边界 | NSFW、水印、OCR、肖像权和敏感场景检查 | 出版或公开数据集前必须补充安全过滤记录 |
-
-*表 P14-3：视频生成数据流水线出版验收表*
 
 验收时建议把样本分成三组抽查。第一组是通过所有过滤的样本，用于确认最终训练集质量；第二组是刚好低于阈值的边界样本，用于判断阈值是否过严；第三组是失败样本，用于判断失败是否来自数据本身、模型调用、GPU OOM、路径缺失还是 JSONL 损坏。只有检查通过样本而不看失败样本，往往会高估流水线质量。
 

@@ -339,6 +339,8 @@ The third is **GPU memory degradation**. `aesthetic_filter.py`, `caption_with_vl
 
 Table P14-2 summarizes the key runtime parameters and their effects.
 
+*Table P14-2: Key runtime parameters of the video generation data pipeline*
+
 | Parameter | Default or Example | Scope of Effect | Tuning Recommendation |
 | --- | --- | --- | --- |
 | `scene_detect.py --threshold` | `27.0` | Number and completeness of detected shots | Inspect a sample of segmentation results before fixing the threshold |
