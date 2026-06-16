@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-15T07:36:19.283413+00:00",
+  "generated_at_utc": "2026-06-16T02:11:29.205152+00:00",
   "scope_roots": [
     "docs/zh"
   ],
@@ -23,7 +23,7 @@
   "references": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 292,
+      "line": 290,
       "entry_no": 1,
       "entry": "Gebru T, Morgenstern J, Vecchione B, Vaughan J W, Wallach H, Daumé III H, Crawford K (2021) Datasheets for Datasets. Communications of the ACM 64(12): 86-92.",
       "first_author": "Gebru",
@@ -40,7 +40,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 294,
+      "line": 292,
       "entry_no": 2,
       "entry": "Mitchell M, Wu S, Zaldivar A, Barnes P, Vasserman L, Hutchinson B, Spitzer E, Raji I D, Gebru T (2019) Model Cards for Model Reporting. In: Proceedings of the Conference on Fairness, Accountability, and Transparency, pp 220-229.",
       "first_author": "Mitchell",
@@ -57,7 +57,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 296,
+      "line": 294,
       "entry_no": 3,
       "entry": "Pushkarna M, Zaldivar A, Kjartansson O (2022) Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI. In: Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency, pp 1776-1826.",
       "first_author": "Pushkarna",
@@ -74,7 +74,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 298,
+      "line": 296,
       "entry_no": 4,
       "entry": "DVC Contributors (2026) Data Version Control Documentation. Available at: https://dvc.org/doc.",
       "first_author": "DVC",
@@ -89,7 +89,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 300,
+      "line": 298,
       "entry_no": 5,
       "entry": "MLflow Authors (2026) MLflow Documentation. Available at: https://mlflow.org/docs/latest/.",
       "first_author": "MLflow",
@@ -104,7 +104,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 302,
+      "line": 300,
       "entry_no": 6,
       "entry": "Hugging Face (2026) Hugging Face Datasets Documentation. Available at: https://huggingface.co/docs/datasets.",
       "first_author": "Hugging",
@@ -119,7 +119,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 314,
+      "line": 312,
       "entry_no": 1,
       "entry": "National People's Congress of the People's Republic of China (2016) Cybersecurity Law of the People's Republic of China. Available at: http://www.npc.gov.cn/zgrdw/npc/xinwen/2016-11/07/content_2001605.htm.",
       "first_author": "National",
@@ -134,7 +134,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 316,
+      "line": 314,
       "entry_no": 2,
       "entry": "National People's Congress of the People's Republic of China (2021a) Data Security Law of the People's Republic of China. Available at: https://www.cac.gov.cn/2021-06/11/c_1624994566919140.htm.",
       "first_author": "National",
@@ -149,7 +149,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 318,
+      "line": 316,
       "entry_no": 3,
       "entry": "National People's Congress of the People's Republic of China (2021b) Personal Information Protection Law of the People's Republic of China. Available at: http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html.",
       "first_author": "National",
@@ -164,7 +164,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 320,
+      "line": 318,
       "entry_no": 4,
       "entry": "National Institute of Standards and Technology (2023) AI Risk Management Framework (AI RMF 1.0). Available at: https://www.nist.gov/itl/ai-risk-management-framework.",
       "first_author": "NIST",
@@ -179,7 +179,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 322,
+      "line": 320,
       "entry_no": 5,
       "entry": "European Parliament and Council of the European Union (2024) Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). Available at: https://eur-lex.europa.eu/eli/reg/2024/1689/oj.",
       "first_author": "European",
@@ -194,7 +194,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 324,
+      "line": 322,
       "entry_no": 6,
       "entry": "Mitchell M, Wu S, Zaldivar A, Barnes P, Vasserman L, Hutchinson B, Spitzer E, Raji I D, Gebru T (2019) Model Cards for Model Reporting. In: Proceedings of the Conference on Fairness, Accountability, and Transparency, pp 220-229.",
       "first_author": "Mitchell",
@@ -211,7 +211,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 318,
+      "line": 316,
       "entry_no": 1,
       "entry": "Patterson D, Gonzalez J, Le Q, Liang C, Munguia L, Rothchild D, So D, Texier M, Dean J (2021) Carbon Emissions and Large Neural Network Training. arXiv preprint arXiv:2104.10350.",
       "first_author": "Patterson",
@@ -226,7 +226,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 320,
+      "line": 318,
       "entry_no": 2,
       "entry": "Narayanan D, Shoeybi M, Casper J, LeGresley P, Patwary M, Catanzaro B (2021) Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM. In: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis.",
       "first_author": "Narayanan",
@@ -243,7 +243,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 322,
+      "line": 320,
       "entry_no": 3,
       "entry": "Kwon W, Li Z, Zhuang S, Sheng Y, Zheng L, Yu C H, Gonzalez J E, Zhang H, Stoica I (2023) Efficient Memory Management for Large Language Model Serving with PagedAttention. In: Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles, pp 611-626.",
       "first_author": "Kwon",
@@ -260,7 +260,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 324,
+      "line": 322,
       "entry_no": 4,
       "entry": "Kubernetes Authors (2026) Kubernetes Documentation. Available at: https://kubernetes.io/docs/.",
       "first_author": "Kubernetes",
@@ -275,7 +275,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 326,
+      "line": 324,
       "entry_no": 5,
       "entry": "vLLM Project (2026) vLLM Documentation. Available at: https://docs.vllm.ai/.",
       "first_author": "vLLM",
@@ -290,7 +290,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 399,
+      "line": 397,
       "entry_no": 1,
       "entry": "Kapoor S, Narayanan A (2023) Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4(9):100804.",
       "first_author": "Kapoor",
@@ -307,7 +307,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 401,
+      "line": 399,
       "entry_no": 2,
       "entry": "Kreuzberger D, Kühl N, Hirschl S (2023) Machine Learning Operations (MLOps): Overview, Definition, and Architecture. IEEE Access 11:31866-31879.",
       "first_author": "Kreuzberger",
@@ -324,7 +324,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 403,
+      "line": 401,
       "entry_no": 3,
       "entry": "Longpre S, Mahari R, Chen A, Obeng-Marnu N, Sileo D, Brannon W, Muennighoff N, Khazam N, Kabbara J, Perisetla K, Wu X, Shippole E, Bollacker K, Wu T, Villa L, Pentland S, Hooker S (2024) A large-scale audit of dataset licensing and attribution in AI. Nature Machine Intelligence 6(8):975-987.",
       "first_author": "Longpre",
@@ -341,7 +341,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 405,
+      "line": 403,
       "entry_no": 4,
       "entry": "Mazumder M, Banbury C, Yao X, et al. (2023) DataPerf: Benchmarks for Data-Centric AI Development. In: Advances in Neural Information Processing Systems 36, Datasets and Benchmarks Track.",
       "first_author": "Mazumder",
@@ -358,7 +358,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 407,
+      "line": 405,
       "entry_no": 5,
       "entry": "Zha D, Bhat Z P, Lai K-H, Yang F, Jiang Z, Zhong S, Hu X (2023) Data-centric Artificial Intelligence: A Survey. arXiv preprint arXiv:2303.10158.",
       "first_author": "Zha",
@@ -373,7 +373,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 449,
+      "line": 447,
       "entry_no": 1,
       "entry": "Blecher L, Cucurull G, Scialom T, Stojnic R (2023) Nougat: Neural Optical Understanding for Academic Documents. arXiv preprint arXiv:2308.13418.",
       "first_author": "Blecher",
@@ -388,7 +388,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 451,
+      "line": 449,
       "entry_no": 2,
       "entry": "Chen D, Huang Y, Ma Z, Chen H, Pan X, Ge C, Gao D, Xie Y, Liu Z, Gao J, Li Y, Ding B, Zhou J (2024) Data-Juicer: A One-Stop Data Processing System for Large Language Models. In: Companion of the 2024 International Conference on Management of Data, pp 120-134.",
       "first_author": "Chen",
@@ -405,7 +405,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 453,
+      "line": 451,
       "entry_no": 3,
       "entry": "Chen Y, Shetty M, Somashekar G, Ma M, Simmhan Y, Mace J, Bansal C, Wang R, Rajmohan S (2025) AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds. arXiv preprint arXiv:2501.06706.",
       "first_author": "Chen",
@@ -420,7 +420,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 455,
+      "line": 453,
       "entry_no": 4,
       "entry": "Kapoor S, Narayanan A (2023) Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4(9):100804.",
       "first_author": "Kapoor",
@@ -437,7 +437,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 457,
+      "line": 455,
       "entry_no": 5,
       "entry": "Pfitzmann B, Auer C, Dolfi M, Nassar A S, Staar P (2022) DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis. In: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp 3743-3751.",
       "first_author": "Pfitzmann",
@@ -454,7 +454,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 403,
+      "line": 401,
       "entry_no": 1,
       "entry": "Bommasani R, Klyman K, Zhang D, Liang P (2023) The Foundation Model Transparency Index. arXiv preprint arXiv:2310.12941.",
       "first_author": "Bommasani",
@@ -469,7 +469,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 405,
+      "line": 403,
       "entry_no": 2,
       "entry": "Liang P, Bommasani R, Lee T, et al. (2023) Holistic Evaluation of Language Models. Transactions on Machine Learning Research.",
       "first_author": "Liang",
@@ -486,7 +486,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 407,
+      "line": 405,
       "entry_no": 3,
       "entry": "Wang B, Chen W, Pei H, et al. (2023) DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models. In: Advances in Neural Information Processing Systems 36.",
       "first_author": "Wang",
@@ -503,7 +503,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 409,
+      "line": 407,
       "entry_no": 4,
       "entry": "Weidinger L, Uesato J, Rauh M, Griffin C, Huang P-S, Mellor J, Glaese A, Cheng M, Balle B, Kasirzadeh A, Kenton Z, Brown S, Hawkins W, Stepleton T, Birhane A, Haas J, Rimell L, Hendricks L A, Isaac W, Legassick S, Irving G, Gabriel I (2022) Taxonomy of Risks posed by Language Models. In: Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency, pp 214-229.",
       "first_author": "Weidinger",
@@ -520,7 +520,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 69,
+      "line": 67,
       "entry_no": 1,
       "entry": "DataGallery Contributors (2026a) DataGallery organization page. Available at: https://gitcode.com/datagallery.",
       "first_author": "DataGallery",
@@ -535,7 +535,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 71,
+      "line": 69,
       "entry_no": 2,
       "entry": "DataGallery Contributors (2026b) DataAgent source repository. Available at: https://gitcode.com/datagallery/DataAgent.",
       "first_author": "DataGallery",
@@ -550,7 +550,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 171,
+      "line": 253,
       "entry_no": 1,
       "entry": "MindFace Contributors (2026) MindFace source repository. Available at: https://github.com/mindspore-lab/mindface.",
       "first_author": "MindFace",
@@ -565,7 +565,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 173,
+      "line": 255,
       "entry_no": 2,
       "entry": "MindSpore Contributors (2026a) MindSpore Documentation. Available at: https://www.mindspore.cn/view/en.",
       "first_author": "MindSpore",
@@ -580,7 +580,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 175,
+      "line": 257,
       "entry_no": 3,
       "entry": "MindSpore Contributors (2026b) MindSpore source repository. Available at: https://github.com/mindspore-ai/mindspore.",
       "first_author": "MindSpore",
@@ -595,7 +595,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 177,
+      "line": 259,
       "entry_no": 4,
       "entry": "MindSpore Contributors (2026c) Automatic Differentiation, MindSpore Tutorials. Available at: https://www.mindspore.cn/tutorials/en/r2.9.0/beginner/autograd.html.",
       "first_author": "MindSpore",
@@ -3713,7 +3713,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 595,
+      "line": 597,
       "entry_no": 1,
       "entry": "1. - Penedo, G., Kydlíček, H., Allal, L. B., Lozhkov, A., Mitchell, M., Raffel, C., von Werra, L., & Wolf, T. (2024). The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale. NeurIPS 2024 Datasets and Benchmarks Track. https://arxiv.org/abs/2406.17557.",
       "first_author": "",
@@ -3730,7 +3730,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 596,
+      "line": 598,
       "entry_no": 2,
       "entry": "Hugging Face. (2026). HuggingFaceFW/fineweb Dataset Card. https://huggingface.co/datasets/HuggingFaceFW/fineweb.",
       "first_author": "Hugging",
@@ -3745,7 +3745,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 597,
+      "line": 599,
       "entry_no": 3,
       "entry": "Hugging Face. (2026). DataTrove FineWeb Processing Script. https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py.",
       "first_author": "Hugging",
@@ -3760,7 +3760,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 598,
+      "line": 600,
       "entry_no": 4,
       "entry": "Penedo, G., Kydlíček, H., Cappelli, A., Sasko, M., & Wolf, T. (2024). DataTrove large scale data processing. https://github.com/huggingface/datatrove.",
       "first_author": "Penedo",
@@ -3775,7 +3775,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 599,
+      "line": 601,
       "entry_no": 5,
       "entry": "Luccioni, S., & Viviano, J. (2021). What's in the Box? A Preliminary Analysis of Undesirable Content in the Common Crawl Corpus. https://arxiv.org/abs/2105.02732.",
       "first_author": "Luccioni",
@@ -3790,7 +3790,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 601,
+      "line": 603,
       "entry_no": 6,
       "entry": "2. - Soldaini, L., Kinney, R., Bhagia, A., Schwenk, D., Atkinson, D., Authur, R., et al. (2024). Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research. ACL 2024. https://arxiv.org/abs/2402.00159.",
       "first_author": "",
@@ -3807,7 +3807,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 602,
+      "line": 604,
       "entry_no": 7,
       "entry": "Allen Institute for AI. (2023). Ai2 Dolma: 3 trillion token open corpus for language model pretraining. https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64.",
       "first_author": "Allen",
@@ -3822,7 +3822,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 603,
+      "line": 605,
       "entry_no": 8,
       "entry": "AllenAI. (2026). allenai/dolma Dataset Card. https://huggingface.co/datasets/allenai/dolma.",
       "first_author": "AllenAI.",
@@ -3837,7 +3837,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 604,
+      "line": 606,
       "entry_no": 9,
       "entry": "AllenAI. (2026). Dolma Dataset and Toolkit Repository. https://github.com/allenai/dolma.",
       "first_author": "AllenAI.",
@@ -3852,7 +3852,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 605,
+      "line": 607,
       "entry_no": 10,
       "entry": "AllenAI. (2026). Dolma Toolkit Documentation. https://github.com/allenai/dolma/blob/main/docs/README.md.",
       "first_author": "AllenAI.",
@@ -3867,7 +3867,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 606,
+      "line": 608,
       "entry_no": 11,
       "entry": "Groeneveld, D., Beltagy, I., Walsh, P., Bhagia, A., Kinney, R., Tafjord, O., et al. (2024). OLMo: Accelerating the Science of Language Models. https://arxiv.org/abs/2402.00838.",
       "first_author": "Groeneveld",
@@ -4878,7 +4878,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 459,
+      "line": 461,
       "entry_no": 1,
       "entry": "An K, Chen Q, Deng C, Du Z, Gao C, Gao Z, Gu Y, He T, Hu H, Hu K, others (2024) FunAudioLLM: Voice Understanding and Generation Foundation Models for Natural Interaction Between Humans and LLMs. arXiv preprint arXiv:2407.04051.",
       "first_author": "An",
@@ -4893,7 +4893,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 461,
+      "line": 463,
       "entry_no": 2,
       "entry": "Chanfungjan (2026) VoiceStyleControl. GitHub repository. https://github.com/Chanfungjan/VoiceStyleControl.",
       "first_author": "Chanfungjan",
@@ -4908,7 +4908,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 463,
+      "line": 465,
       "entry_no": 3,
       "entry": "Du Z, Chen Q, Zhang S, Hu K, Lu H, Yang Y, Hu H, Zheng S, Gu Y, Ma Z, Gao Z, Yan Z (2024) CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens. arXiv preprint arXiv:2407.05407.",
       "first_author": "Du",
@@ -4923,7 +4923,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 465,
+      "line": 467,
       "entry_no": 4,
       "entry": "Du Z, Wang Y, Chen Q, Shi X, Lv X, Zhao T, Gao Z, Yang Y, Gao C, Wang H, others (2024) CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models. arXiv preprint arXiv:2412.10117.",
       "first_author": "Du",
@@ -4938,7 +4938,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 467,
+      "line": 469,
       "entry_no": 5,
       "entry": "Mittag G, Naderi B, Chehadi A, Möller S (2021) NISQA: A Deep CNN-Self-Attention Model for Multidimensional Speech Quality Prediction with Crowdsourced Datasets. In: Interspeech 2021, pp 2127-2131.",
       "first_author": "Mittag",
@@ -4955,7 +4955,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 469,
+      "line": 471,
       "entry_no": 6,
       "entry": "Song X (2026) S3Tokenizer: Reverse Engineering of Supervised Semantic Speech Tokenizer proposed in CosyVoice. GitHub repository. https://github.com/xingchensong/S3Tokenizer.",
       "first_author": "Song",
@@ -4970,7 +4970,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 471,
+      "line": 473,
       "entry_no": 7,
       "entry": "Yang A, Li A, Yang B, Zhang B, Hui B, Zheng B, Yu B, Gao C, Huang C, Lv C, others (2025) Qwen3 Technical Report. arXiv preprint arXiv:2505.09388.",
       "first_author": "Yang",
@@ -4985,7 +4985,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 450,
+      "line": 452,
       "entry_no": 1,
       "entry": "1. Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS 2022.",
       "first_author": "Wei",
@@ -5002,7 +5002,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 451,
+      "line": 453,
       "entry_no": 2,
       "entry": "2. Lightman, H., Kosaraju, V., Burda, Y., Edwards, H., Baker, B., Lee, T., Leike, J., Schulman, J., Sutskever, I., & Cobbe, K. (2023). Let's Verify Step by Step. arXiv:2305.20050.",
       "first_author": "Lightman",
@@ -5017,7 +5017,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 452,
+      "line": 454,
       "entry_no": 3,
       "entry": "3. Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629.",
       "first_author": "Yao",
@@ -5032,7 +5032,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 453,
+      "line": 455,
       "entry_no": 4,
       "entry": "4. DeepSeek-AI. (2025). DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.",
       "first_author": "DeepSeek-AI.",
@@ -5049,7 +5049,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 454,
+      "line": 456,
       "entry_no": 5,
       "entry": "5. Hendrycks, D., Burns, C., Kadavath, S., Arora, A., Basart, S., Tang, E., Song, D., & Steinhardt, J. (2021). Measuring Mathematical Problem Solving With the MATH Dataset. NeurIPS 2021.",
       "first_author": "Hendrycks",
@@ -6562,7 +6562,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1217,
+      "line": 1216,
       "entry_no": 1,
       "entry": "1. Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J. (2020). Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. JMLR, 21(140), 1-67.",
       "first_author": "Raffel",
@@ -6579,7 +6579,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1218,
+      "line": 1217,
       "entry_no": 2,
       "entry": "2. Hugging Face. (2026). Datasets Documentation. https://huggingface.co/docs/datasets/.",
       "first_author": "Hugging",
@@ -6594,7 +6594,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1219,
+      "line": 1218,
       "entry_no": 3,
       "entry": "3. Ray Project. (2026). Ray Data Documentation. https://docs.ray.io/en/latest/data/data.html.",
       "first_author": "Ray",
@@ -6609,7 +6609,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1220,
+      "line": 1219,
       "entry_no": 4,
       "entry": "4. MLflow Authors. (2026). MLflow Documentation. https://mlflow.org/docs/latest/.",
       "first_author": "MLflow",
@@ -6624,7 +6624,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1221,
+      "line": 1220,
       "entry_no": 5,
       "entry": "5. Great Expectations Contributors. (2026). Great Expectations Documentation. https://docs.greatexpectations.io/.",
       "first_author": "Great",
@@ -15837,7 +15837,7 @@
   "body_citations": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 11,
+      "line": 9,
       "author": "Gebru",
       "year": "2021",
       "text": "Gebru et al. 2021",
@@ -15846,7 +15846,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 11,
+      "line": 9,
       "author": "Mitchell",
       "year": "2019",
       "text": "Mitchell et al. 2019",
@@ -15855,7 +15855,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 11,
+      "line": 9,
       "author": "Pushkarna",
       "year": "2022",
       "text": "Pushkarna et al. 2022",
@@ -15864,7 +15864,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 19,
+      "line": 17,
       "author": "National Institute of Standards and Technology",
       "year": "2023",
       "text": "National Institute of Standards and Technology 2023",
@@ -15873,7 +15873,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 122,
+      "line": 120,
       "author": "Mitchell",
       "year": "2019",
       "text": "Mitchell et al. 2019",
@@ -15882,7 +15882,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 7,
+      "line": 5,
       "author": "Patterson",
       "year": "2021",
       "text": "Patterson et al. 2021",
@@ -15891,7 +15891,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 121,
+      "line": 119,
       "author": "Narayanan",
       "year": "2021",
       "text": "Narayanan et al. 2021",
@@ -15900,7 +15900,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 135,
+      "line": 133,
       "author": "Kwon",
       "year": "2023",
       "text": "Kwon et al. 2023",
@@ -15909,7 +15909,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 9,
+      "line": 7,
       "author": "Kreuzberger",
       "year": "2023",
       "text": "Kreuzberger et al. 2023",
@@ -15918,7 +15918,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 9,
+      "line": 7,
       "author": "Kapoor",
       "year": "2023",
       "text": "Kapoor and Narayanan 2023",
@@ -15927,7 +15927,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 38,
+      "line": 36,
       "author": "Mazumder",
       "year": "2023",
       "text": "Mazumder et al. 2023",
@@ -15936,7 +15936,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 38,
+      "line": 36,
       "author": "Zha",
       "year": "2023",
       "text": "Zha et al. 2023",
@@ -15945,7 +15945,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 60,
+      "line": 58,
       "author": "Longpre",
       "year": "2024",
       "text": "Longpre et al. 2024",
@@ -15954,7 +15954,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 221,
+      "line": 219,
       "author": "Kreuzberger",
       "year": "2023",
       "text": "Kreuzberger et al. 2023",
@@ -15963,7 +15963,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 383,
+      "line": 381,
       "author": "Mazumder",
       "year": "2023",
       "text": "Mazumder et al. 2023",
@@ -15972,7 +15972,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 383,
+      "line": 381,
       "author": "Zha",
       "year": "2023",
       "text": "Zha et al. 2023",
@@ -15981,7 +15981,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 383,
+      "line": 381,
       "author": "Longpre",
       "year": "2024",
       "text": "Longpre et al. 2024",
@@ -15990,7 +15990,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 9,
+      "line": 7,
       "author": "Chen",
       "year": "2024",
       "text": "Chen et al. 2024",
@@ -15999,7 +15999,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 9,
+      "line": 7,
       "author": "Kapoor",
       "year": "2023",
       "text": "Kapoor and Narayanan 2023",
@@ -16008,7 +16008,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 77,
+      "line": 75,
       "author": "Pfitzmann",
       "year": "2022",
       "text": "Pfitzmann et al. 2022",
@@ -16017,7 +16017,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 77,
+      "line": 75,
       "author": "Blecher",
       "year": "2023",
       "text": "Blecher et al. 2023",
@@ -16026,7 +16026,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 89,
+      "line": 87,
       "author": "Kapoor",
       "year": "2023",
       "text": "Kapoor and Narayanan 2023",
@@ -16035,7 +16035,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 152,
+      "line": 150,
       "author": "Chen",
       "year": "2025",
       "text": "Chen, Shetty et al. 2025",
@@ -16044,7 +16044,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 230,
+      "line": 228,
       "author": "Chen",
       "year": "2025",
       "text": "Chen, Shetty et al. 2025",
@@ -16053,7 +16053,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 230,
+      "line": 228,
       "author": "Chen",
       "year": "2024",
       "text": "Chen et al. 2024",
@@ -16062,7 +16062,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 11,
+      "line": 9,
       "author": "Bommasani",
       "year": "2023",
       "text": "Bommasani et al. 2023",
@@ -16071,7 +16071,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 11,
+      "line": 9,
       "author": "Weidinger",
       "year": "2022",
       "text": "Weidinger et al. 2022",
@@ -16080,7 +16080,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 11,
+      "line": 9,
       "author": "Liang",
       "year": "2023",
       "text": "Liang et al. 2023",
@@ -16089,7 +16089,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 57,
+      "line": 55,
       "author": "Weidinger",
       "year": "2022",
       "text": "Weidinger et al. 2022",
@@ -16098,7 +16098,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 232,
+      "line": 230,
       "author": "Wang",
       "year": "2023",
       "text": "Wang et al. 2023",
@@ -16107,7 +16107,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 240,
+      "line": 238,
       "author": "Liang",
       "year": "2023",
       "text": "Liang et al. 2023",
@@ -16116,7 +16116,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 240,
+      "line": 238,
       "author": "Bommasani",
       "year": "2023",
       "text": "Bommasani et al. 2023",
@@ -16125,7 +16125,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 265,
+      "line": 263,
       "author": "Weidinger",
       "year": "2022",
       "text": "Weidinger et al. 2022",
@@ -16134,7 +16134,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 265,
+      "line": 263,
       "author": "Bommasani",
       "year": "2023",
       "text": "Bommasani et al. 2023",
@@ -16143,7 +16143,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 349,
+      "line": 347,
       "author": "Bommasani",
       "year": "2023",
       "text": "Bommasani et al. 2023",
@@ -16152,7 +16152,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 349,
+      "line": 347,
       "author": "Liang",
       "year": "2023",
       "text": "Liang et al. 2023",
@@ -19023,7 +19023,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 71,
+      "line": 70,
       "author": "Raffel",
       "year": "2020",
       "text": "Raffel et al. 2020)",
@@ -27783,7 +27783,7 @@
   "uncited_references": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 298,
+      "line": 296,
       "entry_no": 4,
       "entry": "DVC Contributors (2026) Data Version Control Documentation. Available at: https://dvc.org/doc.",
       "first_author": "DVC",
@@ -27798,7 +27798,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 300,
+      "line": 298,
       "entry_no": 5,
       "entry": "MLflow Authors (2026) MLflow Documentation. Available at: https://mlflow.org/docs/latest/.",
       "first_author": "MLflow",
@@ -27813,7 +27813,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 302,
+      "line": 300,
       "entry_no": 6,
       "entry": "Hugging Face (2026) Hugging Face Datasets Documentation. Available at: https://huggingface.co/docs/datasets.",
       "first_author": "Hugging",
@@ -27828,7 +27828,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 314,
+      "line": 312,
       "entry_no": 1,
       "entry": "National People's Congress of the People's Republic of China (2016) Cybersecurity Law of the People's Republic of China. Available at: http://www.npc.gov.cn/zgrdw/npc/xinwen/2016-11/07/content_2001605.htm.",
       "first_author": "National",
@@ -27843,7 +27843,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 316,
+      "line": 314,
       "entry_no": 2,
       "entry": "National People's Congress of the People's Republic of China (2021a) Data Security Law of the People's Republic of China. Available at: https://www.cac.gov.cn/2021-06/11/c_1624994566919140.htm.",
       "first_author": "National",
@@ -27858,7 +27858,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 318,
+      "line": 316,
       "entry_no": 3,
       "entry": "National People's Congress of the People's Republic of China (2021b) Personal Information Protection Law of the People's Republic of China. Available at: http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html.",
       "first_author": "National",
@@ -27873,7 +27873,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 322,
+      "line": 320,
       "entry_no": 5,
       "entry": "European Parliament and Council of the European Union (2024) Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). Available at: https://eur-lex.europa.eu/eli/reg/2024/1689/oj.",
       "first_author": "European",
@@ -27888,7 +27888,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 324,
+      "line": 322,
       "entry_no": 4,
       "entry": "Kubernetes Authors (2026) Kubernetes Documentation. Available at: https://kubernetes.io/docs/.",
       "first_author": "Kubernetes",
@@ -27903,7 +27903,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 326,
+      "line": 324,
       "entry_no": 5,
       "entry": "vLLM Project (2026) vLLM Documentation. Available at: https://docs.vllm.ai/.",
       "first_author": "vLLM",
@@ -27918,7 +27918,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 69,
+      "line": 67,
       "entry_no": 1,
       "entry": "DataGallery Contributors (2026a) DataGallery organization page. Available at: https://gitcode.com/datagallery.",
       "first_author": "DataGallery",
@@ -27933,7 +27933,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 71,
+      "line": 69,
       "entry_no": 2,
       "entry": "DataGallery Contributors (2026b) DataAgent source repository. Available at: https://gitcode.com/datagallery/DataAgent.",
       "first_author": "DataGallery",
@@ -27948,7 +27948,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 171,
+      "line": 253,
       "entry_no": 1,
       "entry": "MindFace Contributors (2026) MindFace source repository. Available at: https://github.com/mindspore-lab/mindface.",
       "first_author": "MindFace",
@@ -27963,7 +27963,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 173,
+      "line": 255,
       "entry_no": 2,
       "entry": "MindSpore Contributors (2026a) MindSpore Documentation. Available at: https://www.mindspore.cn/view/en.",
       "first_author": "MindSpore",
@@ -27978,7 +27978,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 175,
+      "line": 257,
       "entry_no": 3,
       "entry": "MindSpore Contributors (2026b) MindSpore source repository. Available at: https://github.com/mindspore-ai/mindspore.",
       "first_author": "MindSpore",
@@ -27993,7 +27993,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 177,
+      "line": 259,
       "entry_no": 4,
       "entry": "MindSpore Contributors (2026c) Automatic Differentiation, MindSpore Tutorials. Available at: https://www.mindspore.cn/tutorials/en/r2.9.0/beginner/autograd.html.",
       "first_author": "MindSpore",
@@ -28259,7 +28259,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 596,
+      "line": 598,
       "entry_no": 2,
       "entry": "Hugging Face. (2026). HuggingFaceFW/fineweb Dataset Card. https://huggingface.co/datasets/HuggingFaceFW/fineweb.",
       "first_author": "Hugging",
@@ -28274,7 +28274,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 597,
+      "line": 599,
       "entry_no": 3,
       "entry": "Hugging Face. (2026). DataTrove FineWeb Processing Script. https://github.com/huggingface/datatrove/blob/main/examples/fineweb.py.",
       "first_author": "Hugging",
@@ -28289,7 +28289,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 598,
+      "line": 600,
       "entry_no": 4,
       "entry": "Penedo, G., Kydlíček, H., Cappelli, A., Sasko, M., & Wolf, T. (2024). DataTrove large scale data processing. https://github.com/huggingface/datatrove.",
       "first_author": "Penedo",
@@ -28304,7 +28304,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 599,
+      "line": 601,
       "entry_no": 5,
       "entry": "Luccioni, S., & Viviano, J. (2021). What's in the Box? A Preliminary Analysis of Undesirable Content in the Common Crawl Corpus. https://arxiv.org/abs/2105.02732.",
       "first_author": "Luccioni",
@@ -28319,7 +28319,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 602,
+      "line": 604,
       "entry_no": 7,
       "entry": "Allen Institute for AI. (2023). Ai2 Dolma: 3 trillion token open corpus for language model pretraining. https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64.",
       "first_author": "Allen",
@@ -28334,7 +28334,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 603,
+      "line": 605,
       "entry_no": 8,
       "entry": "AllenAI. (2026). allenai/dolma Dataset Card. https://huggingface.co/datasets/allenai/dolma.",
       "first_author": "AllenAI.",
@@ -28349,7 +28349,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 604,
+      "line": 606,
       "entry_no": 9,
       "entry": "AllenAI. (2026). Dolma Dataset and Toolkit Repository. https://github.com/allenai/dolma.",
       "first_author": "AllenAI.",
@@ -28364,7 +28364,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 605,
+      "line": 607,
       "entry_no": 10,
       "entry": "AllenAI. (2026). Dolma Toolkit Documentation. https://github.com/allenai/dolma/blob/main/docs/README.md.",
       "first_author": "AllenAI.",
@@ -28379,7 +28379,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 606,
+      "line": 608,
       "entry_no": 11,
       "entry": "Groeneveld, D., Beltagy, I., Walsh, P., Bhagia, A., Kinney, R., Tafjord, O., et al. (2024). OLMo: Accelerating the Science of Language Models. https://arxiv.org/abs/2402.00838.",
       "first_author": "Groeneveld",
@@ -29279,7 +29279,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 459,
+      "line": 461,
       "entry_no": 1,
       "entry": "An K, Chen Q, Deng C, Du Z, Gao C, Gao Z, Gu Y, He T, Hu H, Hu K, others (2024) FunAudioLLM: Voice Understanding and Generation Foundation Models for Natural Interaction Between Humans and LLMs. arXiv preprint arXiv:2407.04051.",
       "first_author": "An",
@@ -29294,7 +29294,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 461,
+      "line": 463,
       "entry_no": 2,
       "entry": "Chanfungjan (2026) VoiceStyleControl. GitHub repository. https://github.com/Chanfungjan/VoiceStyleControl.",
       "first_author": "Chanfungjan",
@@ -29309,7 +29309,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 463,
+      "line": 465,
       "entry_no": 3,
       "entry": "Du Z, Chen Q, Zhang S, Hu K, Lu H, Yang Y, Hu H, Zheng S, Gu Y, Ma Z, Gao Z, Yan Z (2024) CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens. arXiv preprint arXiv:2407.05407.",
       "first_author": "Du",
@@ -29324,7 +29324,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 465,
+      "line": 467,
       "entry_no": 4,
       "entry": "Du Z, Wang Y, Chen Q, Shi X, Lv X, Zhao T, Gao Z, Yang Y, Gao C, Wang H, others (2024) CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models. arXiv preprint arXiv:2412.10117.",
       "first_author": "Du",
@@ -29339,7 +29339,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 467,
+      "line": 469,
       "entry_no": 5,
       "entry": "Mittag G, Naderi B, Chehadi A, Möller S (2021) NISQA: A Deep CNN-Self-Attention Model for Multidimensional Speech Quality Prediction with Crowdsourced Datasets. In: Interspeech 2021, pp 2127-2131.",
       "first_author": "Mittag",
@@ -29356,7 +29356,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 469,
+      "line": 471,
       "entry_no": 6,
       "entry": "Song X (2026) S3Tokenizer: Reverse Engineering of Supervised Semantic Speech Tokenizer proposed in CosyVoice. GitHub repository. https://github.com/xingchensong/S3Tokenizer.",
       "first_author": "Song",
@@ -29371,7 +29371,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 471,
+      "line": 473,
       "entry_no": 7,
       "entry": "Yang A, Li A, Yang B, Zhang B, Hui B, Zheng B, Yu B, Gao C, Huang C, Lv C, others (2025) Qwen3 Technical Report. arXiv preprint arXiv:2505.09388.",
       "first_author": "Yang",
@@ -29386,7 +29386,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 450,
+      "line": 452,
       "entry_no": 1,
       "entry": "1. Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS 2022.",
       "first_author": "Wei",
@@ -29403,7 +29403,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 451,
+      "line": 453,
       "entry_no": 2,
       "entry": "2. Lightman, H., Kosaraju, V., Burda, Y., Edwards, H., Baker, B., Lee, T., Leike, J., Schulman, J., Sutskever, I., & Cobbe, K. (2023). Let's Verify Step by Step. arXiv:2305.20050.",
       "first_author": "Lightman",
@@ -29418,7 +29418,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 452,
+      "line": 454,
       "entry_no": 3,
       "entry": "3. Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629.",
       "first_author": "Yao",
@@ -29433,7 +29433,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 453,
+      "line": 455,
       "entry_no": 4,
       "entry": "4. DeepSeek-AI. (2025). DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.",
       "first_author": "DeepSeek-AI.",
@@ -29450,7 +29450,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 454,
+      "line": 456,
       "entry_no": 5,
       "entry": "5. Hendrycks, D., Burns, C., Kadavath, S., Arora, A., Basart, S., Tang, E., Song, D., & Steinhardt, J. (2021). Measuring Mathematical Problem Solving With the MATH Dataset. NeurIPS 2021.",
       "first_author": "Hendrycks",
@@ -30081,7 +30081,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1218,
+      "line": 1217,
       "entry_no": 2,
       "entry": "2. Hugging Face. (2026). Datasets Documentation. https://huggingface.co/docs/datasets/.",
       "first_author": "Hugging",
@@ -30096,7 +30096,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1219,
+      "line": 1218,
       "entry_no": 3,
       "entry": "3. Ray Project. (2026). Ray Data Documentation. https://docs.ray.io/en/latest/data/data.html.",
       "first_author": "Ray",
@@ -30111,7 +30111,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1220,
+      "line": 1219,
       "entry_no": 4,
       "entry": "4. MLflow Authors. (2026). MLflow Documentation. https://mlflow.org/docs/latest/.",
       "first_author": "MLflow",
@@ -30126,7 +30126,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1221,
+      "line": 1220,
       "entry_no": 5,
       "entry": "5. Great Expectations Contributors. (2026). Great Expectations Documentation. https://docs.greatexpectations.io/.",
       "first_author": "Great",
@@ -31425,7 +31425,7 @@
   "external_checks": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 292,
+      "line": 290,
       "entry_no": 1,
       "key": "gebru:2021",
       "title": "Datasheets for Datasets",
@@ -31442,7 +31442,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 294,
+      "line": 292,
       "entry_no": 2,
       "key": "mitchell:2019",
       "title": "Model Cards for Model Reporting",
@@ -31459,7 +31459,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 296,
+      "line": 294,
       "entry_no": 3,
       "key": "pushkarna:2022",
       "title": "Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI",
@@ -31476,7 +31476,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 298,
+      "line": 296,
       "entry_no": 4,
       "key": "dvc:2026",
       "title": "Data Version Control Documentation",
@@ -31491,7 +31491,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 300,
+      "line": 298,
       "entry_no": 5,
       "key": "mlflow:2026",
       "title": "MLflow Documentation",
@@ -31506,7 +31506,7 @@
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 302,
+      "line": 300,
       "entry_no": 6,
       "key": "hugging:2026",
       "title": "Hugging Face Datasets Documentation",
@@ -31521,7 +31521,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 314,
+      "line": 312,
       "entry_no": 1,
       "key": "national:2016",
       "title": "Cybersecurity Law of the People's Republic of China",
@@ -31536,7 +31536,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 316,
+      "line": 314,
       "entry_no": 2,
       "key": "national:2021",
       "title": "Data Security Law of the People's Republic of China",
@@ -31551,7 +31551,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 318,
+      "line": 316,
       "entry_no": 3,
       "key": "national:2021",
       "title": "Personal Information Protection Law of the People's Republic of China",
@@ -31566,7 +31566,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 320,
+      "line": 318,
       "entry_no": 4,
       "key": "nist:2023",
       "title": "AI Risk Management Framework (AI RMF 1.0)",
@@ -31581,7 +31581,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 322,
+      "line": 320,
       "entry_no": 5,
       "key": "european:2024",
       "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
@@ -31596,7 +31596,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 324,
+      "line": 322,
       "entry_no": 6,
       "key": "mitchell:2019",
       "title": "Model Cards for Model Reporting",
@@ -31613,7 +31613,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 318,
+      "line": 316,
       "entry_no": 1,
       "key": "patterson:2021",
       "title": "Carbon Emissions and Large Neural Network Training",
@@ -31628,7 +31628,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 320,
+      "line": 318,
       "entry_no": 2,
       "key": "narayanan:2021",
       "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
@@ -31645,7 +31645,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 322,
+      "line": 320,
       "entry_no": 3,
       "key": "kwon:2023",
       "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
@@ -31662,7 +31662,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 324,
+      "line": 322,
       "entry_no": 4,
       "key": "kubernetes:2026",
       "title": "Kubernetes Documentation",
@@ -31677,7 +31677,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 326,
+      "line": 324,
       "entry_no": 5,
       "key": "vllm:2026",
       "title": "vLLM Documentation",
@@ -31692,7 +31692,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 399,
+      "line": 397,
       "entry_no": 1,
       "key": "kapoor:2023",
       "title": "Leakage and the reproducibility crisis in machine-learning-based science",
@@ -31709,7 +31709,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 401,
+      "line": 399,
       "entry_no": 2,
       "key": "kreuzberger:2023",
       "title": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
@@ -31726,7 +31726,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 403,
+      "line": 401,
       "entry_no": 3,
       "key": "longpre:2024",
       "title": "A large-scale audit of dataset licensing and attribution in AI",
@@ -31743,7 +31743,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 405,
+      "line": 403,
       "entry_no": 4,
       "key": "mazumder:2023",
       "title": "DataPerf: Benchmarks for Data-Centric AI Development",
@@ -31760,7 +31760,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 407,
+      "line": 405,
       "entry_no": 5,
       "key": "zha:2023",
       "title": "Data-centric Artificial Intelligence: A Survey",
@@ -31775,7 +31775,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 449,
+      "line": 447,
       "entry_no": 1,
       "key": "blecher:2023",
       "title": "Nougat: Neural Optical Understanding for Academic Documents",
@@ -31790,7 +31790,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 451,
+      "line": 449,
       "entry_no": 2,
       "key": "chen:2024",
       "title": "Data-Juicer: A One-Stop Data Processing System for Large Language Models",
@@ -31807,7 +31807,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 453,
+      "line": 451,
       "entry_no": 3,
       "key": "chen:2025",
       "title": "AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds",
@@ -31822,7 +31822,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 455,
+      "line": 453,
       "entry_no": 4,
       "key": "kapoor:2023",
       "title": "Leakage and the reproducibility crisis in machine-learning-based science",
@@ -31839,7 +31839,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 457,
+      "line": 455,
       "entry_no": 5,
       "key": "pfitzmann:2022",
       "title": "DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis",
@@ -31856,7 +31856,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 403,
+      "line": 401,
       "entry_no": 1,
       "key": "bommasani:2023",
       "title": "The Foundation Model Transparency Index",
@@ -31871,7 +31871,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 405,
+      "line": 403,
       "entry_no": 2,
       "key": "liang:2023",
       "title": "Holistic Evaluation of Language Models",
@@ -31888,7 +31888,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 407,
+      "line": 405,
       "entry_no": 3,
       "key": "wang:2023",
       "title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
@@ -31905,7 +31905,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 409,
+      "line": 407,
       "entry_no": 4,
       "key": "weidinger:2022",
       "title": "Taxonomy of Risks posed by Language Models",
@@ -31922,7 +31922,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 69,
+      "line": 67,
       "entry_no": 1,
       "key": "datagallery:2026",
       "title": "DataGallery organization page",
@@ -31937,7 +31937,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 71,
+      "line": 69,
       "entry_no": 2,
       "key": "datagallery:2026",
       "title": "DataAgent source repository",
@@ -31952,7 +31952,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 171,
+      "line": 253,
       "entry_no": 1,
       "key": "mindface:2026",
       "title": "MindFace source repository",
@@ -31967,7 +31967,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 173,
+      "line": 255,
       "entry_no": 2,
       "key": "mindspore:2026",
       "title": "MindSpore Documentation",
@@ -31982,7 +31982,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 175,
+      "line": 257,
       "entry_no": 3,
       "key": "mindspore:2026",
       "title": "MindSpore source repository",
@@ -31997,7 +31997,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 177,
+      "line": 259,
       "entry_no": 4,
       "key": "mindspore:2026",
       "title": "Automatic Differentiation, MindSpore Tutorials",
@@ -33015,13 +33015,15 @@
       "key": "patil:2023",
       "title": "Gorilla: Large Language Model Connected with Massive APIs",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Gorilla: Large Language Model Connected with Massive APIs",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.15334",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch31_agent_architecture.md",
@@ -33081,13 +33083,15 @@
       "key": "wang:2023",
       "title": "A Survey on Large Language Model based Autonomous Agents",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "A Survey on Large Language Model based Autonomous Agents",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2308.11432",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch31_agent_architecture.md",
@@ -33096,13 +33100,15 @@
       "key": "wu:2023",
       "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2308.08155",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch31_agent_architecture.md",
@@ -33111,13 +33117,15 @@
       "key": "xi:2023",
       "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2309.07864",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch31_agent_architecture.md",
@@ -33526,13 +33534,15 @@
       "key": "cui:2023",
       "title": "UltraFeedback: Boosting Language Models with Scaled AI Feedback",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "UltraFeedback: Boosting Language Models with Scaled AI Feedback",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2310.01377",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch33_labeling_synthesis_evaluation.md",
@@ -33558,13 +33568,15 @@
       "key": "gerstgrasser:2024",
       "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2404.01413",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch33_labeling_synthesis_evaluation.md",
@@ -33590,13 +33602,15 @@
       "key": "kim:2024",
       "title": "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2405.01535",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch33_labeling_synthesis_evaluation.md",
@@ -33622,13 +33636,15 @@
       "key": "lambert:2024",
       "title": "RewardBench: Evaluating Reward Models for Language Modeling",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "RewardBench: Evaluating Reward Models for Language Modeling",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2403.13787",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch33_labeling_synthesis_evaluation.md",
@@ -33671,13 +33687,15 @@
       "key": "lin:2024",
       "title": "WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2406.04770",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part10/ch33_labeling_synthesis_evaluation.md",
@@ -34417,15 +34435,13 @@
       "key": "zou:2023",
       "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2307.15043",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part11/ch36_compliance_framework_and_governance.md",
@@ -34995,13 +35011,15 @@
       "key": "zhao:2018",
       "title": "Federated Learning with Non-IID Data",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Federated Learning with Non-IID Data",
       "matched_year": "2018",
       "score": 1.0,
       "identifier": "1806.00582",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part11/ch37_federated_learning_and_privacy_preserving_technologies.md",
@@ -35141,7 +35159,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 595,
+      "line": 597,
       "entry_no": 1,
       "key": "",
       "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
@@ -35158,7 +35176,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 596,
+      "line": 598,
       "entry_no": 2,
       "key": "hugging:2026",
       "title": "HuggingFaceFW/fineweb Dataset Card",
@@ -35173,7 +35191,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 597,
+      "line": 599,
       "entry_no": 3,
       "key": "hugging:2026",
       "title": "DataTrove FineWeb Processing Script",
@@ -35188,7 +35206,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 598,
+      "line": 600,
       "entry_no": 4,
       "key": "penedo:2024",
       "title": "DataTrove large scale data processing",
@@ -35203,7 +35221,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 599,
+      "line": 601,
       "entry_no": 5,
       "key": "luccioni:2021",
       "title": "What's in the Box? A Preliminary Analysis of Undesirable Content in the Common Crawl Corpus",
@@ -35218,7 +35236,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 601,
+      "line": 603,
       "entry_no": 6,
       "key": "",
       "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
@@ -35233,7 +35251,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 602,
+      "line": 604,
       "entry_no": 7,
       "key": "allen:2023",
       "title": "Ai2 Dolma: 3 trillion token open corpus for language model pretraining",
@@ -35248,7 +35266,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 603,
+      "line": 605,
       "entry_no": 8,
       "key": "allenai:2026",
       "title": "allenai/dolma Dataset Card",
@@ -35263,7 +35281,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 604,
+      "line": 606,
       "entry_no": 9,
       "key": "allenai:2026",
       "title": "Dolma Dataset and Toolkit Repository",
@@ -35278,7 +35296,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 605,
+      "line": 607,
       "entry_no": 10,
       "key": "allenai:2026",
       "title": "Dolma Toolkit Documentation",
@@ -35293,7 +35311,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 606,
+      "line": 608,
       "entry_no": 11,
       "key": "groeneveld:2024",
       "title": "OLMo: Accelerating the Science of Language Models",
@@ -35618,15 +35636,13 @@
       "key": "schulman:2017",
       "title": "Proximal Policy Optimization Algorithms",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Proximal Policy Optimization Algorithms",
       "matched_year": "2017",
       "score": 1.0,
       "identifier": "1707.06347",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part12/ch40_visual_document_table_data_engineering.md",
@@ -35852,13 +35868,15 @@
       "key": "poznanski:2025",
       "title": "olmOCR 2: Unit Test Rewards for Document OCR",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "olmOCR 2: Unit Test Rewards for Document OCR",
       "matched_year": "2025",
       "score": 1.0,
       "identifier": "2510.19817",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part12/ch40_visual_document_table_data_engineering.md",
@@ -36140,7 +36158,7 @@
       "matched_year": "2015",
       "score": 1.0,
       "identifier": "10.1109/iccv.2015.279",
-      "url_status": "200",
+      "url_status": "418",
       "issues": []
     },
     {
@@ -36187,7 +36205,7 @@
       "matched_year": "2021",
       "score": 1.0,
       "identifier": "10.1109/isbi48211.2021.9434010",
-      "url_status": "200",
+      "url_status": "418",
       "issues": []
     },
     {
@@ -36320,7 +36338,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 459,
+      "line": 461,
       "entry_no": 1,
       "key": "an:2024",
       "title": "FunAudioLLM: Voice Understanding and Generation Foundation Models for Natural Interaction Between Humans and LLMs",
@@ -36337,7 +36355,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 461,
+      "line": 463,
       "entry_no": 2,
       "key": "chanfungjan:2026",
       "title": "VoiceStyleControl",
@@ -36352,7 +36370,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 463,
+      "line": 465,
       "entry_no": 3,
       "key": "du:2024",
       "title": "CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens",
@@ -36369,7 +36387,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 465,
+      "line": 467,
       "entry_no": 4,
       "key": "du:2024",
       "title": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
@@ -36386,7 +36404,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 467,
+      "line": 469,
       "entry_no": 5,
       "key": "mittag:2021",
       "title": "NISQA: A Deep CNN-Self-Attention Model for Multidimensional Speech Quality Prediction with Crowdsourced Datasets",
@@ -36403,7 +36421,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 469,
+      "line": 471,
       "entry_no": 6,
       "key": "song:2026",
       "title": "S3Tokenizer: Reverse Engineering of Supervised Semantic Speech Tokenizer proposed in CosyVoice",
@@ -36418,22 +36436,24 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 471,
+      "line": 473,
       "entry_no": 7,
       "key": "yang:2025",
       "title": "Qwen3 Technical Report",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Qwen3 Technical Report",
       "matched_year": "2025",
       "score": 1.0,
       "identifier": "2505.09388",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 450,
+      "line": 452,
       "entry_no": 1,
       "key": "wei:2022",
       "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
@@ -36450,24 +36470,22 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 451,
+      "line": 453,
       "entry_no": 2,
       "key": "lightman:2023",
       "title": "Let's Verify Step by Step",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Let's Verify Step by Step",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.20050",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 452,
+      "line": 454,
       "entry_no": 3,
       "key": "yao:2023",
       "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
@@ -36482,7 +36500,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 453,
+      "line": 455,
       "entry_no": 4,
       "key": "deepseekai:2025",
       "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
@@ -36499,7 +36517,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 454,
+      "line": 456,
       "entry_no": 5,
       "key": "hendrycks:2021",
       "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
@@ -36662,15 +36680,13 @@
       "key": "peng:2023",
       "title": "YaRN: Efficient Context Window Extension of Large Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "YaRN: Efficient Context Window Extension of Large Language Models",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2309.00071",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
@@ -36860,13 +36876,15 @@
       "key": "yang:2025",
       "title": "Qwen3 Technical Report",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Qwen3 Technical Report",
       "matched_year": "2025",
       "score": 1.0,
       "identifier": "2505.09388",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch45_posttrain_recipes.md",
@@ -37280,15 +37298,13 @@
       "key": "hosseini:2024",
       "title": "V-STaR: Training Verifiers for Self-Taught Reasoners",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "V-STaR: Training Verifiers for Self-Taught Reasoners",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2402.06457",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part13/ch46_rl_reasoning_data.md",
@@ -37399,13 +37415,15 @@
       "key": "chen:2024",
       "title": "InternVL3: Exploring Advanced Training and Test-Time Scaling for Vision-Language Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "matched_year": "2025",
       "score": 0.782,
       "identifier": "2504.10479",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
@@ -37463,13 +37481,15 @@
       "key": "li:2024",
       "title": "LLaVA-OneVision: Easy Visual Task Transfer",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "LLaVA-OneVision: Easy Visual Task Transfer",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2408.03326",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
@@ -37495,13 +37515,15 @@
       "key": "liu:2023",
       "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2303.05499",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
@@ -37791,13 +37813,15 @@
       "key": "esser:2024",
       "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2403.03206",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch48_t2i_t2v.md",
@@ -37823,13 +37847,15 @@
       "key": "black:2025",
       "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
       "matched_year": "2025",
       "score": 1.0,
       "identifier": "2506.15742",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part13/ch48_t2i_t2v.md",
@@ -38044,7 +38070,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1217,
+      "line": 1216,
       "entry_no": 1,
       "key": "raffel:2020",
       "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
@@ -38061,7 +38087,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1218,
+      "line": 1217,
       "entry_no": 2,
       "key": "hugging:2026",
       "title": "Datasets Documentation",
@@ -38076,7 +38102,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1219,
+      "line": 1218,
       "entry_no": 3,
       "key": "ray:2026",
       "title": "Ray Data Documentation",
@@ -38091,7 +38117,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1220,
+      "line": 1219,
       "entry_no": 4,
       "key": "mlflow:2026",
       "title": "MLflow Documentation",
@@ -38106,7 +38132,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1221,
+      "line": 1220,
       "entry_no": 5,
       "key": "great:2026",
       "title": "Great Expectations Documentation",
@@ -38390,15 +38416,13 @@
       "key": "lightman:2023",
       "title": "Let's Verify Step by Step",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Let's Verify Step by Step",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.20050",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part14/p06_prm.md",
@@ -38471,13 +38495,15 @@
       "key": "schick:2023",
       "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2302.04761",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part14/p07_agent_tooluse.md",
@@ -38821,13 +38847,15 @@
       "key": "lozhkov:2024",
       "title": "StarCoder 2 and The Stack v2: The Next Generation (The Stack v2)",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "StarCoder 2 and The Stack v2: The Next Generation",
       "matched_year": "2024",
       "score": 0.881,
       "identifier": "2402.19173",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part14/p11_mini_deepseek.md",
@@ -39045,13 +39073,15 @@
       "key": "zhu:2025",
       "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "matched_year": "2025",
       "score": 0.782,
       "identifier": "2504.10479",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part14/p13_multimodal_instruction_factory.md",
@@ -39156,13 +39186,15 @@
       "key": "zhu:2025",
       "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "matched_year": "2025",
       "score": 0.782,
       "identifier": "2504.10479",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part14/p14_video_generation.md",
@@ -39269,13 +39301,15 @@
       "key": "schick:2023",
       "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2302.04761",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part14/p15_dataagent_semantic_nl2sql_agent.md",
@@ -40026,13 +40060,15 @@
       "key": "bai:2023",
       "title": "Qwen-VL: A Versatile Vision-Language Model's Understanding, Localization, Text Reading, and Beyond",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
       "matched_year": "2023",
       "score": 0.979,
       "identifier": "2308.12966",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part3/ch08_multimodal_image.md",
@@ -40220,13 +40256,15 @@
       "key": "zhu:2025",
       "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "matched_year": "2025",
       "score": 0.782,
       "identifier": "2504.10479",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part3/ch08_multimodal_image.md",
@@ -40252,13 +40290,15 @@
       "key": "bai:2023",
       "title": "Qwen-VL: A Versatile Vision-Language Model",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
       "matched_year": "2023",
       "score": 0.979,
       "identifier": "2308.12966",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part3/ch09_recaptioning_ocr.md",
@@ -40433,13 +40473,15 @@
       "key": "liu:2023",
       "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2303.05499",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part3/ch09_recaptioning_ocr.md",
@@ -40531,13 +40573,15 @@
       "key": "zhu:2025",
       "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
       "matched_year": "2025",
       "score": 0.782,
       "identifier": "2504.10479",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part3/ch10_video_audio.md",
@@ -40648,15 +40692,13 @@
       "key": "geminiteam:2024",
       "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2403.05530",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part3/ch10_video_audio.md",
@@ -40852,13 +40894,15 @@
       "key": "brown:2020",
       "title": "Language Models are Few-Shot Learners",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Language Models are Few-Shot Learners",
       "matched_year": "2020",
       "score": 1.0,
       "identifier": "2005.14165",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch12_sft.md",
@@ -40931,15 +40975,13 @@
       "key": "wang:2023",
       "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2212.10560",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part4/ch12_sft.md",
@@ -40965,13 +41007,15 @@
       "key": "christiano:2017",
       "title": "Deep Reinforcement Learning from Human Preferences",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Deep reinforcement learning from human preferences",
       "matched_year": "2017",
       "score": 1.0,
       "identifier": "1706.03741",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch12_sft.md",
@@ -40980,13 +41024,15 @@
       "key": "stiennon:2020",
       "title": "Learning to Summarize from Human Feedback",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Learning to summarize from human feedback",
       "matched_year": "2020",
       "score": 1.0,
       "identifier": "2009.01325",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch12_sft.md",
@@ -41025,13 +41071,15 @@
       "key": "schick:2023",
       "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2302.04761",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch12_sft.md",
@@ -41276,13 +41324,15 @@
       "key": "ziegler:2019",
       "title": "Fine-tuning language models from human preferences",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Fine-Tuning Language Models from Human Preferences",
       "matched_year": "2019",
       "score": 1.0,
       "identifier": "1909.08593",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch13_preference.md",
@@ -41342,15 +41392,13 @@
       "key": "bai:2022",
       "title": "Training a helpful and harmless assistant with reinforcement learning from human feedback",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2204.05862",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part4/ch13_preference.md",
@@ -41408,15 +41456,13 @@
       "key": "lightman:2024",
       "title": "Let's verify step by step",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Let's Verify Step by Step",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.20050",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part4/ch13_preference.md",
@@ -41425,13 +41471,15 @@
       "key": "uesato:2022",
       "title": "Solving math word problems with process- and outcome-based feedback",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Solving math word problems with process- and outcome-based feedback",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2211.14275",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch13_preference.md",
@@ -41723,13 +41771,15 @@
       "key": "stiennon:2020",
       "title": "Learning to Summarize from Human Feedback",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Learning to summarize from human feedback",
       "matched_year": "2020",
       "score": 1.0,
       "identifier": "2009.01325",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch14_qa.md",
@@ -41768,13 +41818,15 @@
       "key": "zheng:2023",
       "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2306.05685",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part4/ch14_qa.md",
@@ -42220,15 +42272,13 @@
       "key": "chen:2024",
       "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2401.01335",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part5/ch15_data_synthesis.md",
@@ -42490,15 +42540,13 @@
       "key": "sanh:2019",
       "title": "DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
       "matched_year": "2019",
       "score": 1.0,
       "identifier": "1910.01108",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part5/ch16_distillation.md",
@@ -42728,15 +42776,13 @@
       "key": "lightman:2024",
       "title": "Let’s Verify Step by Step",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Let's Verify Step by Step",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.20050",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part5/ch16_distillation.md",
@@ -42845,13 +42891,15 @@
       "key": "gerstgrasser:2024",
       "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
       "matched_year": "2024",
       "score": 1.0,
       "identifier": "2404.01413",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part5/ch17_quality.md",
@@ -43096,15 +43144,13 @@
       "key": "wei:2022",
       "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2201.11903",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43113,15 +43159,13 @@
       "key": "nye:2021",
       "title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models",
       "matched_year": "2021",
       "score": 1.0,
       "identifier": "2112.00114",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43130,13 +43174,15 @@
       "key": "wang:2023",
       "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2203.11171",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43145,13 +43191,15 @@
       "key": "zhou:2023",
       "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2205.10625",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43160,15 +43208,13 @@
       "key": "yao:2023",
       "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.10601",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43211,15 +43257,13 @@
       "key": "zelikman:2022",
       "title": "STaR: Bootstrapping Reasoning With Reasoning",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "STaR: Bootstrapping Reasoning With Reasoning",
       "matched_year": "2022",
       "score": 1.0,
       "identifier": "2203.14465",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43243,15 +43287,13 @@
       "key": "lightman:2024",
       "title": "Let’s Verify Step by Step",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Let's Verify Step by Step",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2305.20050",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43292,15 +43334,13 @@
       "key": "shinn:2023",
       "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
       "status": "verified",
-      "source": "arxiv-html",
+      "source": "arxiv",
       "matched_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2303.11366",
       "url_status": "",
-      "issues": [
-        "arxiv-error:HTTPError"
-      ]
+      "issues": []
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43309,13 +43349,15 @@
       "key": "madaan:2023",
       "title": "Self-Refine: Iterative Refinement with Self-Feedback",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Self-Refine: Iterative Refinement with Self-Feedback",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2303.17651",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43324,13 +43366,15 @@
       "key": "zheng:2023",
       "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2306.05685",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43339,13 +43383,15 @@
       "key": "liu:2023",
       "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2303.16634",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch18_cot.md",
@@ -43808,7 +43854,7 @@
       "matched_year": "2013",
       "score": 1.0,
       "identifier": "10.1109/jproc.2012.2225812",
-      "url_status": "200",
+      "url_status": "418",
       "issues": []
     },
     {
@@ -43901,13 +43947,15 @@
       "key": "packer:2023",
       "title": "MemGPT: Towards LLMs as Operating Systems",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "MemGPT: Towards LLMs as Operating Systems",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2310.08560",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part6/ch20_agent.md",
@@ -44084,13 +44132,15 @@
       "key": "gao:2023",
       "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2312.10997",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part7/ch21_rag_pipeline.md",
@@ -44898,13 +44948,15 @@
       "key": "gao:2023",
       "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
       "status": "verified",
-      "source": "arxiv",
+      "source": "arxiv-html",
       "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
       "matched_year": "2023",
       "score": 1.0,
       "identifier": "2312.10997",
       "url_status": "",
-      "issues": []
+      "issues": [
+        "arxiv-error:HTTPError"
+      ]
     },
     {
       "file": "docs/zh/part7/ch23_online_feedback_knowledge_update.md",

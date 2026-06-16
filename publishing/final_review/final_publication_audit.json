@@ -1,976 +1,1025 @@
 {
-  "generated_at_utc": "2026-06-15T07:32:41.613078+00:00",
+  "generated_at_utc": "2026-06-16T02:12:35.995047+00:00",
   "scanned_files": 71,
   "style_hits": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 7,
+      "line": 5,
       "kind": "rhetorical-not-but",
       "phrase": "不是罗列“所有常见工具”，而是",
       "context": "本附录面向整本书的工程落地环节，目标不是罗列“所有常见工具”，而是回答一个更实际的问题：**当团队已经明确要做数据采集、清洗、评测、实验追踪、开放发布和教学复现时，应该如何在不同阶段选择合适的工具栈，并理解它们之间的职责边界。**"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是“选错了某一个框架”，而是",
       "context": "在真实项目里，工具选型最常见的失败方式不是“选错了某一个框架”，而是把不同层的问题混在一起。例如，团队本来缺的是版本治理，却试图通过再加一个数据处理脚本来补；本来缺的是评测可复查性，却把预算继续砸在训练上；本来缺的是教学镜像与课程环境..."
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 27,
+      "line": 25,
       "kind": "rhetorical-not-but",
       "phrase": "不是让团队“立刻决定用什么”，而是",
       "context": "这张表最重要的作用，不是让团队“立刻决定用什么”，而是先确认**我们现在到底在解决哪一类问题**。很多争论一旦从“我更喜欢哪个框架”转回“这一步的交付物究竟是什么”，决策会容易很多。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 33,
+      "line": 31,
       "kind": "rhetorical-not-but",
       "phrase": "不是花哨，而是",
       "context": "如果团队的数据来源跨网页、文档库、企业表格、对象存储和第三方开放集，就不可能长期依赖纯手工下载加脚本拼接。接入层最重要的不是花哨，而是把“**从哪来、什么时候来、用什么规则来**”固定下来。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 44,
+      "line": 42,
       "kind": "rhetorical-not-but",
       "phrase": "不是“大”，而是",
       "context": "### A.3.2 存储层的关键不是“大”，而是可分层"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 69,
+      "line": 67,
       "kind": "rhetorical-not-but",
       "phrase": "不是单纯追求某个单一最优工具，而是",
       "context": "如果团队处在“跨机构共建数据集 + 公开评测 + 教学复现”的复合场景，最推荐的不是单纯追求某个单一最优工具，而是建立一个最小组合：**Git 管脚本与规范，DVC 或等价系统管数据版本，对象存储管大文件，发布页管对外说明**。这套组..."
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 89,
+      "line": 87,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了追求“0 错误”，而是",
       "context": "质量校验不是为了追求“0 错误”，而是为了把错误分门别类，并形成后续回写动作。像 `Great Expectations` 这类数据质量框架，适合管理结构化规则；而对于文档、多模态和推理数据，更常见的是自定义校验器。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 108,
+      "line": 106,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "文本任务里常见 `MinHash`、`SimHash`、`n-gram overlap`；文档与图像任务需要同时考虑视觉近重复与版式近重复；代码与推理任务还要关注模板污染、题库污染和评测提示泄漏。真正成熟的流程，应该让后续读者能够明确..."
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 114,
+      "line": 112,
       "kind": "rhetorical-not-but",
       "phrase": "不是界面漂不漂亮，而是",
       "context": "标注平台的核心并不是界面漂不漂亮，而是能否支撑任务定义、审阅链、仲裁和回写。对于指令、偏好、多模态和语音任务，这一点尤其重要。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 140,
+      "line": 138,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "当这些字段被稳定记录后，实验追踪才真正从“记录跑过什么”升级为“记录为什么跑、为什么变好、为什么值得相信”。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 157,
+      "line": 155,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "在文档理解、表格解析、图表推理和多模态 RAG 场景里，团队很容易把 OCR、版面分析、检索和最终问答混成一个大模型不可解释状态。工具链上更好的做法，是把四类能力拆开："
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 221,
+      "line": 219,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "工具真正应该围绕问题被选择，而不是反过来让问题去适应工具。下面十个问题，基本可以作为大多数团队的初筛问卷。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 247,
+      "line": 245,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "这些误区之所以危险，不是因为它们完全错误，而是因为它们都带有一部分真实诱因。平台统一确实可能减少初期集成成本，单个熟练工程师也确实能提升短期效率，吞吐指标也确实值得关注。但如果这些理由替代了对资产生命周期的完整判断，团队就很容易在两三..."
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 247,
+      "line": 245,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为它们完全错误，而是",
       "context": "这些误区之所以危险，不是因为它们完全错误，而是因为它们都带有一部分真实诱因。平台统一确实可能减少初期集成成本，单个熟练工程师也确实能提升短期效率，吞吐指标也确实值得关注。但如果这些理由替代了对资产生命周期的完整判断，团队就很容易在两三..."
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 251,
+      "line": 249,
       "kind": "rhetorical-not-but",
       "phrase": "不是为工具排序，而是",
       "context": "将正文中的项目实践、专项数据集案例与附录模板连在一起看，可以形成一套更明确的工具落点图。这个映射的目的不是为工具排序，而是帮助读者判断每类任务最应优先补齐哪一层工程能力。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 258,
+      "line": 256,
       "kind": "rhetorical-not-but",
       "phrase": "不是正文之外的次要补充，而是",
       "context": "这样的映射有一个很重要的好处：它提醒读者，附录并不是正文之外的次要补充，而是把正文里出现过的工程能力重新整理成能直接被项目经理、助教、平台同学和维护者调用的操作层语言。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 286,
+      "line": 284,
       "kind": "rhetorical-not-but",
       "phrase": "不是热度，而是",
       "context": "第一，工具选型的前提不是热度，而是先说清当前阶段的交付物与失败模式。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 287,
+      "line": 285,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第二，真正长期有效的工具组合，通常不是单一大平台，而是“版本控制 + 数据存储 + 批处理 + 质检 + 评测追踪 + 发布治理”的边界化组合。"
     },
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 287,
+      "line": 285,
       "kind": "rhetorical-not-but",
       "phrase": "不是单一大平台，而是",
       "context": "第二，真正长期有效的工具组合，通常不是单一大平台，而是“版本控制 + 数据存储 + 批处理 + 质检 + 评测追踪 + 发布治理”的边界化组合。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 7,
+      "line": 5,
       "kind": "rhetorical-not-but",
       "phrase": "不是抽象意义上的合规口号，而是",
       "context": "本附录面向“数据集是否可以继续向下流转”的关键关口。它关心的并不是抽象意义上的合规口号，而是更具体的工程问题：**某批数据能不能进入标注，能不能进入训练，能不能对外发布，能不能支撑课程实验，能不能接入线上系统。**"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是某条法律条文完全没人知道，而是",
       "context": "在大模型数据工程中，最危险的情况通常不是某条法律条文完全没人知道，而是团队在日常推进中逐渐形成一种错觉，认为合规检查只是项目末尾补一个审批表。实际上，合规与上线检查应贯穿数据生命周期，因为来源不清、授权不明、脱敏不稳、评测污染、资源声..."
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 32,
+      "line": 30,
       "kind": "rhetorical-not-but",
       "phrase": "不是“值不值得抓”，而是",
       "context": "数据接入最先要确认的，不是“值不值得抓”，而是“能不能合法、合约上可解释地抓”。推荐至少检查表 B-1 中的字段。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 42,
+      "line": 40,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为团队想“走流程”，而是",
       "context": "来源检查之所以关键，不是因为团队想“走流程”，而是因为后续所有工程动作都会放大来源问题。越靠近模型训练和公开发布，修改来源策略的成本越高。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 87,
+      "line": 85,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "如果不把这些边界写清，后续很容易出现“工程上已经做完，合约上却走不通”的尴尬局面。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 105,
+      "line": 103,
       "kind": "rhetorical-not-but",
       "phrase": "不是“只要质量高就行”，而是",
       "context": "尤其在开放 benchmark 场景下，评测集不是“只要质量高就行”，而是必须让外部团队相信比较条件是稳定和公正的。否则，即使榜单分数可观，也无法形成长期信任。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 116,
+      "line": 114,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "这一步之所以重要，是因为技术团队很容易默认“只是内部调用一个 API”，但从治理角度看，这已经是一次新的数据暴露。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 129,
+      "line": 127,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "如果只发布样本和论文链接，而没有这四类文档，外部团队很难真正安全使用，也很难在出现争议时迅速处理。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 133,
+      "line": 131,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为不够公开，而是",
       "context": "很多 benchmark 失败不是因为不够公开，而是因为**公开后没有治理机制**。对于排行榜，建议至少明确以下规则："
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 177,
+      "line": 175,
       "kind": "rhetorical-not-but",
       "phrase": "不是“模型突然变坏”，而是",
       "context": "对大模型应用来说，很多事故并不是“模型突然变坏”，而是数据、提示、检索源或评测口径发生了变化，却没有被上线控制接住。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 203,
+      "line": 201,
       "kind": "rhetorical-not-but",
       "phrase": "不是谁替代谁的关系，而是",
       "context": "这张清单和产品上线清单并不是谁替代谁的关系，而是分别回答“能不能安全教学”和“能不能安全服务”这两类不同问题。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 214,
+      "line": 212,
       "kind": "rhetorical-not-but",
       "phrase": "不是模型效果，而是",
       "context": "很多系统上线后才暴露的问题，并不是模型效果，而是基础调用链中藏着团队自己都没有完全意识到的数据暴露点。把这类调用前置列入检查，是第十二篇“开放维护”和本附录“上线审计”之间最值得打通的一条链路。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 288,
+      "line": 286,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这样做的好处是，合规检查就不再是“最后一刻拦项目”，而会真正变成帮助项目稳定演进的一部分。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 292,
+      "line": 290,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "很多团队会认真写撤回机制，却从未真正演练过“如果明天有人要求下线一批样本，我们能不能在半天内定位、冻结、公告并重建受影响版本”。这和只写灾备方案却从不演练，本质上是同一类问题。只要没有实际演练，团队就很难知道撤回链路中到底卡在数据定位..."
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 302,
+      "line": 300,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这类演练的意义并不只是为了应对极端情况。它还能反向暴露一个系统是否真的具备“可治理”的资产结构。如果某个数据集一旦要求撤回样本，团队连受影响版本都找不全，那么问题就不只是应急能力不足，而是整个版本治理链条还没有真正建立起来。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 308,
+      "line": 306,
       "kind": "rhetorical-not-but",
       "phrase": "不是项目末尾的附加步骤，而是",
       "context": "第一，合规不是项目末尾的附加步骤，而是数据生命周期中的连续关口。"
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 310,
+      "line": 308,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第三，真正能降低长期风险的，不只是“一次审批通过”，而是来源留痕、版本冻结、事故撤回和角色分工的制度化。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 7,
+      "line": 5,
       "kind": "rhetorical-not-but",
       "phrase": "不是技术复杂度，而是",
       "context": "数据工程项目最容易被低估的，不是技术复杂度，而是成本结构。很多团队在立项时只问“训练要几张卡”，却没有系统回答以下问题：样本采集与清洗谁来做，标注复核要花多少人天，评测与排行榜维护需要多少长期预算，多模态文件存储和回源流量要花多少钱，..."
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是给出一个放之四海而皆准的价格表，而是",
       "context": "因此，本附录的目标不是给出一个放之四海而皆准的价格表，而是建立**成本估算的方法、表格和复盘模板**。只要方法稳定，具体单价即使随时间变化，团队仍可以快速重新估算；如果方法本身缺失，即使掌握了某个时点的单价，也无法做出可靠预算。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 13,
+      "line": 11,
       "kind": "rhetorical-not-but",
       "phrase": "不是总额高低，而是",
       "context": "很多预算争议的根源，不是总额高低，而是不同角色盯的成本对象不同。研究同学可能只盯训练 GPU，平台同学更关心存储和回流，课程负责人更关心镜像和助教工时，管理层则关心季度投入与交付节奏。若没有统一拆分，讨论会不断失焦。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 26,
+      "line": 24,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这种拆法的价值，在于它逼着团队承认一个现实：**真正长期昂贵的，往往不是首发训练，而是后续治理与维护。**"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 26,
+      "line": 24,
       "kind": "rhetorical-not-but",
       "phrase": "不是首发训练，而是",
       "context": "这种拆法的价值，在于它逼着团队承认一个现实：**真正长期昂贵的，往往不是首发训练，而是后续治理与维护。**"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 48,
+      "line": 46,
       "kind": "rhetorical-not-but",
       "phrase": "不是 variable 项看错了，而是",
       "context": "很多团队预算失控，并不是 variable 项看错了，而是完全没预留 risk 项。例如，重复标注、脱敏返工、榜单复核、样本下线和学期中镜像修复，几乎都会在真实项目中出现。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 121,
+      "line": 119,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "训练预算最容易被简化成“几张卡、跑几天”，但真正决定成本的至少还有三件事：有效吞吐、失败重跑概率和调参轮次。以 Megatron-LM 为代表的大规模训练系统表明，模型并行、数据并行和流水并行策略会显著影响吞吐、显存占用和失败恢复成本..."
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 131,
+      "line": 129,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "如果团队完全不估失败重跑储备，预算表很容易在第二轮实验后失真。对工程项目而言，预留 10% 到 30% 的风险资源通常比“第一次估得极准”更有价值。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 149,
+      "line": 147,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "一个公开 benchmark 的成本不止是“首发一次”。真正持续发生的支出包括："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 168,
+      "line": 166,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "如果这一层成本没有被预算，公开基准很容易首发时热闹、半年后失真。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 195,
+      "line": 193,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "如果没有这种分层，团队很容易在项目中后期发现：真正昂贵的不是训练，而是所有中间产物都被默认永久保留。若项目使用 Kubernetes 承载训练、评测或教学环境，资源配额、存储卷、命名空间和作业生命周期也应纳入预算表，具体资源对象和调度..."
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 195,
+      "line": 193,
       "kind": "rhetorical-not-but",
       "phrase": "不是训练，而是",
       "context": "如果没有这种分层，团队很容易在项目中后期发现：真正昂贵的不是训练，而是所有中间产物都被默认永久保留。若项目使用 Kubernetes 承载训练、评测或教学环境，资源配额、存储卷、命名空间和作业生命周期也应纳入预算表，具体资源对象和调度..."
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 199,
+      "line": 197,
       "kind": "rhetorical-not-but",
       "phrase": "不是简单地把旧版本压缩起来，而是",
       "context": "归档不是简单地把旧版本压缩起来，而是决定未来还能不能复盘和复现。一个好的归档预算至少应回答："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 267,
+      "line": 265,
       "kind": "rhetorical-not-but",
       "phrase": "不是“一次训练前的原料”，而是",
       "context": "这种顺序和很多团队的直觉相反，但它更符合第十二篇的中心思想：数据集不是“一次训练前的原料”，而是会持续消耗维护资源的工程资产。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 271,
+      "line": 269,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "预算模板真正想长期发挥作用，最好不是每次另起一张 Excel，而是沉淀为一份持续更新的预算台账。建议至少保留以下字段："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 271,
+      "line": 269,
       "kind": "rhetorical-not-but",
       "phrase": "不是每次另起一张 Excel，而是",
       "context": "预算模板真正想长期发挥作用，最好不是每次另起一张 Excel，而是沉淀为一份持续更新的预算台账。建议至少保留以下字段："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 288,
+      "line": 286,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "预算复盘最容易犯的错误，是只看是否超支，而不看为什么超支。真正对下一轮项目有用的问题通常包括："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 296,
+      "line": 294,
       "kind": "blog-transition",
       "phrase": "换句话说",
       "context": "换句话说，预算表不是为了把项目变成财务游戏，而是为了把“资源到底投在了哪种数据价值上”说清楚。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 296,
+      "line": 294,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了把项目变成财务游戏，而是",
       "context": "换句话说，预算表不是为了把项目变成财务游戏，而是为了把“资源到底投在了哪种数据价值上”说清楚。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 300,
+      "line": 298,
       "kind": "rhetorical-not-but",
       "phrase": "不是几十行细碎账目，而是",
       "context": "如果项目需要把预算复盘写成更可沟通的报告，最值得保留的通常不是几十行细碎账目，而是三张总结图："
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 313,
+      "line": 311,
       "kind": "rhetorical-not-but",
       "phrase": "不是单价，而是",
       "context": "第二，最容易失真的不是单价，而是返工、复核、维护和教学复现这些风险项。"
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 314,
+      "line": 312,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第三，真正成熟的成本管理，不只是为了省钱，而是为了让资源投入和数据资产价值之间形成可解释的对应关系。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 7,
+      "line": 5,
       "kind": "rhetorical-not-but",
       "phrase": "不是某一篇论文是否足够漂亮，而是",
       "context": "本附录面向“把论文写成工程、把工程写成可复现材料、把材料写成可交付文档”的中间地带。它关心的不是某一篇论文是否足够漂亮，而是**一篇论文、一段方法或一个实验原型，怎样被翻译成团队可执行的实现路径、验证路径和发布路径**。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为方法本身不可行，而是",
       "context": "在真实项目里，很多论文复现失败并不是因为方法本身不可行，而是因为从论文文本到工程实现之间缺少一层结构化翻译。论文常写的是“我们做了什么、效果如何、和谁相比”，工程则必须回答“输入是什么、数据怎么来、边界在哪里、失败时怎么退回、版本如何..."
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 23,
+      "line": 21,
       "kind": "rhetorical-not-but",
       "phrase": "不是“把论文讲得更长”，而是",
       "context": "这五步的核心，不是“把论文讲得更长”，而是把抽象结论拆成可以被实现、被检查、被回滚的对象。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 102,
+      "line": 100,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这张映射表的意义在于让团队知道，论文不是终点，工程也不是“把代码跑起来”而已。真正有价值的交付，是让方法被别人接得住。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 138,
+      "line": 136,
       "kind": "rhetorical-not-but",
       "phrase": "不是直接抄算法，而是",
       "context": "假设论文讨论的是一个多模态 RAG 系统，能够把文档、图表和正文联合起来回答问题。若要把它转成工程，第一步不是直接抄算法，而是把问题边界写清楚：检索对象是什么，证据如何切块，图文如何对齐，答案是生成式还是引用式，失败时是拒答还是降级。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 148,
+      "line": 146,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "在这个场景里，单纯把模型代码跑通并不等于可以上线。因为联邦学习项目通常还涉及法务、信息安全、业务 Owner 和运维平台的协同。工程包中至少应有四个额外文档：参与方约定、数据边界说明、通信与安全策略、异常退出与审计机制。换句话说，联邦..."
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 148,
+      "line": 146,
       "kind": "blog-transition",
       "phrase": "换句话说",
       "context": "在这个场景里，单纯把模型代码跑通并不等于可以上线。因为联邦学习项目通常还涉及法务、信息安全、业务 Owner 和运维平台的协同。工程包中至少应有四个额外文档：参与方约定、数据边界说明、通信与安全策略、异常退出与审计机制。换句话说，联邦..."
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 148,
+      "line": 146,
       "kind": "rhetorical-not-but",
       "phrase": "不是“有没有这个算法”，而是",
       "context": "在这个场景里，单纯把模型代码跑通并不等于可以上线。因为联邦学习项目通常还涉及法务、信息安全、业务 Owner 和运维平台的协同。工程包中至少应有四个额外文档：参与方约定、数据边界说明、通信与安全策略、异常退出与审计机制。换句话说，联邦..."
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 159,
+      "line": 157,
       "kind": "rhetorical-not-but",
       "phrase": "不是“还差一点润色”，而是",
       "context": "如果某一轮评审过不了，通常不是“还差一点润色”，而是说明前一层翻译还不完整。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 192,
+      "line": 190,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "本附录的核心结论没有变，但现在可以说得更完整一点：**论文语言必须经过工程翻译、文档翻译和责任翻译，才能变成真正可交付的能力。**"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 193,
+      "line": 191,
       "kind": "rhetorical-not-but",
       "phrase": "不是一次性的手艺活，而是",
       "context": "只有把方法、数据、评测、边界和维护责任一起翻出来，复现才不是一次性的手艺活，而是可接手、可维护、可迭代的工程资产。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 209,
+      "line": 207,
       "kind": "blog-transition",
       "phrase": "最怕",
       "context": "这类项目最怕两件事：一是为了快而跳过关键设置，二是为了好看而悄悄改问题定义。研究复现型允许工程简化，但不允许改掉原论文的边界。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 213,
+      "line": 211,
       "kind": "rhetorical-not-but",
       "phrase": "不是完全复现，而是",
       "context": "目标不是完全复现，而是把论文能力嵌入真实系统中试运行。常见于产品验证、平台探索或数据管线升级。此时关注点会从单一分数转向："
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 236,
+      "line": 234,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "## D.15 一份真正可交接的转换包"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 238,
+      "line": 236,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "很多论文转换包只包含代码和结果，但真正能接手的项目，还应包含以下内容："
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 281,
+      "line": 279,
       "kind": "rhetorical-not-but",
       "phrase": "不是一个实验脚本，而是",
       "context": "若目标不是一个实验脚本，而是一篇可发表、可教学、可复现的章节，建议按下面顺序写："
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 289,
+      "line": 287,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这个顺序和一般论文的“先方法、后讨论”不完全一样。原因很简单：工程读者首先关心的是“这套东西能不能接进来、怎么接、出问题时怎么办”。如果一开始就把算法讲得太满，反而会遮住真正的使用边界。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 331,
+      "line": 329,
       "kind": "rhetorical-not-but",
       "phrase": "不是排版习惯，而是",
       "context": "这不是排版习惯，而是降低接手成本。别人打开仓库后，能否在三分钟内判断“这项目能不能跑、怎么跑、跑坏了怎么办”，基本决定了它是不是一个能交接的项目。"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 364,
+      "line": 362,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "| 方法卡 | 核心机制是什么，真正起作用的是哪一层 |"
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 368,
+      "line": 366,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为方法不好，而是",
       "context": "这四张卡片的作用，是把“我看懂了论文”变成“我知道怎么把它拆到系统里”。很多项目失败，并不是因为方法不好，而是拆解时把隐含假设忽略了，比如数据分布、标签质量、访问权限、延迟上限和可回滚要求。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 7,
+      "line": 5,
       "kind": "rhetorical-not-but",
       "phrase": "不是一份通用故障库，而是",
       "context": "本附录面向数据工程里最常见、也最消耗时间的一类问题：数据管线“看起来都对”，但结果就是不对。它不是一份通用故障库，而是一份更接近本书语境的调试手册，帮助读者把常见问题从“经验性猜测”变成“可定位、可归类、可回归测试”的对象。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 11,
+      "line": 9,
       "kind": "rhetorical-not-but",
       "phrase": "不是“修复技巧”，而是",
       "context": "因此，本附录强调的不是“修复技巧”，而是**调试顺序**。先定位层级，再归类症状，最后才谈修复。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 40,
+      "line": 38,
       "kind": "rhetorical-not-but",
       "phrase": "不是给 Bug 贴标签，而是",
       "context": "这个分类的目的不是给 Bug 贴标签，而是帮助团队决定先看哪里。比如“评测分数突然掉了”，并不一定是模型退化，也可能是评测集被污染，或者某个切片样本在上游被误删。分类越早，排查越快。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 60,
+      "line": 58,
       "kind": "rhetorical-not-but",
       "phrase": "不是没抓到，而是",
       "context": "如果采集的是长文档、公告、论文或知识库页面，需要额外检查分页加载和懒加载内容。很多“缺字”并不是没抓到，而是页面只在滚动后才渲染。此时应把“截图”与“DOM”同时保存，避免只看其中一种证据。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 77,
+      "line": 75,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "如果解析结果中出现大量“标题断裂”“表格合并”“列表顺序错乱”，不要急着改后处理，先看版面层是否已经把阅读顺序弄乱。很多时候，后处理只是给错误排序做修饰，真正的问题在更前面。DocLayNet 和 Nougat 等文档理解工作也说明，..."
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 100,
+      "line": 98,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "很多团队会先怀疑模型结构变化，其实真正造成波动的常常是数据。尤其在增量更新场景中，哪怕只改了少量规则，也可能影响长尾样本的分布。建议把“规则版本”和“数据版本”绑定记录，避免只记其中一个。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 106,
+      "line": 104,
       "kind": "rhetorical-not-but",
       "phrase": "不是“标注员变差了”，而是",
       "context": "通常不是“标注员变差了”，而是："
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 134,
+      "line": 132,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "- 指标没有覆盖真正关心的行为。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 139,
+      "line": 137,
       "kind": "rhetorical-not-but",
       "phrase": "不是“再调一次模型”，而是",
       "context": "这类问题的处理方式不是“再调一次模型”，而是重新确认你到底要优化什么。若目标是检索准确率，指标就应围绕召回和排序；若目标是可用性，应该加入可读性、完整性和失败可解释性。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 152,
+      "line": 150,
       "kind": "rhetorical-not-but",
       "phrase": "不是“不会做”，而是",
       "context": "对 Agent 系统来说，很多 Bug 不是“不会做”，而是“做错了还继续做”。因此一定要把工具调用记录成结构化事件，并区分“计划”“执行”“重试”“回滚”四种状态。否则排查时只看见最终输出，看不见中间过程。AIOpsLab 等面向自..."
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 179,
+      "line": 177,
       "kind": "rhetorical-not-but",
       "phrase": "不是技术细节问题，而是",
       "context": "如果一个问题修了两次还会回来，通常不是技术细节问题，而是记录不完整。调试记录的价值不只是“留档”，更是给后续类似问题建立路径依赖，让团队少走重复路。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 185,
+      "line": 183,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "某批文档在解析后所有表格都少了一列，第一反应是“解析器坏了”。但人工对比后发现，原始文档中有部分单元格合并，且新版模板把表头换了位置。真正的问题不是解析器，而是模板版本与解析规则不一致。处理方式是把模板版本纳入输入条件，并为关键版式建..."
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 185,
+      "line": 183,
       "kind": "rhetorical-not-but",
       "phrase": "不是解析器，而是",
       "context": "某批文档在解析后所有表格都少了一列，第一反应是“解析器坏了”。但人工对比后发现，原始文档中有部分单元格合并，且新版模板把表头换了位置。真正的问题不是解析器，而是模板版本与解析规则不一致。处理方式是把模板版本纳入输入条件，并为关键版式建..."
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 207,
+      "line": 205,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "如果以上清单没有过一遍，就不算真正修完。很多“已修复”只是“这次看起来没事了”。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 211,
+      "line": 209,
       "kind": "rhetorical-not-but",
       "phrase": "不是快，而是",
       "context": "调 Bug 的关键，不是快，而是稳。先留证据，再缩小范围；先看层级，再看症状；先修根因，再补回归。这样做的好处是，问题不会只被“修掉一次”，而是被系统性地吸收进工程流程里。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 215,
+      "line": 213,
       "kind": "rhetorical-not-but",
       "phrase": "不是“哪儿坏修哪儿”，而是",
       "context": "如果把一个 Bug 从发现到恢复看成一条链路，那么推荐的排障顺序不是“哪儿坏修哪儿”，而是下面这条路径。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 226,
+      "line": 224,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "这条路径的价值在于减少“修补式排障”。很多问题一旦只看表面，很容易把局部症状压下去，却把更深层的故障藏起来。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 230,
+      "line": 228,
       "kind": "rhetorical-not-but",
       "phrase": "不是系统复杂，而是",
       "context": "调试难，很多时候不是系统复杂，而是系统没有足够的观察点。对于本书涉及的数据工程链路，建议至少保留以下埋点；这些观察点也对应了现代数据处理系统和自治运维评测中对中间产物、遥测信号和回归样本的要求（Chen et al. 2024; Ch..."
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 277,
+      "line": 275,
       "kind": "rhetorical-not-but",
       "phrase": "不是改逻辑，而是",
       "context": "修复此类问题时，最有效的方法往往不是改逻辑，而是明确清缓存、重建索引、强制刷新和重跑最小样本。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 303,
+      "line": 301,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "复盘不是追责文档，而是把经验转成制度。只有当一个问题能被后续流程自动拦住，它才真正结束。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 303,
+      "line": 301,
       "kind": "rhetorical-not-but",
       "phrase": "不是追责文档，而是",
       "context": "复盘不是追责文档，而是把经验转成制度。只有当一个问题能被后续流程自动拦住，它才真正结束。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 309,
+      "line": 307,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "最终分数异常，原因可能在很早的输入端。只盯着分数，很容易错过切分、污染和样本损失。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 345,
+      "line": 343,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了替代排查，而是",
       "context": "这张表不是为了替代排查，而是为了减少第一轮猜测成本。层级判断越早，修复路径越短。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 357,
+      "line": 355,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "如果只写“原因是规则有误”，复盘价值就很有限。真正有用的复盘，应该能看出是定义、流程、监控还是权限出了空洞。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 375,
+      "line": 373,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了形式统一，而是",
       "context": "标准化不是为了形式统一，而是为了降低认知负担。每次都按同一顺序看，团队成员之间更容易共享判断，也更容易在交接时承接问题。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 393,
+      "line": 391,
       "kind": "rhetorical-not-but",
       "phrase": "不是给出某个 Bug 的孤立修复方式，而是",
       "context": "调试手册的价值，不是给出某个 Bug 的孤立修复方式，而是帮助团队形成一套稳定的判断流程。这样做之后，排障不再依赖“某个特别会修的人”，而是逐渐变成可复制的工程能力。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 422,
+      "line": 420,
       "kind": "rhetorical-not-but",
       "phrase": "不是“记住所有类目”，而是",
       "context": "这张表的重点不是“记住所有类目”，而是让团队在第一次排查时就能快速锁定范围。问题越早归位，修复越少走弯路。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 426,
+      "line": 424,
       "kind": "rhetorical-not-but",
       "phrase": "不是单点出现，而是",
       "context": "本书相关项目里，Bug 往往不是单点出现，而是沿着一条链路传导：采集出问题，解析不稳；解析不稳，清洗就错；清洗一错，切分和评测都可能偏；最后在 Agent 回写和合规审批时暴露出来。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 435,
+      "line": 433,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这样做的目的，是避免团队在最表层的症状上反复打转。真正难修的，常常不是某个函数，而是链路里少了一道约束。"
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 435,
+      "line": 433,
       "kind": "rhetorical-not-but",
       "phrase": "不是某个函数，而是",
       "context": "这样做的目的，是避免团队在最表层的症状上反复打转。真正难修的，常常不是某个函数，而是链路里少了一道约束。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是“词典化”，而是",
       "context": "对于一本文档跨度很大的工程书来说，术语不统一本身就是一种成本。它会导致同一个东西在不同章节被叫成不同名字，读者、编辑、讲师和项目组在对齐时需要额外翻译，最终增加理解摩擦。所以本附录的任务不是“词典化”，而是**为全书建立一个稳定的工程..."
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 101,
+      "line": 99,
       "kind": "rhetorical-not-but",
       "phrase": "不是做“语言审美”的，而是",
       "context": "如果是多人协作写作，最好指定一个术语负责人。这个角色不是做“语言审美”的，而是做一致性守门人，负责处理："
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 112,
+      "line": 110,
       "kind": "rhetorical-not-but",
       "phrase": "不是“管数据的人比较多”，而是",
       "context": "数据治理不是“管数据的人比较多”，而是围绕权限、责任、边界、审计和变更形成的一整套制度化安排。它和工程实现是互相依赖的：没有工程落地，治理只是口号；没有治理边界，工程会变成临时拼装。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 148,
+      "line": 146,
       "kind": "rhetorical-not-but",
       "phrase": "不是增加手续，而是",
       "context": "对于多人协作，最好把术语变更也纳入评审流程。一个常见做法是：术语负责人先提议，章节作者确认语义，编辑确认写法，最后由全书维护者统一发布。这样做的目标不是增加手续，而是减少“本章改好了、别章又改坏了”的回头路。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 197,
+      "line": 195,
       "kind": "rhetorical-not-but",
       "phrase": "不是排版问题，而是",
       "context": "术语统一不是排版问题，而是团队协作问题。词汇稳定，结构才稳定；结构稳定，工程才容易复用。对于整本书来说，本附录的意义不在于“记住更多词”，而在于让所有章节说同一种工程语言。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 216,
+      "line": 214,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为大词没定义，而是",
       "context": "这张补充表的作用，是覆盖正文中那些“不是主概念，但经常要写”的词。很多文章写乱，不是因为大词没定义，而是小词没有统一。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 224,
+      "line": 222,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "在很多章节里，真正被交付的不是模型本身，而是包含模型、数据、规则、缓存、接口和监控在内的系统。写作时如果只写“模型”，读者会误以为问题全部在算法上。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 224,
+      "line": 222,
       "kind": "rhetorical-not-but",
       "phrase": "不是模型本身，而是",
       "context": "在很多章节里，真正被交付的不是模型本身，而是包含模型、数据、规则、缓存、接口和监控在内的系统。写作时如果只写“模型”，读者会误以为问题全部在算法上。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 269,
+      "line": 267,
       "kind": "rhetorical-not-but",
       "phrase": "不是工程默认状态，而是",
       "context": "合法不是工程默认状态，而是需要按法域、用途、数据类型和处理方式逐项确认的结论。写作时不要把“实现了控制”直接等同于“已经合法”。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 293,
+      "line": 291,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "术语表的扩充不是为了让文字更重，而是为了让全书更稳。对工程书来说，词是接口，接口统一了，章节之间才能真正联通。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 293,
+      "line": 291,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了让文字更重，而是",
       "context": "术语表的扩充不是为了让文字更重，而是为了让全书更稳。对工程书来说，词是接口，接口统一了，章节之间才能真正联通。"
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 380,
+      "line": 378,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "一个术语要真正稳定下来，不能只存在于表里，还要体现在正文里。建议每章至少做两件事："
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 399,
+      "line": 397,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "尤其在隐私、合规和发布边界上，术语很容易从工程描述滑向法律判断。写作时要明确区分“系统做了什么”和“法律上是否满足要求”。"
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 9,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是“如何调用一个模型生成 SQL”，而是",
       "context": "在本书语境中，DataGallery 更适合被理解为围绕 Data + AI 实践组织的一组开源工程入口，而不是单一工具名称。项目十五使用 DataAgent 构建企业级语义问数助手，其核心问题并不是“如何调用一个模型生成 SQL”，..."
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 25,
+      "line": 23,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "DataGallery 也提醒读者，开源数据智能体项目的核心资产不只是模型调用代码。对 DataAgent 这类系统而言，真正需要长期维护的是语义层 schema、工具配置、数据库连接、执行权限、workspace 目录、运行轨迹、测..."
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 43,
+      "line": 41,
       "kind": "rhetorical-not-but",
       "phrase": "不是在项目十五之外另起一个工具介绍，而是",
       "context": "因此，本附录不是在项目十五之外另起一个工具介绍，而是为项目十五补充开源生态背景。读者如果只想跑通案例，应先读项目十五；如果需要把案例迁移到团队项目、课程实验、开源复现或企业内部验证，则应继续阅读本附录，确认版本、权限、资产、评估和维护边界。"
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 47,
+      "line": 45,
       "kind": "rhetorical-not-but",
       "phrase": "不是直接猜 SQL，而是",
       "context": "第一类误用，是把 DataAgent 当作“自动 SQL 生成器”。项目十五已经强调，企业问数的重点不是直接猜 SQL，而是通过语义层、子 Agent、校验、执行和产物落盘构建可审计链路。DataGallery 提供开源入口，并不改变..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 11,
+      "line": 9,
       "kind": "rhetorical-not-but",
       "phrase": "不是比较不同框架的优劣，而是",
       "context": "第十二篇及其他涉及配套实现、课程实验、训练入口或复现实验的章节，会把 MindSpore 放在具体实践链路中使用。相关讨论的重点不是比较不同框架的优劣，而是说明数据工程如何进入可执行、可验证、可复现的训练与部署环境。"
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 13,
+      "line": 11,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这种定位也决定了附录 H 的写法：它不展开算子实现、网络定义或完整训练代码，而是沿着数据工程项目的生命周期说明 MindSpore 的位置。对于一个实际项目来说，框架选择会影响数据准备阶段的输出格式，会影响训练阶段的吞吐与并行组织，会..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 21,
+      "line": 19,
       "kind": "blog-transition",
       "phrase": "换句话说",
       "context": "这种定位对数据工程实践尤其重要。一个数据集能否顺利进入模型训练，不只取决于样本是否清洗干净、标注是否准确，也取决于框架是否能够稳定消费这些数据，训练脚本是否能够和数据管线配合，运行时是否能够支撑目标规模下的吞吐、内存和并行需求。换句话..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 21,
+      "line": 19,
       "kind": "rhetorical-not-but",
       "phrase": "不是“得到一批文件”，而是",
       "context": "这种定位对数据工程实践尤其重要。一个数据集能否顺利进入模型训练，不只取决于样本是否清洗干净、标注是否准确，也取决于框架是否能够稳定消费这些数据，训练脚本是否能够和数据管线配合，运行时是否能够支撑目标规模下的吞吐、内存和并行需求。换句话..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 39,
+      "line": 37,
       "kind": "rhetorical-not-but",
       "phrase": "不是把样本准备好再交给训练脚本就结束，而是",
       "context": "首先，MindSpore 提供了从数据处理、网络构建、训练管理到推理部署的相对完整接口。其中，MindData 负责数据加载、增强和传输等数据管线能力；MindInsight 支持训练过程可视化、性能分析、调试与溯源；MindArmo..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 49,
+      "line": 47,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "第二是训练入口契约。训练脚本需要知道数据目录、索引文件、batch 组织方式、随机种子、采样策略、增强策略、混合精度设置、并行策略和检查点保存方式。若这些信息散落在不同脚本、环境变量或临时命令中，项目很容易出现“能跑一次，但难以复现”..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 59,
+      "line": 57,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第七是团队协作契约。MindSpore 项目往往涉及数据工程、算法、平台、运维和业务团队。数据工程需要向算法团队提供稳定、可解释、可追溯的数据输入；算法团队需要向数据工程反馈失败模式、损失异常、评测波动和样本需求；平台团队需要提供资源..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 63,
+      "line": 61,
       "kind": "rhetorical-not-but",
       "phrase": "不是“使用了哪个组件”这一层名称，而是",
       "context": "MindSpore 的工程价值往往体现在组件协同中。单独看训练脚本，它只是模型迭代的入口；放到完整项目里，它会连接数据加载、训练执行、性能诊断、实验记录、安全评估、模型导出和部署验证。数据工程需要关注的不是“使用了哪个组件”这一层名称..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 65,
+      "line": 71,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是记忆 API 名称，而是",
+      "context": "`Mindspore.doc` 对 MindSpore 的介绍并不只停留在昇腾软件栈中的位置，也展开了它作为编程模型的特点。对本书读者而言，重点不是记忆 API 名称，而是理解这种编程模型如何塑造数据契约。一个 MindSpore 程..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 79,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是临时输入，而是",
+      "context": "Model 层封装训练、评估和推理流程，使得简单任务可以通过较高层接口完成训练管理。但在复杂项目中，团队往往会拆开 forward function、gradient function、optimizer step、checkpoin..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 91,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是某个 transform 的名字，而是",
+      "context": "第二步是数据变换。图像样例通常包含缩放、归一化、通道转换、batch 和迭代；文本样例会包含分词、截断、padding 和特殊 token；音频样例会包含采样率、分帧、特征提取和归一化；多模态样例还要处理跨模态对齐。MindSpore..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 97,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是训练循环的附属品，而是",
+      "context": "第五步是评测。评测不是训练循环的附属品，而是数据工程闭环的判断依据。源文档中的 test loop 强调将模型切到非训练状态，并在测试数据上计算 loss 和 accuracy。实际项目还应记录评测集版本、指标定义、阈值、后处理、类别..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 101,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是让读者照抄样例，而是",
+      "context": "因此，手写数字识别样例虽然简单，却可以映射为大多数 MindSpore 项目的最小闭环：数据进入系统，经过可记录的转换，进入网络和训练循环，接受固定评测，再以 checkpoint 和导出物进入推理。完整技术附录的重点不是让读者照抄样..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 121,
       "kind": "rhetorical-not-but",
       "phrase": "不是“能否读到数据”，而是",
       "context": "MindData 是最直接连接数据工程和训练系统的部分。它负责把磁盘、对象存储、索引文件或内存中的样本组织成训练可消费的数据流，并承接 map、shuffle、batch、repeat、cache、prefetch、图像增强、文本处理..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 89,
+      "line": 145,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "在工程落地中，MindFace 这类套件提供的是模型库能力，而一个可持续运行的项目还需要把它进一步组织成数据工程资产。模型库通常会提供网络结构、训练脚本、推理示例、预训练权重和评测入口；数据工程资产则需要进一步补齐数据来源说明、标注规..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 105,
+      "line": 161,
       "kind": "rhetorical-not-but",
       "phrase": "不是单一类别标签，而是",
       "context": "进一步看，MindFace 所代表的人脸任务还展示了视觉数据工程中的几个典型难点。第一，图像样本天然具有强上下文性。同一张图片可能同时包含主体人脸、背景、遮挡物、光照条件、拍摄设备和压缩痕迹；这些因素既影响模型效果，也影响样本是否适合..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 117,
+      "line": 183,
+      "kind": "weak-booster",
+      "phrase": "很容易",
+      "context": "自动并行策略搜索和代价建模可以降低人工调优负担。源文档提到，MindSpore 会把通信算子纳入自动微分和策略搜索，并通过代价模型选择较优切分方案。对数据工程来说，这并不是要求数据团队设计所有并行算法，而是要求数据团队保留让策略调优可..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 183,
+      "kind": "rhetorical-not-but",
+      "phrase": "不是要求数据团队设计所有并行算法，而是",
+      "context": "自动并行策略搜索和代价建模可以降低人工调优负担。源文档提到，MindSpore 会把通信算子纳入自动微分和策略搜索，并通过代价模型选择较优切分方案。对数据工程来说，这并不是要求数据团队设计所有并行算法，而是要求数据团队保留让策略调优可..."
+    },
+    {
+      "file": "docs/zh/appendix_h_mindspore_note.md",
+      "line": 195,
       "kind": "rhetorical-not-but",
       "phrase": "不是模型结构，而是",
       "context": "围绕 MindSpore 或 MindFace 的公开样例通常更强调“如何跑通”，而工程项目更强调“如何稳定运行、如何复查、如何迁移、如何持续迭代”。从样例走向项目时，最容易被低估的不是模型结构，而是数据和环境之间的隐性假设。一个样例..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 129,
+      "line": 207,
       "kind": "rhetorical-not-but",
       "phrase": "不是一次性测试集，而是",
       "context": "第六步是建立回归评测集。回归评测集不是一次性测试集，而是长期维护的稳定样本集合。它应覆盖常规样本、边界样本、历史失败样本和关键业务场景。每次数据清洗、模型调整、框架升级或部署环境变化后，都应在回归评测集上重新验证。对于 MindFac..."
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 161,
+      "line": 243,
       "kind": "rhetorical-not-but",
       "phrase": "不是附加宣传内容，而是",
       "context": "从这个意义上说，MindSpore 并不是附加宣传内容，而是数据工程落地语境的一部分：一个成熟的数据工程项目，需要同时回答数据从哪里来、如何被处理、如何进入训练、如何被评测、如何被部署，以及如何被后来者复查。"
@@ -1817,168 +1866,168 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 30,
+      "line": 32,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这三个问题说明，Common Crawl 只是网页快照，不是训练集。真正的数据工程任务不是“下载更多网页”，而是把每个网页样本转化为一条可追溯、可过滤、可去重、可评估、可撤回的训练记录。FineWeb 正是围绕这个问题建立的公开案例。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 30,
+      "line": 32,
       "kind": "rhetorical-not-but",
       "phrase": "不是“下载更多网页”，而是",
       "context": "这三个问题说明，Common Crawl 只是网页快照，不是训练集。真正的数据工程任务不是“下载更多网页”，而是把每个网页样本转化为一条可追溯、可过滤、可去重、可评估、可撤回的训练记录。FineWeb 正是围绕这个问题建立的公开案例。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 50,
+      "line": 52,
       "kind": "rhetorical-not-but",
       "phrase": "不是“清洗脚本集合”，而是",
       "context": "这些步骤构成的不是“清洗脚本集合”，而是一组训练前的数据契约。每一步都应有输入、输出、失败记录和可复查的参数。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 56,
+      "line": 58,
       "kind": "rhetorical-not-but",
       "phrase": "不是越严格越好，而是",
       "context": "过滤太少时，模型会吸收模板、乱码、广告、重复页面和非自然语言。它们可能在 token 统计上贡献很大，但对下游任务没有帮助，甚至会损伤语言分布。过滤太多时，语料规模下降，内容覆盖面变窄，一些长尾知识、论坛问答和非标准写作会被误删。对预..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 64,
+      "line": 66,
       "kind": "rhetorical-not-but",
       "phrase": "不是 FineWeb 论文中的原始公式，而是",
       "context": "其中，$F$ 表示过滤策略，$D_F$ 是过滤后数据集，$S_{eval}$ 是固定评测协议下的模型得分，$R_{risk}$ 是隐私、版权、毒性和污染风险，$T_F$ 是保留 token 数，$T_{target}$ 是训练预算需要..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 84,
+      "line": 86,
       "kind": "rhetorical-not-but",
       "phrase": "不是标注一个监督学习标签，而是",
       "context": "FineWeb 的任务不是标注一个监督学习标签，而是为自回归语言模型构建预训练 token stream。给定 Common Crawl 的网页快照集合 $C=\\{c_i\\}$，目标是学习一条数据处理函数："
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 106,
+      "line": 108,
       "kind": "rhetorical-not-but",
       "phrase": "不是最大限度删除重复，而是",
       "context": "第二类是去重粒度问题。全局去重看起来更彻底，但 FineWeb 的消融结果显示，对所有 crawl 做全局 MinHash 去重并不一定更好；按 crawl 独立去重反而表现更强。这提醒数据工程团队，去重目标不是最大限度删除重复，而是..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 130,
+      "line": 132,
       "kind": "rhetorical-not-but",
       "phrase": "不是 FineWeb 原始样本，而是",
       "context": "下面是一条抽象化的 FineWeb 类文档记录。它不是 FineWeb 原始样本，而是根据 FineWeb 数据卡和 DataTrove 管线整理的工程示例。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 163,
+      "line": 165,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这个例子展示了 FineWeb 类语料的基本思想：`text` 是训练入口，但它不能单独解释样本质量。真正支撑复查的是来源、语言分数、过滤状态、去重范围和隐私处理记录。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 167,
+      "line": 169,
       "kind": "rhetorical-not-but",
       "phrase": "不是直接评估单条样本，而是",
       "context": "FineWeb 的评估不是直接评估单条样本，而是评估由某个处理策略生成的数据版本。设某个处理版本 $v$ 对应数据集 $D_v$，训练得到模型 $M_v$。若评测集合为 $B=\\{b_1,\\ldots,b_k\\}$，每个任务得分为 $..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 241,
+      "line": 243,
       "kind": "rhetorical-not-but",
       "phrase": "不是数学上越彻底越好，而是",
       "context": "这个结果对工程实践很重要。去重不是数学上越彻底越好，而是要看它如何改变数据分布。全局去重会让新旧 crawl 之间的时间分布、站点覆盖和重复簇结构发生复杂变化；如果只看“删除了多少重复”，可能误删更有价值的样本，保留低质量长尾。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 275,
+      "line": 277,
       "kind": "rhetorical-not-but",
       "phrase": "不是单个样本，而是",
       "context": "这个公式同样是对 FineWeb 评估协议的工程化表达。它强调评估对象不是单个样本，而是“处理策略生成的数据版本”。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 287,
+      "line": 289,
       "kind": "rhetorical-not-but",
       "phrase": "不是 FineWeb 官方表格，而是",
       "context": "FineWeb 的经验可以转化为一张 Web 预训练语料错误归因表。它不是 FineWeb 官方表格，而是本章根据 FineWeb 论文和数据卡整理的工程复盘。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 308,
+      "line": 310,
       "kind": "rhetorical-not-but",
       "phrase": "不是某个固定阈值，而是",
       "context": "企业复刻 FineWeb 思路时，最值得迁移的不是某个固定阈值，而是四类工程对象。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 322,
+      "line": 324,
       "kind": "rhetorical-not-but",
       "phrase": "不是照搬某个 token 规模，而是",
       "context": "对本书读者而言，FineWeb 最值得学习的不是照搬某个 token 规模，而是把预训练语料工程做成一套可追溯、可复现、可评估、可审计的系统。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 343,
+      "line": 345,
       "kind": "rhetorical-not-but",
       "phrase": "不是并列主角，而是",
       "context": "Dolma 要解决的正是这个问题。它把英文预训练语料从不可见的数据配方，变成一组可下载、可统计、可处理、可撤回、可审计的 source。OLMo 在本章中不是并列主角，而是 Dolma 被透明训练链路消费的下游例子：它提醒我们，开放模..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 347,
+      "line": 349,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "“开放”有不同层次。只发布权重，可以让用户运行模型，却不能让研究者解释模型。发布训练代码，可以让用户复现训练框架，却仍然不能说明模型实际看过什么。真正支撑科学研究的数据透明，至少需要回答六类问题。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 366,
+      "line": 368,
       "kind": "rhetorical-not-but",
       "phrase": "不是单一静态文件，而是",
       "context": "Dolma 不是单一静态文件，而是带版本演进的语料资产。Hugging Face 数据卡列出 `v1`、`v1_5`、`v1_5-sample`、`v1_6`、`v1_6-sample` 和 `v1_7` 等版本；其中 `v1_7` ..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 410,
+      "line": 412,
       "kind": "rhetorical-not-but",
       "phrase": "不是一张图或一道题，而是",
       "context": "本节不从单条文本开讲，而是从 Dolma 的 source 账本拆解透明预训练语料的链路。这里的“样本”不是一张图或一道题，而是一条从 source 到文档、再到训练 manifest 的证据路径。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 414,
+      "line": 416,
       "kind": "rhetorical-not-but",
       "phrase": "不是给每条文本标注监督标签，而是",
       "context": "Dolma 的任务不是给每条文本标注监督标签，而是让训练消费记录可以被复原。设 source 集合为 $S=\\{s_1,\\ldots,s_m\\}$，每个 source 经过处理函数 $P_s$ 后得到文档集合 $D_s$："
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 499,
+      "line": 501,
       "kind": "rhetorical-not-but",
       "phrase": "不是孤立脚本，而是",
       "context": "Dolma Toolkit 文档把数据整理概括为四个动作：tag、dedup、mix、tokenize。它们不是孤立脚本，而是证据链的生成器：tag 记录文档属性，dedup 记录保留和删除，mix 记录采样比例，tokenize 记..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 522,
+      "line": 524,
       "kind": "rhetorical-not-but",
       "phrase": "不是“最高分”，而是",
       "context": "透明语料的评估重点不是“最高分”，而是“分数变化能不能解释”。Dolma 这类 source-level 语料让模型评估不再停在 leaderboard 上，而是能顺着训练日志回到 source、版本和采样比例。"
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 585,
+      "line": 587,
       "kind": "rhetorical-not-but",
       "phrase": "不是单条 `text`，而是",
       "context": "第一，透明预训练语料的基本单位不是单条 `text`，而是能连接 source、处理配置、采样比例和训练 manifest 的文档记录。第二，source mix 必须用 token accounting 解释，不能只报告原始规模。第..."
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 587,
+      "line": 589,
       "kind": "rhetorical-not-but",
       "phrase": "不是三万亿 token 的规模，而是",
       "context": "对本书读者而言，Dolma 最值得迁移的不是某个具体 source，也不是三万亿 token 的规模，而是把训练数据留下证据的方式。只要 source、处理动作、采样比例、训练 manifest 和治理记录能连成链，预训练语料才具备继..."
@@ -2517,203 +2566,203 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 27,
+      "line": 29,
       "kind": "rhetorical-not-but",
       "phrase": "不是字段数量更多，而是",
       "context": "因此，可控语音交互数据和普通 ASR/TTS 语料的差异，首先不是字段数量更多，而是问题定义变了。ASR 关心“这段声音对应哪段文字”，普通 TTS 关心“这段文字能否被自然读出来”；可控语音交互还要关心“这段回答应当以什么声音、什么..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 33,
+      "line": 35,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第三，语音对话需要把情绪从“文本描述”落实到“声音表现”。开心、愤怒、害怕、中性、悲伤这些状态不只是标签，它们会体现在音高、能量、语速、停顿和韵律上。对模型来说，真正的学习目标不是记住某个情绪词，而是在给定目标表达状态时，生成与之相符..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 33,
+      "line": 35,
       "kind": "rhetorical-not-but",
       "phrase": "不是记住某个情绪词，而是",
       "context": "第三，语音对话需要把情绪从“文本描述”落实到“声音表现”。开心、愤怒、害怕、中性、悲伤这些状态不只是标签，它们会体现在音高、能量、语速、停顿和韵律上。对模型来说，真正的学习目标不是记住某个情绪词，而是在给定目标表达状态时，生成与之相符..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 105,
+      "line": 107,
       "kind": "rhetorical-not-but",
       "phrase": "不是给句子随机贴 mood，而是",
       "context": "TTSSpeakerControl 则把控制能力集中到 text-to-speech 形态。输入文本被拆成两部分：`text` 描述声音应该如何表达，`answer` 才是要读出的内容。例如 `text` 为“女，有点害怕，手心冒汗，..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 140,
+      "line": 142,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "在 VoiceStyleControl 中，emotion 分布只是第一层配平信息。真正进入训练和评测时，样本还会沿着输入侧与输出侧拆开：`query_gender × query_mood` 描述用户语音的状态分布，`answer_..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 263,
+      "line": 265,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "联合 schema 将训练入口拆成三部分：语义输入是 `query`、`text` 或 `answer` 文本 token，风格输入是 `query_gender`、`answer_gender`、`query_mood`、`answ..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 275,
+      "line": 277,
       "kind": "rhetorical-not-but",
       "phrase": "不是简单的顺序生产线，而是",
       "context": "这条流水线不是简单的顺序生产线，而是一组连续的数据门禁。文本内容生成之后，要判断语义是否适合指定情绪；参考语音选择之后，要判断授权是否覆盖当前任务；语音合成之后，要判断音频、文本、声音条件和 emotion 是否同时通过。任何一步发现..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 281,
+      "line": 283,
       "kind": "weak-booster",
       "phrase": "很容易",
       "context": "第二步是分配风格属性。S2S 需要分别为 query 侧和 answer 侧赋予 gender 与 mood，TTS 则为回答侧赋予 gender 与 mood，并在 `text` 中写出自然语言风格描述。分配策略要同时考虑均衡和组合..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 285,
+      "line": 287,
       "kind": "rhetorical-not-but",
       "phrase": "不是“克隆得越像越好”，而是",
       "context": "第三步是准备参考语音池。VoiceStyleControl 使用多说话人、多情绪参考池，并通过 CosyVoice2 以 zero-shot voice cloning 方式合成指定风格语音。工程关键不是“克隆得越像越好”，而是“可授..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 327,
+      "line": 329,
       "kind": "blog-transition",
       "phrase": "最怕",
       "context": "第五步是离散语音标记。语音生成训练需要把声学目标整理为离散 speech token，使生成任务可以被组织为序列建模问题。通用做法是对已有波形用 S3Tokenizer 等 tokenizer 编码；VoiceStyleControl..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 353,
+      "line": 355,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "这个示例对应的是“自然语言风格描述如何变成可训练语音监督”的核心链路：`instruction_text` 进入合成函数，`speech_token` 成为后续训练可以直接建模的离散目标，`speech_audio` 用于听感质检、反..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 404,
+      "line": 406,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "评测结果还应回写到数据版本，而不是只保存在模型报告里。若某一版模型在 fearful 上情绪分类准确率高但人工舒适度低，说明数据可能把 fearful 构造成过强、过戏剧化的表达；若参考声音条件越做越像某个可识别真人而合规风险上升，说..."
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 421,
+      "line": 423,
       "kind": "rhetorical-not-but",
       "phrase": "不是上线前最后一层过滤，而是",
       "context": "表42-4将风险治理落实为数据门禁。授权缺失的 reference 不能进入合成队列；撤回授权的 reference 必须能追溯到所有派生音频和 token；高风险情绪操控样本不能只靠训练后安全策略兜底，而要在数据构建阶段就被拦截或降..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 5,
+      "line": 7,
       "kind": "rhetorical-not-but",
       "phrase": "不是普通文本字段，而是",
       "context": "本章以 Latent-Switch-69K 为案例，讨论推理轨迹数据如何从显式 Long-CoT 转向可压缩、可监督、可迁移的隐式计算记录。章节重点关注 teacher trace、latent budget、student sequ..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 27,
+      "line": 29,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第一，长 CoT 的 token 成本很高。数学、代码和科学问题中的推导往往占据输出的大部分长度，真正的最终答案只占很小一段。如果所有中间推理都以可见文本形式进入训练和推理，模型需要在大量重复、展开、试探和自我修正的文字上消耗上下文窗..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 74,
+      "line": 76,
       "kind": "rhetorical-not-but",
       "phrase": "不是直接筛选短答案，而是",
       "context": "Latent-Switch-69K 的构建起点是 Dolci-Think-SFT-32B 中采样得到的推理轨迹。原始轨迹可以理解为 source reasoning traces：它们包含问题、一个或多个 assistant 输出、可..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 115,
+      "line": 117,
       "kind": "rhetorical-not-but",
       "phrase": "不是“把原文变短”，而是",
       "context": "第二阶段是生成压缩显式 CoT。teacher 在原始问题和 solution intuition 的条件下继续解题，输出较短的推理过程和最终答案。由于 teacher 已经拿到高层计划，它不需要重新展开全部探索过程，也不需要重复原始..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 204,
+      "line": 206,
       "kind": "rhetorical-not-but",
       "phrase": "不是训练模型“照着这段文字说”，而是",
       "context": "第二阶段是 high-level intuition distillation。提示词明确要求 teacher 返回 JSON，并限制 correct_insight 只能描述粗粒度计划，不提供最终答案，不写成完整 CoT。这个约束很..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 218,
+      "line": 220,
       "kind": "rhetorical-not-but",
       "phrase": "不是随意加的 padding，而是",
       "context": "这个预算规则有两个含义。第一，latent steps 不是随意加的 padding，而是与被压缩的高层推理内容相关。intuition 越长，说明这道题的高层规划可能越复杂，模型需要更多隐藏计算槽位。第二，latent steps ..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 304,
+      "line": 306,
       "kind": "rhetorical-not-but",
       "phrase": "不是这段文本看起来像不像自然对话，而是",
       "context": "这条示例里，`<latent_think>` 和 `</latent_think>` 是结构边界；中间四个 `<|endoftext|>` 只是占位符，真实样本中的数量由 `n_latent_steps` 决定；`<think>` 到..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 316,
+      "line": 318,
       "kind": "blog-transition",
       "phrase": "换句话说",
       "context": "teacher-reference conversation 是另一条容易被忽视的序列。它不是 student sequence 的副本，而是省略 latent placeholder 后的参考对话。teacher 输入中包含原始问题..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 322,
+      "line": 324,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了可视化方便，而是",
       "context": "在代码实现中，一条样本会构造多个 mask：`prompt_mask`、`latent_internal_mask`、`latent_boundary_mask`、`cot_mask`、`answer_mask`、`teacher_k..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 362,
+      "line": 364,
       "kind": "rhetorical-not-but",
       "phrase": "不是重新推导损失函数，而是",
       "context": "对于数据工程师来说，最实用的检查不是重新推导损失函数，而是确认每条样本的 mask 是否满足几条不变量。第一，prompt 区间所有 labels 都应为 `-100`。第二，latent interior 区间所有 labels 都..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 366,
+      "line": 368,
       "kind": "rhetorical-not-but",
       "phrase": "不是要删除显式推理，而是",
       "context": "还有一个细节是显式 CoT 的权重。Latent-Switch-69K 不是要删除显式推理，而是要降低对完整长 CoT 的依赖。若 CoT 权重过高，模型会更倾向于把能力用在复现可见推理文字上；若 CoT 权重过低，模型可能只学会结构..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 394,
+      "line": 396,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "为了让这些报告真正可用，可以为 Latent-Switch-69K 建立一套发布前验收清单。长度层面，检查 source CoT、distilled CoT、intuition、answer 和 total sequence 的分布，..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 410,
+      "line": 412,
       "kind": "rhetorical-not-but",
       "phrase": "不是放弃可解释性，而是",
       "context": "对第六篇来说，它提供了 CoT 数据工程的下一步。第18章中的 CoT 样本通常把推理过程直接作为文本监督；第19章的工具数据强调动作、观察和结果；第20章的 Agent 数据强调状态和轨迹。Latent-Switch-69K 则说明..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 421,
+      "line": 423,
       "kind": "rhetorical-not-but",
       "phrase": "不是删掉推理，而是",
       "context": "4. 数据压缩的目标不是删掉推理，而是把高层意图、隐藏计算和显式验证重新分配到更合适的通道中。"
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 423,
+      "line": 425,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "如果一个团队只复用 Latent-Switch-69K 的文本输出，而忽略 `n_latent_steps`、latent boundary 和 supervision masks，它得到的只是一个较短的 CoT SFT 数据集。只有..."
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 433,
+      "line": 435,
       "kind": "weak-booster",
       "phrase": "真正",
       "context": "第四步是谨慎解释效果。若模型使用更少 visible tokens 得到相近答案，不一定说明 latent reasoning 已经学好；它也可能只是学会直接回答。真正的验收应同时查看答案正确率、显式验证链质量、格式闭合率、laten..."
@@ -3525,259 +3574,259 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 85,
+      "line": 84,
       "kind": "rhetorical-not-but",
       "phrase": "不是简单“生成一些法律问答”，而是",
       "context": "因此，P02 的目标不是简单“生成一些法律问答”，而是搭建一个**法律领域 SFT 数据工厂**，把法规文本、任务体系、质量控制、偏好信号和风险边界组织成一条可复用的生产线。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 87,
+      "line": 86,
       "kind": "rhetorical-not-but",
       "phrase": "不是一次性实验，而是",
       "context": "这条生产线服务的不是一次性实验，而是一种方法论："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 89,
+      "line": 88,
       "kind": "rhetorical-not-but",
       "phrase": "不是某个 prompt，而是",
       "context": "> 当团队未来需要从法律迁移到税务、金融、医疗、客服等领域时，可以复用的不是某个 prompt，而是这套“从种子知识到监督数据”的工程方法。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 154,
+      "line": 153,
       "kind": "rhetorical-not-but",
       "phrase": "不是重新讲一遍 SFT 的通用知识，而是",
       "context": "也就是说，本章不是重新讲一遍 SFT 的通用知识，而是展示："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 162,
+      "line": 161,
       "kind": "rhetorical-not-but",
       "phrase": "不是“技术组件清单”，而是",
       "context": "从这个意义上说，本章最重要的不是“技术组件清单”，而是回答一个更大的问题："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 186,
+      "line": 185,
       "kind": "rhetorical-not-but",
       "phrase": "不是生成训练样本，而是",
       "context": "这一步的目标不是生成训练样本，而是把原始法律文本转化成适合作为监督种子的知识单元。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 240,
+      "line": 239,
       "kind": "rhetorical-not-but",
       "phrase": "不是“不会写代码”，而是",
       "context": "因为很多团队第一次做行业 SFT 时，卡住的不是“不会写代码”，而是没有把生产过程拆成角色和环节，导致："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 260,
+      "line": 259,
       "kind": "rhetorical-not-but",
       "phrase": "不是“覆盖所有用户问题”，而是",
       "context": "因此，本项目先从**法规与制度型文本**入手，构建一层相对稳定的种子语料。这一层的价值不是“覆盖所有用户问题”，而是提供可追溯、可解释、可切块的知识底座。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 365,
+      "line": 364,
       "kind": "rhetorical-not-but",
       "phrase": "不是“想办法多生成数据”，而是",
       "context": "因为行业 SFT 的第一步从来不是“想办法多生成数据”，而是**先保证种子层别脏**。只要种子文本里存在大量格式损伤，后面的模板、思维链（CoT）、偏好和质量保障（QA）都会在脏基础上工作，成本只会越来越高。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 391,
+      "line": 390,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了好看，而是",
       "context": "所谓 schema，不是为了好看，而是为了让后续所有环节都能基于统一字段协同。一个典型的法律种子样本，至少应该包含："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 410,
+      "line": 409,
       "kind": "rhetorical-not-but",
       "phrase": "不是因为模型差，而是",
       "context": "因为很多数据项目失败，不是因为模型差，而是因为一开始没有建立统一字段，导致后面："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 469,
+      "line": 468,
       "kind": "rhetorical-not-but",
       "phrase": "不是为了让表格更漂亮，而是",
       "context": "任务拆分不是为了让表格更漂亮，而是为了避免一个非常常见的问题："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 482,
+      "line": 481,
       "kind": "rhetorical-not-but",
       "phrase": "不是“能不能生成”，而是",
       "context": "有了任务体系之后，下一个问题不是“能不能生成”，而是“生成后的分布是否健康”。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 488,
+      "line": 487,
       "kind": "rhetorical-not-but",
       "phrase": "不是“随机做了一些样本”，而是",
       "context": "第一，项目已经不是“随机做了一些样本”，而是形成了比较明确的任务结构。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 526,
+      "line": 525,
       "kind": "rhetorical-not-but",
       "phrase": "不是对三类任务做简单平均随机，而是",
       "context": "为了让数据分布符合预期，项目并不是对三类任务做简单平均随机，而是通过加权轮盘赌机制进行采样。其核心思想是："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 541,
+      "line": 540,
       "kind": "rhetorical-not-but",
       "phrase": "不是篇幅，而是",
       "context": "很多团队在做法律 SFT 时，容易把“专家感”理解成“回答写得很长、很正式”。但让模型更像法律助手的，往往不是篇幅，而是**推理过程是否可见、结论是否有层次、边界是否被表达出来**。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 552,
+      "line": 551,
       "kind": "rhetorical-not-but",
       "phrase": "不是追求“模型看起来像在思考”，而是",
       "context": "因此，项目在生成后处理中，会尽量把模型输出中的“思考过程”字段显性化，再拼接成统一的 Markdown 或分段格式。这样做的目的不是追求“模型看起来像在思考”，而是给训练过程提供更完整的行为模板。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 579,
+      "line": 578,
       "kind": "rhetorical-not-but",
       "phrase": "不是简单的“对”或“错”，而是",
       "context": "只有 SFT 样本，往往只能告诉模型“什么是一个可接受答案”；但在法律场景里，这还不够。因为很多回答并不是简单的“对”或“错”，而是存在风格、风险、边界控制和表达审慎度上的差异。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 595,
+      "line": 594,
       "kind": "rhetorical-not-but",
       "phrase": "不是先把 SFT 做完再临时补一点偏好，而是",
       "context": "项目现有产物显示，偏好对数量为 7731，与主体接受的 SFT 数量基本并行。这说明工厂不是先把 SFT 做完再临时补一点偏好，而是在一开始就把偏好信号视为与主体监督并行建设的资产。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 618,
+      "line": 617,
       "kind": "rhetorical-not-but",
       "phrase": "不是“答得越多越好”，而是",
       "context": "法律场景是典型的高风险场景。模型并不是“答得越多越好”，而是必须知道**在哪些时候应该拒绝、转人工或保留边界**。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 750,
+      "line": 749,
       "kind": "rhetorical-not-but",
       "phrase": "不是简单导出一个 JSONL，而是",
       "context": "因此，训练封装并不是简单导出一个 JSONL，而是要确保："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 816,
+      "line": 815,
       "kind": "rhetorical-not-but",
       "phrase": "不是只在建设主体 SFT 数据，而是",
       "context": "这说明项目并不是只在建设主体 SFT 数据，而是在同时建设 QA、偏好和风险边界相关的辅助监督层。对行业 SFT 而言，这一点往往比单纯提升样本总量更重要。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 824,
+      "line": 823,
       "kind": "rhetorical-not-but",
       "phrase": "不是“若干 JSONL 文件”，而是",
       "context": "这说明项目的输出已经不是“若干 JSONL 文件”，而是一组可被训练侧直接消费并可被检查脚本一致性验证的资产。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 841,
+      "line": 840,
       "kind": "rhetorical-not-but",
       "phrase": "不是追求完整的模型基准测试，而是",
       "context": "示例验证在固定随机种子 `seed = 20260409` 下，随机抽样 50 条配对样本，对 `chosen` 与 `rejected` 两类数据做轻量质量验证。这里的目标并不是追求完整的模型基准测试，而是以一种成本可控、可复现的方..."
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 859,
+      "line": 858,
       "kind": "rhetorical-not-but",
       "phrase": "不是纯抽象分数，而是",
       "context": "这些指标的好处在于，它们不是纯抽象分数，而是与法律 SFT 的真实目标直接相关："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 878,
+      "line": 877,
       "kind": "rhetorical-not-but",
       "phrase": "不是形式上的“做了评审”，而是",
       "context": "第一，当前的偏好构造与 QA 机制，不是形式上的“做了评审”，而是确实把高质量样本和低质量样本区分开了。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 925,
+      "line": 924,
       "kind": "rhetorical-not-but",
       "phrase": "不是继续扩量，而是",
       "context": "### 20.3 法域分布不均衡，说明下一阶段的重点不是继续扩量，而是补覆盖"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 927,
+      "line": 926,
       "kind": "rhetorical-not-but",
       "phrase": "不是“有没有样本”，而是",
       "context": "当前主要矛盾已经不是“有没有样本”，而是“样本覆盖得是否均衡”。这比简单地继续堆数量更重要。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 957,
+      "line": 956,
       "kind": "rhetorical-not-but",
       "phrase": "不是追求一个抽象的满分标准，而是",
       "context": "这里的质量基线，不是追求一个抽象的满分标准，而是明确说明：什么样的数据已经足以进入训练，什么样的数据还必须继续返工。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1014,
+      "line": 1013,
       "kind": "rhetorical-not-but",
       "phrase": "不是生成，而是",
       "context": "很多团队在做大模型数据项目时，最先想到的是模型 API 成本。但在法律 SFT 里，昂贵的部分通常不是生成，而是："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1023,
+      "line": 1022,
       "kind": "rhetorical-not-but",
       "phrase": "不是“模型多跑一点”的问题，而是",
       "context": "当前项目的人审工时已经达到 193.28 小时，这个数字本身就是一个非常好的提醒：行业数据工厂从来不是“模型多跑一点”的问题，而是“人机协同如何不失控”的问题。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1027,
+      "line": 1026,
       "kind": "rhetorical-not-but",
       "phrase": "不是最终仲裁，而是",
       "context": "在法律场景里，优先自动化的通常不是最终仲裁，而是前面的机械性筛选，例如："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1066,
+      "line": 1065,
       "kind": "rhetorical-not-but",
       "phrase": "不是“生成了大量文件”，而是",
       "context": "因为它体现了一种非常重要的工程习惯：数据项目的完成标准，不是“生成了大量文件”，而是“代码、产物、统计与报告彼此一致”。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1124,
+      "line": 1123,
       "kind": "rhetorical-not-but",
       "phrase": "不是某个具体 prompt，而是",
       "context": "能迁移的不是某个具体 prompt，而是这条方法链："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1172,
+      "line": 1171,
       "kind": "rhetorical-not-but",
       "phrase": "不是“怎样让模型多生成几条法律问答”，而是",
       "context": "回看整个项目，会发现它解决的问题，并不是“怎样让模型多生成几条法律问答”，而是："
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1182,
+      "line": 1181,
       "kind": "rhetorical-not-but",
       "phrase": "不是“多做一点样本”，而是",
       "context": "> 在高专业度行业里，SFT 数据工程的目标从来不是“多做一点样本”，而是建立一条能持续稳定生产高质量监督资产的流水线。"
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1205,
+      "line": 1204,
       "kind": "rhetorical-not-but",
       "phrase": "不是先发布再补解释，而是",
       "context": "很多团队在做行业数据时，会把谨慎留给后期人工审核，但更稳妥的做法，是把谨慎前移成发布门禁。只要门禁被结构化写下来，团队就会逐渐形成一种稳定习惯：不是先发布再补解释，而是先确认风险边界、监督资产和验证证据，再决定这一版是否进入训练与展示..."
@@ -10271,7 +10320,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 233,
+      "line": 235,
       "alt": "图38-1 FineWeb MinHash 去重和 PII 处理流程",
       "src": "../../images/part12/ch41_01_fineweb_minhash_pii_flow.svg",
       "resolved": "docs/images/part12/ch41_01_fineweb_minhash_pii_flow.svg",
@@ -10287,7 +10336,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 243,
+      "line": 245,
       "alt": "图38-2 FineWeb 数据处理选择的消融评估回路",
       "src": "../../images/part12/ch41_02_fineweb_ablation_loop.svg",
       "resolved": "docs/images/part12/ch41_02_fineweb_ablation_loop.svg",
@@ -10303,7 +10352,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 512,
+      "line": 514,
       "alt": "图38-3 Dolma 透明语料证据链",
       "src": "../../images/part12/ch42_01_dolma_evidence_chain.svg",
       "resolved": "docs/images/part12/ch42_01_dolma_evidence_chain.svg",
@@ -10319,7 +10368,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 534,
+      "line": 536,
       "alt": "图38-4 Dolma source mix 与训练诊断回路",
       "src": "../../images/part12/ch42_02_dolma_source_mix_diagnosis.svg",
       "resolved": "docs/images/part12/ch42_02_dolma_source_mix_diagnosis.svg",
@@ -10607,7 +10656,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 68,
+      "line": 70,
       "alt": "图42-1：语义响应与风格控制双通道 schema",
       "src": "../../images/part12/ch42_fig02_dual_channel_schema.svg",
       "resolved": "docs/images/part12/ch42_fig02_dual_channel_schema.svg",
@@ -10623,7 +10672,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 269,
+      "line": 271,
       "alt": "图42-2：VoiceStyleControl 数据构建流水线",
       "src": "../../images/part12/ch42_fig01_data_pipeline.svg",
       "resolved": "docs/images/part12/ch42_fig01_data_pipeline.svg",
@@ -10639,7 +10688,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 363,
+      "line": 365,
       "alt": "图42-3：质量评估与数据飞轮闭环",
       "src": "../../images/part12/ch42_fig03_quality_loop.svg",
       "resolved": "docs/images/part12/ch42_fig03_quality_loop.svg",
@@ -10655,7 +10704,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 31,
+      "line": 33,
       "alt": "图43-1：Latent-Switch-69K 构建流水线图",
       "src": "../../images/part12/ch43_latent_switch_pipeline.svg",
       "resolved": "docs/images/part12/ch43_latent_switch_pipeline.svg",
@@ -10671,7 +10720,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 56,
+      "line": 58,
       "alt": "图43-2：Latent-Switch-69K 数据来源与领域组成",
       "src": "../../images/part12/ch40_05_dataset_composition.png",
       "resolved": "docs/images/part12/ch40_05_dataset_composition.png",
@@ -10687,7 +10736,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 181,
+      "line": 183,
       "alt": "图43-3：原始 CoT、压缩 CoT 与 latent placeholder 对比",
       "src": "../../images/part12/ch43_cot_latent_comparison.svg",
       "resolved": "docs/images/part12/ch43_cot_latent_comparison.svg",
@@ -10703,7 +10752,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 194,
+      "line": 196,
       "alt": "图43-4：原始与蒸馏后推理长度及压缩率统计",
       "src": "../../images/part12/ch40_07_token_compression_distribution.png",
       "resolved": "docs/images/part12/ch40_07_token_compression_distribution.png",
@@ -10719,7 +10768,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 336,
+      "line": 338,
       "alt": "图43-5：Supervision mask 示意图",
       "src": "../../images/part12/ch43_supervision_mask.svg",
       "resolved": "docs/images/part12/ch43_supervision_mask.svg",
@@ -11199,7 +11248,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 171,
+      "line": 170,
       "alt": "图 P02-1",
       "src": "../../images/part14/p02/p02_01_legal_sft_factory_overview.svg",
       "resolved": "docs/images/part14/p02/p02_01_legal_sft_factory_overview.svg",
@@ -11215,7 +11264,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 249,
+      "line": 248,
       "alt": "图 P02-2",
       "src": "../../images/part14/p02/p02_02_roles_and_responsibilities.svg",
       "resolved": "docs/images/part14/p02/p02_02_roles_and_responsibilities.svg",
@@ -11231,7 +11280,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 367,
+      "line": 366,
       "alt": "图 P02-3",
       "src": "../../images/part14/p02/p02_03_pdf_cleaning_pipeline.svg",
       "resolved": "docs/images/part14/p02/p02_03_pdf_cleaning_pipeline.svg",
@@ -11247,7 +11296,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 370,
+      "line": 369,
       "alt": "图 P02-4",
       "src": "../../images/part14/p02/p02_04_cleaning_examples.svg",
       "resolved": "docs/images/part14/p02/p02_04_cleaning_examples.svg",
@@ -11263,7 +11312,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 419,
+      "line": 418,
       "alt": "图 P02-5",
       "src": "../../images/part14/p02/p02_05_seed_schema.svg",
       "resolved": "docs/images/part14/p02/p02_05_seed_schema.svg",
@@ -11279,7 +11328,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 475,
+      "line": 474,
       "alt": "图 P02-6",
       "src": "../../images/part14/p02/p02_06_task_taxonomy.svg",
       "resolved": "docs/images/part14/p02/p02_06_task_taxonomy.svg",
@@ -11295,7 +11344,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 500,
+      "line": 499,
       "alt": "图 P02-7",
       "src": "../../images/part14/p02/p02_07_task_vs_domain_distribution.svg",
       "resolved": "docs/images/part14/p02/p02_07_task_vs_domain_distribution.svg",
@@ -11311,7 +11360,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 534,
+      "line": 533,
       "alt": "图 P02-8",
       "src": "../../images/part14/p02/p02_08_weighted_task_sampling.svg",
       "resolved": "docs/images/part14/p02/p02_08_weighted_task_sampling.svg",
@@ -11327,7 +11376,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 572,
+      "line": 571,
       "alt": "图 P02-9",
       "src": "../../images/part14/p02/p02_09_cot_structure.svg",
       "resolved": "docs/images/part14/p02/p02_09_cot_structure.svg",
@@ -11343,7 +11392,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 611,
+      "line": 610,
       "alt": "图 P02-10",
       "src": "../../images/part14/p02/p02_10_preference_and_review.svg",
       "resolved": "docs/images/part14/p02/p02_10_preference_and_review.svg",
@@ -11359,7 +11408,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 645,
+      "line": 644,
       "alt": "图 P02-11",
       "src": "../../images/part14/p02/p02_11_risk_refusal_flow.svg",
       "resolved": "docs/images/part14/p02/p02_11_risk_refusal_flow.svg",
@@ -11375,7 +11424,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 693,
+      "line": 692,
       "alt": "图 P02-12",
       "src": "../../images/part14/p02/p02_12_qa_loop.svg",
       "resolved": "docs/images/part14/p02/p02_12_qa_loop.svg",
@@ -11391,7 +11440,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 696,
+      "line": 695,
       "alt": "图 P02-13",
       "src": "../../images/part14/p02/p02_13_qa_decision_table.svg",
       "resolved": "docs/images/part14/p02/p02_13_qa_decision_table.svg",
@@ -11407,7 +11456,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 732,
+      "line": 731,
       "alt": "图 P02-14",
       "src": "../../images/part14/p02/p02_14_human_in_the_loop.svg",
       "resolved": "docs/images/part14/p02/p02_14_human_in_the_loop.svg",
@@ -11423,7 +11472,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 769,
+      "line": 768,
       "alt": "图 P02-15",
       "src": "../../images/part14/p02/p02_15_training_artifacts.svg",
       "resolved": "docs/images/part14/p02/p02_15_training_artifacts.svg",
@@ -11439,7 +11488,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 826,
+      "line": 825,
       "alt": "图 P02-16",
       "src": "../../images/part14/p02/p02_16_metrics_dashboard.svg",
       "resolved": "docs/images/part14/p02/p02_16_metrics_dashboard.svg",
@@ -11455,7 +11504,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 908,
+      "line": 907,
       "alt": "图 P02-17",
       "src": "../../images/part14/p02/p02_17_eval_sampling_protocol.svg",
       "resolved": "docs/images/part14/p02/p02_17_eval_sampling_protocol.svg",
@@ -11471,7 +11520,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1007,
+      "line": 1006,
       "alt": "图 P02-18",
       "src": "../../images/part14/p02/p02_18_version_timeline.svg",
       "resolved": "docs/images/part14/p02/p02_18_version_timeline.svg",
@@ -11487,7 +11536,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1068,
+      "line": 1067,
       "alt": "图 P02-19",
       "src": "../../images/part14/p02/p02_19_validation_chain.svg",
       "resolved": "docs/images/part14/p02/p02_19_validation_chain.svg",
@@ -11503,7 +11552,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1128,
+      "line": 1127,
       "alt": "图 P02-20",
       "src": "../../images/part14/p02/p02_20_cross_domain_transfer.svg",
       "resolved": "docs/images/part14/p02/p02_20_cross_domain_transfer.svg",
@@ -25558,7 +25607,7 @@
   ],
   "missing_reference_files": [],
   "summary": {
-    "style_hits": 1375,
+    "style_hits": 1382,
     "figures": 287,
     "figures_needing_review": 287,
     "broken_figures": 0,

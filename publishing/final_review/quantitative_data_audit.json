@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-06-13T15:48:43.534130+00:00",
+  "generated_at_utc": "2026-06-16T02:12:35.878024+00:00",
   "scanned_files": 71,
   "claims": [
     {
       "file": "docs/zh/appendix_a_tools_and_frameworks_quick_reference.md",
-      "line": 11,
+      "line": 9,
       "section": "A.1 附录定位",
       "numbers": [
         "2021",
@@ -19,7 +19,7 @@
     },
     {
       "file": "docs/zh/appendix_b_compliance_and_release_checklist.md",
-      "line": 122,
+      "line": 120,
       "section": "B.6.1 发布前至少要同时准备四类文档",
       "numbers": [
         "2019"
@@ -32,7 +32,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 7,
+      "line": 5,
       "section": "C.1 附录定位",
       "numbers": [
         "2021"
@@ -45,7 +45,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 115,
+      "line": 113,
       "section": "C.5.2 合成数据不是“零人工成本”",
       "numbers": [
         "10 万"
@@ -58,7 +58,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 121,
+      "line": 119,
       "section": "C.6.1 训练资源估算不要只看卡数",
       "numbers": [
         "2021"
@@ -71,7 +71,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 131,
+      "line": 129,
       "section": "C.6.1 训练资源估算不要只看卡数",
       "numbers": [
         "10%",
@@ -85,7 +85,7 @@
     },
     {
       "file": "docs/zh/appendix_c_cost_estimation_and_resource_templates.md",
-      "line": 135,
+      "line": 133,
       "section": "C.6.2 推理成本要按场景拆分",
       "numbers": [
         "2023"
@@ -98,7 +98,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 38,
+      "line": 36,
       "section": "D.3 论文到工程的对照表",
       "numbers": [
         "2023",
@@ -112,7 +112,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 60,
+      "line": 58,
       "section": "D.4.2 数据与输入模板",
       "numbers": [
         "2024"
@@ -125,7 +125,7 @@
     },
     {
       "file": "docs/zh/appendix_d_paper_to_implementation_guide.md",
-      "line": 383,
+      "line": 381,
       "section": "D.25 论文到工程的 ROI 评估",
       "numbers": [
         "2023",
@@ -140,7 +140,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 9,
+      "line": 7,
       "section": "E.1 附录定位",
       "numbers": [
         "2024",
@@ -154,7 +154,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 77,
+      "line": 75,
       "section": "E.4.2 PDF / 文档解析错位",
       "numbers": [
         "2022",
@@ -168,7 +168,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 89,
+      "line": 87,
       "section": "E.5.1 去重后样本数骤降",
       "numbers": [
         "2023"
@@ -181,7 +181,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 152,
+      "line": 150,
       "section": "E.7.1 Agent 调错工具",
       "numbers": [
         "2025"
@@ -194,7 +194,7 @@
     },
     {
       "file": "docs/zh/appendix_e_common_bug_debugging_manual.md",
-      "line": 230,
+      "line": 228,
       "section": "E.13 观察点与埋点",
       "numbers": [
         "2024",
@@ -208,7 +208,7 @@
     },
     {
       "file": "docs/zh/appendix_f_terminology_and_chinese_english_mapping.md",
-      "line": 57,
+      "line": 55,
       "section": "F.4.1 “脱敏”与“匿名化”",
       "numbers": [
         "2022"
@@ -221,7 +221,7 @@
     },
     {
       "file": "docs/zh/appendix_g_datagallery_note.md",
-      "line": 7,
+      "line": 5,
       "section": "G.1 附录定位",
       "numbers": [
         "2026",
@@ -235,7 +235,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 7,
+      "line": 5,
       "section": "H.1 附录定位",
       "numbers": [
         "2026",
@@ -249,7 +249,7 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 25,
+      "line": 23,
       "section": "H.2 MindSpore 的工程位置",
       "numbers": [
         "2026"
@@ -262,8 +262,8 @@
     },
     {
       "file": "docs/zh/appendix_h_mindspore_note.md",
-      "line": 83,
-      "section": "H.5 示例扩展：MindFace 与人脸数据工程",
+      "line": 139,
+      "section": "H.9 示例扩展：MindFace 与人脸数据工程",
       "numbers": [
         "2026"
       ],
@@ -2972,7 +2972,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 89,
+      "line": 87,
       "section": "34.1.2.1 根因分析的置信度校准",
       "numbers": [
         "90%",
@@ -2989,7 +2989,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 94,
+      "line": 92,
       "section": "34.1.2.1 根因分析的置信度校准",
       "numbers": [
         "0",
@@ -3006,7 +3006,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 125,
+      "line": 123,
       "section": "34.1.3 告警疲劳治理",
       "numbers": [
         "5 分钟"
@@ -3019,7 +3019,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 132,
+      "line": 130,
       "section": "34.1.3 告警疲劳治理",
       "numbers": [
         "200",
@@ -3036,7 +3036,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 133,
+      "line": 131,
       "section": "34.1.3 告警疲劳治理",
       "numbers": [
         "500",
@@ -3053,7 +3053,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 145,
+      "line": 143,
       "section": "34.2.1 回滚方案的自动生成",
       "numbers": [
         "3"
@@ -3066,7 +3066,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 171,
+      "line": 169,
       "section": "34.2.3 流水线自愈机制",
       "numbers": [
         "2019",
@@ -3080,7 +3080,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 194,
+      "line": 192,
       "section": "34.2.3 流水线自愈机制",
       "numbers": [
         "2019",
@@ -3095,7 +3095,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 198,
+      "line": 196,
       "section": "34.2.4 版本回滚的数据一致性保障",
       "numbers": [
         "2022",
@@ -3109,7 +3109,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 224,
+      "line": 222,
       "section": "34.3 成本预警与容量优化 Agent",
       "numbers": [
         "34.3"
@@ -3122,7 +3122,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 226,
+      "line": 224,
       "section": "34.3.1 成本异常的自动检测",
       "numbers": [
         "34.3"
@@ -3135,7 +3135,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 238,
+      "line": 236,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "34.3"
@@ -3148,7 +3148,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 244,
+      "line": 242,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "5%",
@@ -3162,7 +3162,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 245,
+      "line": 243,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "15"
@@ -3175,7 +3175,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 246,
+      "line": 244,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "30"
@@ -3188,7 +3188,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 247,
+      "line": 245,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "> 20%",
@@ -3202,7 +3202,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 248,
+      "line": 246,
       "section": "34.3.2 成本优化的自动建议",
       "numbers": [
         "< 30%",
@@ -3216,7 +3216,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 252,
+      "line": 250,
       "section": "34.3.3 容量规划与预测",
       "numbers": [
         "2020",
@@ -3231,7 +3231,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 254,
+      "line": 252,
       "section": "34.3.3 容量规划与预测",
       "numbers": [
         "1",
@@ -3246,7 +3246,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 264,
+      "line": 262,
       "section": "34.3.4 成本归因与团队 accountability",
       "numbers": [
         "34.3"
@@ -3259,7 +3259,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 277,
+      "line": 275,
       "section": "34.3.4 成本归因与团队 accountability",
       "numbers": [
         "20%"
@@ -3272,7 +3272,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 296,
+      "line": 294,
       "section": "34.4.2 自动复盘草稿",
       "numbers": [
         "2021",
@@ -3287,7 +3287,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 317,
+      "line": 315,
       "section": "34.4.3 实验追踪与 Agent 联动",
       "numbers": [
         "78%",
@@ -3301,7 +3301,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 320,
+      "line": 318,
       "section": "34.4.3 实验追踪与 Agent 联动",
       "numbers": [
         "3%"
@@ -3314,7 +3314,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 335,
+      "line": 333,
       "section": "34.4.4 运维知识库的自动沉淀",
       "numbers": [
         "87%",
@@ -3328,7 +3328,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 344,
+      "line": 342,
       "section": "34.5 案例复盘：DataOps Agent 在真实平台中的表现",
       "numbers": [
         "200",
@@ -3346,7 +3346,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 346,
+      "line": 344,
       "section": "34.5 案例复盘：DataOps Agent 在真实平台中的表现",
       "numbers": [
         "7 个",
@@ -3362,7 +3362,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 348,
+      "line": 346,
       "section": "34.5 案例复盘：DataOps Agent 在真实平台中的表现",
       "numbers": [
         "2 小时",
@@ -3376,7 +3376,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 363,
+      "line": 361,
       "section": "案例延伸：从被动运维到主动自治的转型之路",
       "numbers": [
         "0",
@@ -3391,7 +3391,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 365,
+      "line": 363,
       "section": "案例延伸：从被动运维到主动自治的转型之路",
       "numbers": [
         "3",
@@ -3407,7 +3407,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 369,
+      "line": 367,
       "section": "案例延伸：从被动运维到主动自治的转型之路",
       "numbers": [
         "7 个"
@@ -3420,7 +3420,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 382,
+      "line": 380,
       "section": "平均修复时间（MTTR）的持续改进曲线",
       "numbers": [
         "45",
@@ -3435,7 +3435,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 383,
+      "line": 381,
       "section": "平均修复时间（MTTR）的持续改进曲线",
       "numbers": [
         "40",
@@ -3450,7 +3450,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 384,
+      "line": 382,
       "section": "平均修复时间（MTTR）的持续改进曲线",
       "numbers": [
         "18",
@@ -3465,7 +3465,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 385,
+      "line": 383,
       "section": "平均修复时间（MTTR）的持续改进曲线",
       "numbers": [
         "12",
@@ -3480,7 +3480,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 386,
+      "line": 384,
       "section": "平均修复时间（MTTR）的持续改进曲线",
       "numbers": [
         "8",
@@ -3495,7 +3495,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 425,
+      "line": 423,
       "section": "从响应式到预测式运维",
       "numbers": [
         "24 小时",
@@ -3509,7 +3509,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 438,
+      "line": 436,
       "section": "从响应式到预测式运维",
       "numbers": [
         "~85%",
@@ -3523,7 +3523,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 447,
+      "line": 445,
       "section": "平台自治的权限边界再思考",
       "numbers": [
         "10,000"
@@ -3536,7 +3536,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 455,
+      "line": 453,
       "section": "DevOps 到 DataOps 到 AgentOps",
       "numbers": [
         "2023",
@@ -3553,7 +3553,7 @@
     },
     {
       "file": "docs/zh/part10/ch34_dataops_agent.md",
-      "line": 467,
+      "line": 465,
       "section": "本章小结",
       "numbers": [
         "2023",
@@ -3637,7 +3637,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 147,
+      "line": 145,
       "section": "35.2.3 防御策略的工程化实现",
       "numbers": [
         "200B",
@@ -3652,7 +3652,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 186,
+      "line": 184,
       "section": "35.2.4 安全红队与持续测试",
       "numbers": [
         "2023",
@@ -3667,7 +3667,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 244,
+      "line": 242,
       "section": "35.3.3 合规审计与证据链",
       "numbers": [
         "2024",
@@ -3681,7 +3681,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 247,
+      "line": 245,
       "section": "35.3.3 合规审计与证据链",
       "numbers": [
         "2024"
@@ -3694,7 +3694,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 248,
+      "line": 246,
       "section": "35.3.3 合规审计与证据链",
       "numbers": [
         "2024"
@@ -3707,7 +3707,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 309,
+      "line": 307,
       "section": "35.4.3 人机协同中的常见反模式",
       "numbers": [
         "> 98%",
@@ -3721,7 +3721,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 344,
+      "line": 342,
       "section": "开篇案例的整改措施",
       "numbers": [
         "15 张"
@@ -3734,7 +3734,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 356,
+      "line": 354,
       "section": "整改效果",
       "numbers": [
         "60%",
@@ -3748,7 +3748,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 357,
+      "line": 355,
       "section": "整改效果",
       "numbers": [
         "0%",
@@ -3762,7 +3762,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 358,
+      "line": 356,
       "section": "整改效果",
       "numbers": [
         "40%",
@@ -3776,7 +3776,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 359,
+      "line": 357,
       "section": "整改效果",
       "numbers": [
         "20%",
@@ -3790,7 +3790,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 360,
+      "line": 358,
       "section": "整改效果",
       "numbers": [
         "1",
@@ -3805,7 +3805,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 390,
+      "line": 388,
       "section": "人机协同的信任建立度量",
       "numbers": [
         "5",
@@ -3820,7 +3820,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 391,
+      "line": 389,
       "section": "人机协同的信任建立度量",
       "numbers": [
         "< 5"
@@ -3833,7 +3833,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 392,
+      "line": 390,
       "section": "人机协同的信任建立度量",
       "numbers": [
         "70"
@@ -3846,7 +3846,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 394,
+      "line": 392,
       "section": "人机协同的信任建立度量",
       "numbers": [
         "> 85%"
@@ -3859,7 +3859,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 458,
+      "line": 456,
       "section": "面向未来的 Agent 安全架构演进",
       "numbers": [
         "2023",
@@ -3873,7 +3873,7 @@
     },
     {
       "file": "docs/zh/part10/ch35_security_permission_collaboration.md",
-      "line": 464,
+      "line": 462,
       "section": "面向未来的 Agent 安全架构演进",
       "numbers": [
         "3"
@@ -4017,7 +4017,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 26,
+      "line": 28,
       "section": "案例A：场景引入",
       "numbers": [
         "7B"
@@ -4030,7 +4030,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 44,
+      "line": 46,
       "section": "案例A.1.1 网页快照到训练文本的处理层",
       "numbers": [
         "0.65"
@@ -4043,7 +4043,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 61,
+      "line": 63,
       "section": "案例A.1.2 过滤强度决定训练信号",
       "numbers": [
         "0"
@@ -4056,7 +4056,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 68,
+      "line": 70,
       "section": "案例A.2：FineWeb 的数据定义和公开形态",
       "numbers": [
         "350B",
@@ -4071,7 +4071,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 74,
+      "line": 76,
       "section": "案例A.2：FineWeb 的数据定义和公开形态",
       "numbers": [
         "15T"
@@ -4084,7 +4084,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 76,
+      "line": 78,
       "section": "案例A.2：FineWeb 的数据定义和公开形态",
       "numbers": [
         "约 350B"
@@ -4097,7 +4097,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 77,
+      "line": 79,
       "section": "案例A.2：FineWeb 的数据定义和公开形态",
       "numbers": [
         "约 100B"
@@ -4110,7 +4110,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 78,
+      "line": 80,
       "section": "案例A.2：FineWeb 的数据定义和公开形态",
       "numbers": [
         "约 10B"
@@ -4123,7 +4123,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 170,
+      "line": 172,
       "section": "案例A.3.2 schema 与训练评估的关系",
       "numbers": [
         "1",
@@ -4137,7 +4137,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 194,
+      "line": 196,
       "section": "案例A.4.1 主处理流水线",
       "numbers": [
         "2"
@@ -4150,7 +4150,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 197,
+      "line": 199,
       "section": "案例A.4.1 主处理流水线",
       "numbers": [
         "5"
@@ -4163,7 +4163,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 199,
+      "line": 201,
       "section": "案例A.4.1 主处理流水线",
       "numbers": [
         "7"
@@ -4176,7 +4176,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 225,
+      "line": 227,
       "section": "案例A.4.2 去重和隐私处理流水线",
       "numbers": [
         "5"
@@ -4189,7 +4189,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 231,
+      "line": 233,
       "section": "案例A.4.2 去重和隐私处理流水线",
       "numbers": [
         "5",
@@ -4209,7 +4209,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 239,
+      "line": 241,
       "section": "案例A.4.3 FineWeb 按 crawl 独立去重的判断",
       "numbers": [
         "96 个",
@@ -4224,7 +4224,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 245,
+      "line": 247,
       "section": "案例A.4.3 FineWeb 按 crawl 独立去重的判断",
       "numbers": [
         "3.1"
@@ -4237,7 +4237,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 259,
+      "line": 261,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "1.82B"
@@ -4250,7 +4250,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 261,
+      "line": 263,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "28B",
@@ -4264,7 +4264,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 267,
+      "line": 269,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "3.1"
@@ -4277,7 +4277,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 269,
+      "line": 271,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "1",
@@ -4291,7 +4291,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 272,
+      "line": 274,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "1",
@@ -4308,7 +4308,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 279,
+      "line": 281,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "96 个",
@@ -4322,7 +4322,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 281,
+      "line": 283,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "30%"
@@ -4335,7 +4335,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 283,
+      "line": 285,
       "section": "案例A.5.1 固定变量",
       "numbers": [
         "50",
@@ -4349,7 +4349,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 339,
+      "line": 341,
       "section": "案例B.1：问题场景：权重开放后仍然无法解释模型",
       "numbers": [
         "7B"
@@ -4362,7 +4362,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 366,
+      "line": 368,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "7B"
@@ -4375,7 +4375,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 372,
+      "line": 374,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2023",
@@ -4389,7 +4389,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 373,
+      "line": 375,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2023",
@@ -4404,7 +4404,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 374,
+      "line": 376,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2023",
@@ -4419,7 +4419,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 375,
+      "line": 377,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2024",
@@ -4433,7 +4433,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 376,
+      "line": 378,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2024",
@@ -4448,7 +4448,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 377,
+      "line": 379,
       "section": "案例B.2：数据集概览：版本、规模与来源结构",
       "numbers": [
         "2024",
@@ -4463,7 +4463,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 389,
+      "line": 391,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "9,022 GB",
@@ -4479,7 +4479,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 390,
+      "line": 392,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "1,043 GB",
@@ -4495,7 +4495,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 391,
+      "line": 393,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "790 GB",
@@ -4511,7 +4511,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 392,
+      "line": 394,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "339 GB",
@@ -4527,7 +4527,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 393,
+      "line": 395,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "268 GB",
@@ -4543,7 +4543,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 394,
+      "line": 396,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "20.4 GB",
@@ -4559,7 +4559,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 395,
+      "line": 397,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "16.2 GB",
@@ -4575,7 +4575,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 396,
+      "line": 398,
       "section": "案例B.2.1 v1.6 来源结构",
       "numbers": [
         "11,519 GB",
@@ -4591,7 +4591,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 507,
+      "line": 509,
       "section": "案例B.4.1 四个动作对应四类证据",
       "numbers": [
         "3"
@@ -4604,7 +4604,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 508,
+      "line": 510,
       "section": "案例B.4.1 四个动作对应四类证据",
       "numbers": [
         "4"
@@ -4617,7 +4617,7 @@
     },
     {
       "file": "docs/zh/part12/ch38_text_corpora_transparent_ledger.md",
-      "line": 529,
+      "line": 531,
       "section": "案例B.5.1 source ablation 定位能力来源",
       "numbers": [
         "1"
@@ -5669,7 +5669,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 45,
+      "line": 47,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "154,906 条",
@@ -5686,7 +5686,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 51,
+      "line": 53,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "4,050",
@@ -5702,7 +5702,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 52,
+      "line": 54,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "4,104",
@@ -5718,7 +5718,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 53,
+      "line": 55,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "4,010",
@@ -5734,7 +5734,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 54,
+      "line": 56,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "3,825",
@@ -5750,7 +5750,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 55,
+      "line": 57,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "4,128",
@@ -5766,7 +5766,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 56,
+      "line": 58,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "20,117",
@@ -5782,7 +5782,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 58,
+      "line": 60,
       "section": "VoiceStyleControl.2：数据集概览：S2S 与 TTS 两个互补子集",
       "numbers": [
         "3.8",
@@ -5796,7 +5796,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 142,
+      "line": 144,
       "section": "VoiceStyleControl.3：样本 schema：语义通道与风格通道分开建模",
       "numbers": [
         "42.4"
@@ -5809,7 +5809,7 @@
     },
     {
       "file": "docs/zh/part12/ch42_speech_audio_interaction_data_engineering.md",
-      "line": 327,
+      "line": 329,
       "section": "VoiceStyleControl.4：构建流水线：从文本对话到可控语音记录",
       "numbers": [
         "25"
@@ -5822,7 +5822,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 39,
+      "line": 41,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "69,745 条"
@@ -5835,7 +5835,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 41,
+      "line": 43,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "45,650 条",
@@ -5853,7 +5853,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 45,
+      "line": 47,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "69,745",
@@ -5867,7 +5867,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 46,
+      "line": 48,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "6,667",
@@ -5881,7 +5881,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 47,
+      "line": 49,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "45,650",
@@ -5895,7 +5895,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 48,
+      "line": 50,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "17,428",
@@ -5909,7 +5909,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 50,
+      "line": 52,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "0.569",
@@ -5923,7 +5923,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 51,
+      "line": 53,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "41.49"
@@ -5936,7 +5936,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 52,
+      "line": 54,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "40.00",
@@ -5950,7 +5950,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 54,
+      "line": 56,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "37%",
@@ -5965,7 +5965,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 58,
+      "line": 60,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "69,745 条"
@@ -5978,7 +5978,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 68,
+      "line": 70,
       "section": "Latent-Switch.2：数据集概览：规模、难度与领域构成",
       "numbers": [
         "0.3"
@@ -5991,7 +5991,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 192,
+      "line": 194,
       "section": "Latent-Switch.3：蒸馏与记录形成：从 teacher trace 到压缩推理记录",
       "numbers": [
         "0.612",
@@ -6007,7 +6007,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 216,
+      "line": 218,
       "section": "Latent-Switch.4：Latent budget 与 student sequence：样本如何被渲染",
       "numbers": [
         "41.49",
@@ -6021,7 +6021,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 218,
+      "line": 220,
       "section": "Latent-Switch.4：Latent budget 与 student sequence：样本如何被渲染",
       "numbers": [
         "40",
@@ -6035,7 +6035,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 322,
+      "line": 324,
       "section": "Latent-Switch.5：Supervision masks：哪些 token 参与 loss",
       "numbers": [
         "-100"
@@ -6048,7 +6048,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 334,
+      "line": 336,
       "section": "Latent-Switch.5：Supervision masks：哪些 token 参与 loss",
       "numbers": [
         "-100"
@@ -6061,7 +6061,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 350,
+      "line": 352,
       "section": "Latent-Switch.5：Supervision masks：哪些 token 参与 loss",
       "numbers": [
         "-100"
@@ -6074,7 +6074,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 352,
+      "line": 354,
       "section": "Latent-Switch.5：Supervision masks：哪些 token 参与 loss",
       "numbers": [
         "-100"
@@ -6087,7 +6087,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 362,
+      "line": 364,
       "section": "Latent-Switch.5：Supervision masks：哪些 token 参与 loss",
       "numbers": [
         "-100",
@@ -6101,7 +6101,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 379,
+      "line": 381,
       "section": "Latent-Switch.6：质量控制：压缩、边界与偏置的五类风险",
       "numbers": [
         "为 0"
@@ -6114,7 +6114,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 382,
+      "line": 384,
       "section": "Latent-Switch.6：质量控制：压缩、边界与偏置的五类风险",
       "numbers": [
         "0.612",
@@ -6130,7 +6130,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 390,
+      "line": 392,
       "section": "Latent-Switch.6：质量控制：压缩、边界与偏置的五类风险",
       "numbers": [
         "约 37%",
@@ -6145,7 +6145,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 402,
+      "line": 404,
       "section": "Latent-Switch.6：质量控制：压缩、边界与偏置的五类风险",
       "numbers": [
         "38 个"
@@ -6158,7 +6158,7 @@
     },
     {
       "file": "docs/zh/part12/ch43_reasoning_trace_compression_data_engineering.md",
-      "line": 427,
+      "line": 429,
       "section": "Latent-Switch.8：复用建议：把 Latent-Switch 思路迁移到自有数据",
       "numbers": [
         "32 s"
@@ -6172,61 +6172,59 @@
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
       "line": 21,
-      "section": "开篇问题场景：1B tokens 复现失败的那一夜",
+      "section": "案例分析：1B Token 小规模复现中的等比例缩放失效问题",
       "numbers": [
         "1B"
       ],
-      "category": "dataset-size-or-composition",
-      "source_status": "nearby-source-signal",
-      "risk": "low",
-      "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "## 开篇问题场景：1B tokens 复现失败的那一夜"
+      "category": "model-or-token-scale",
+      "source_status": "chapter-reference-section-only",
+      "risk": "medium",
+      "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
+      "context": "## 案例分析：1B Token 小规模复现中的等比例缩放失效问题"
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
       "line": 23,
-      "section": "开篇问题场景：1B tokens 复现失败的那一夜",
+      "section": "案例分析：1B Token 小规模复现中的等比例缩放失效问题",
       "numbers": [
-        "1B",
         "1B"
       ],
       "category": "performance-or-percentage",
-      "source_status": "inline-source-signal",
+      "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "在一个教学化开篇场景中，凌晨两点，训练监控面板上的 loss 曲线仍然没有降到预期位置。几名工程师围在会议室的大屏前，屏幕左侧是示例性的 1B tokens 训练日志，右侧是他们反复对照的 Llama-3 技术报告和几份公开复现笔记。按照最初的设想，这只是一次“等比例缩放”的小规模验证：既然大模型可以在数万亿 tokens 上完成训练，那么把数据规模缩小到 1B tokens，模型参数、batch size、学习率、数据比例也按比例收缩，就应当得到一个趋势相近的实验结果。至少，loss 曲线应该像公开曲线那样平滑下..."
+      "context": "在尝试小规模复现大模型训练的过程中，研究人员常采用“等比例缩放（Proportional Scaling）”假设：即如果一个大模型在数万亿 Token 上训练成功，那么在 1B Token 规模下按相同比例缩小模型参数、批次大小（Batch Size）、学习率及数据配比，亦应观察到类似且平滑的 Loss 下降趋势。然而，实际的工程反馈往往偏离该假设。"
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
       "line": 25,
-      "section": "开篇问题场景：1B tokens 复现失败的那一夜",
+      "section": "案例分析：1B Token 小规模复现中的等比例缩放失效问题",
       "numbers": [
-        "20%",
-        "1B"
+        "1B",
+        "20%"
       ],
       "category": "performance-or-percentage",
       "source_status": "nearby-source-signal",
       "risk": "low",
       "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "事实并没有按这个推理发展。训练前 20% 的 token 看上去还算正常，模型能快速学到常见词法和短句模式；进入中段后，验证集 loss 开始波动，代码数据上的困惑度下降很慢，数学样本的收益几乎看不出来；到后半程，模型虽然继续记住更多高频表达，但长上下文、推理题和指令样本上的表现没有同步改善。最刺眼的问题出现在评测阶段：同样是 1B tokens，另一个使用分阶段数据配方的小模型，在若干下游任务上反而更稳定。"
+      "context": "在典型的 1B Token 复现实验中，常出现以下现象：训练初期（前 20% Token）模型能快速拟合常见词法模式，Loss 正常下降；但在训练中后期，验证集 Loss 开始剧烈波动，特别是代码与数学样本上的困惑度（Perplexity）下降极缓；最终评测显示，模型虽记忆了高频模式，但在长上下文与逻辑推理能力上未见改善。对比实验表明，盲目采用全局静态混合配比的模型，其性能显著劣于采用分阶段课程式（Curriculum）调度的模型。"
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 29,
-      "section": "开篇问题场景：1B tokens 复现失败的那一夜",
+      "line": 27,
+      "section": "案例分析：1B Token 小规模复现中的等比例缩放失效问题",
       "numbers": [
-        "1B",
         "1B"
       ],
       "category": "dataset-size-or-composition",
-      "source_status": "nearby-source-signal",
+      "source_status": "inline-source-signal",
       "risk": "low",
       "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "在 1B tokens 的小规模训练里，这个问题会被放大。大规模训练有足够长的 token 预算，让模型先吸收通用语言分布，再逐渐接触高质量知识、代码、数学和指令数据；而 1B tokens 的预算很短，如果从第一步开始就把所有数据混在一起，模型还没形成稳定的语言基础，就已经被推向难度较高、风格差异明显的样本。结果是，低质量网页占用了早期学习窗口，高价值样本又因为出现得太分散，没有形成持续的梯度信号。看似比例正确，实际训练节奏已经错位。"
+      "context": "究其原因，此类失效问题并非源自超参数设置，而是源于对“数据配方”概念的粗粒度理解。大规模模型技术报告中所披露的领域数据比例（例如网页、代码、数学文本占比），本质上是整个训练周期结束后的数据“统计截面”，而非各个训练阶段的“静态配比施工图”。在 1B Token 这样极为受限的训练预算下，这一问题被显著放大。大规模训练拥有充足的 Token 预算，允许模型在初期充分吸收通用语言分布后，再逐步学习高难度的结构化数据。若在短预算训练中自始至终采用同一套混合配比，模型在尚未建立稳定语言基座的早期，便被过早地引入风格差异大、..."
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 46,
+      "line": 42,
       "section": "44.1 公开数据透明度光谱",
       "numbers": [
         "14.8T"
@@ -6239,7 +6237,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 80,
+      "line": 76,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "6",
@@ -6253,7 +6251,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 81,
+      "line": 77,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "14.8T",
@@ -6267,7 +6265,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 83,
+      "line": 79,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "~50%",
@@ -6283,7 +6281,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 85,
+      "line": 81,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "~5",
@@ -6300,7 +6298,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 86,
+      "line": 82,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "~15",
@@ -6317,7 +6315,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 87,
+      "line": 83,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "~10",
@@ -6334,7 +6332,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 88,
+      "line": 84,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "~5%",
@@ -6351,7 +6349,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 96,
+      "line": 92,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "5%",
@@ -6365,7 +6363,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 98,
+      "line": 94,
       "section": "44.2 数据组成横向对照大表",
       "numbers": [
         "14.8T"
@@ -6378,7 +6376,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 138,
+      "line": 134,
       "section": "Llama-3 代码数据策略",
       "numbers": [
         "3.1",
@@ -6392,7 +6390,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 150,
+      "line": 146,
       "section": "OLMo-2 代码数据策略",
       "numbers": [
         "4",
@@ -6406,7 +6404,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 154,
+      "line": 150,
       "section": "OLMo-2 代码数据策略",
       "numbers": [
         "~2.5T",
@@ -6421,7 +6419,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 155,
+      "line": 151,
       "section": "OLMo-2 代码数据策略",
       "numbers": [
         "~3T",
@@ -6436,7 +6434,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 156,
+      "line": 152,
       "section": "OLMo-2 代码数据策略",
       "numbers": [
         "~2.8T",
@@ -6451,7 +6449,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 157,
+      "line": 153,
       "section": "OLMo-2 代码数据策略",
       "numbers": [
         "~2T",
@@ -6466,7 +6464,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 212,
+      "line": 208,
       "section": "综合分析",
       "numbers": [
         "128K"
@@ -6479,7 +6477,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 213,
+      "line": 209,
       "section": "综合分析",
       "numbers": [
         "128K"
@@ -6492,7 +6490,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 214,
+      "line": 210,
       "section": "综合分析",
       "numbers": [
         "128K",
@@ -6512,7 +6510,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 215,
+      "line": 211,
       "section": "综合分析",
       "numbers": [
         "4K",
@@ -6529,7 +6527,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 217,
+      "line": 213,
       "section": "综合分析",
       "numbers": [
         "128K",
@@ -6543,7 +6541,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 221,
+      "line": 217,
       "section": "44.7 Curriculum 多阶段训练 schedule",
       "numbers": [
         "44.7"
@@ -6556,7 +6554,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 227,
+      "line": 223,
       "section": "Llama-3：长上下文扩展与末段退火",
       "numbers": [
         "8K",
@@ -6571,7 +6569,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 229,
+      "line": 225,
       "section": "Llama-3：长上下文扩展与末段退火",
       "numbers": [
         "8K",
@@ -6585,7 +6583,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 231,
+      "line": 227,
       "section": "Llama-3：长上下文扩展与末段退火",
       "numbers": [
         "40M",
@@ -6600,7 +6598,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 235,
+      "line": 231,
       "section": "OLMo-2：可复现的两阶段课程",
       "numbers": [
         "1B",
@@ -6617,7 +6615,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 237,
+      "line": 233,
       "section": "OLMo-2：可复现的两阶段课程",
       "numbers": [
         "1124",
@@ -6637,7 +6635,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 243,
+      "line": 239,
       "section": "Qwen2.5：预训练、长上下文与后训练的连续 schedule",
       "numbers": [
         "7T",
@@ -6651,7 +6649,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 247,
+      "line": 243,
       "section": "Qwen2.5：预训练、长上下文与后训练的连续 schedule",
       "numbers": [
         "100 万"
@@ -6664,7 +6662,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 253,
+      "line": 249,
       "section": "对复现工程的启示",
       "numbers": [
         "1B"
@@ -6677,7 +6675,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 268,
+      "line": 264,
       "section": "44.8 案例分析、常见问题与边界讨论",
       "numbers": [
         "152K"
@@ -6690,7 +6688,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 274,
+      "line": 270,
       "section": "44.8 案例分析、常见问题与边界讨论",
       "numbers": [
         "≤1B"
@@ -6703,7 +6701,7 @@
     },
     {
       "file": "docs/zh/part13/ch44_pretrain_recipes.md",
-      "line": 280,
+      "line": 276,
       "section": "本章小结",
       "numbers": [
         "1B"
@@ -7275,62 +7273,50 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 21,
-      "section": "学习目标",
+      "line": 23,
+      "section": "案例分析：视觉语言模型（VLM）复现中的数据配方瓶颈",
       "numbers": [
+        "558K",
         "10",
-        "15"
+        "15 个"
       ],
       "category": "model-or-token-scale",
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "“同样的 ViT 视觉编码器，同样的大语言模型（LLM）基座架构，为什么我们完全复刻 LLaVA-1.5 的训练管线，在 MMMU 和 DocVQA 这种困难榜单上，得分却比 Qwen2.5-VL 和 InternVL 差了整整 10 到 15 分？”"
+      "context": "在视觉语言模型（VLM）的工业级复现实践中，研究人员常观察到一种典型的性能瓶颈现象：即使采用与当前先进模型（如 Qwen2.5-VL）相同规格的视觉编码器，并接入同等参数规模的大语言模型（LLM）基座，严格遵循经典的早期两阶段训练方案（例如 LLaVA-1.5 的训练管线：在 Stage-1 使用 LAION-CC-SBU 的 558K 图文对进行视觉对齐预训练，在 Stage-2 使用 LLaVA-Instruct-150K 进行全参数微调），其在 MMMU 与 DocVQA 等复杂多模态基准测试中的得分，往往显..."
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 23,
-      "section": "学习目标",
+      "line": 27,
+      "section": "案例分析：视觉语言模型（VLM）复现中的数据配方瓶颈",
       "numbers": [
-        "2025 年",
-        "558K"
+        "0.26",
+        "0.61"
       ],
-      "category": "cost-resource-or-scale",
-      "source_status": "nearby-source-signal",
-      "risk": "low",
-      "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "2025 年春，某国内头部人工智能（AI）实验室的多模态团队经历了一次典型的“数据配方复现失败”。他们的出发点看起来较为充分：使用与 Qwen2.5-VL 相同规格的视觉编码器（InternViT-6B），接入同等参数规模的中文基座大语言模型（LLM），并严格按照 LLaVA-1.5 (Liu et al. 2024b) 的经典两阶段训练方案执行——Stage-1 用 LAION-CC-SBU 的 558K 图文对做视觉对齐预训练，Stage-2 用 LLaVA-Instruct-150K 做全参数微调。训练耗时三..."
+      "category": "dataset-size-or-composition",
+      "source_status": "chapter-reference-section-only",
+      "risk": "medium",
+      "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
+      "context": "- **数据质量劣化（Data Quality Degradation）**：原始网络抓取的 alt-text（如 LAION 数据集）图文相关性通常较低，其 CLIP 余弦相似度中位数仅为 0.26 左右。相比之下，先进模型通常采用强模型（如 GPT-4V）重标注的数据，其图文相关性可达 0.61 以上。低质量的文字描述会导致模型在预训练阶段建立错误的跨模态对齐关系。"
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 25,
-      "section": "学习目标",
+      "line": 28,
+      "section": "案例分析：视觉语言模型（VLM）复现中的数据配方瓶颈",
       "numbers": [
-        "12 个"
+        "至 336",
+        "336"
       ],
       "category": "performance-or-percentage",
-      "source_status": "inline-source-signal",
-      "risk": "low",
-      "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "然而，当他们将模型提交到 MMMU (Yue et al. 2024) 与 DocVQA (Mathew et al. 2021) 的公开评测排行榜时，整体得分与 Qwen2.5-VL-7B 和 InternVL3-8B 相比差距超过 12 个百分点。而他们使用的视觉编码器参数量更大，基座 LLM 的中文能力也经过了专项强化。"
-    },
-    {
-      "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 34,
-      "section": "学习目标",
-      "numbers": [
-        "2024",
-        "2025 年"
-      ],
-      "category": "model-or-token-scale",
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
-      "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "这个案例并不罕见。它揭示了当今 VLM 工程的核心命题：**数据配方的精细程度，会直接影响模型能力上限**。在架构层创新逐渐收敛的背景下，数据工程层面的差距，往往成为头部实验室与跟随者之间的重要分界。在 2024 到 2025 年的多模态快速发展周期中，拉开现代头部 VLM 差距的，已经不只是模型架构的细微调整，而是更精细、更严格的多模态数据工程配方。"
+      "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
+      "context": "- **分辨率降采样信息丢失（Resolution Downsampling Loss）**：传统的固定分辨率预处理（如 Resize 至 336×336），会导致财报 PDF、教科书插图等图像中的细粒度文字信息严重丢失，从而直接削弱模型的文档问答（DocVQA）能力。"
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 45,
+      "line": 43,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "47.1"
@@ -7343,7 +7329,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 49,
+      "line": 47,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "3"
@@ -7352,11 +7338,11 @@
       "source_status": "nearby-source-signal",
       "risk": "low",
       "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "![图47-2：VLM 数据三阶段流水线 (3-Stage VLM Data Engineering Pipeline)](../../images/part13/ch47_02_vlm_three_stages_en.png)"
+      "context": "![图47-2：VLM 数据三阶段流水线 (3-Stage VLM Data Engineering Pipeline)](../../images/part13/ch47_02_vlm_three_stages_en.svg)"
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 51,
+      "line": 49,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "3"
@@ -7369,7 +7355,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 57,
+      "line": 55,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "≥ 0.28",
@@ -7385,7 +7371,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 63,
+      "line": 61,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "336",
@@ -7406,7 +7392,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 69,
+      "line": 67,
       "section": "47.1 VLM 数据三阶段流水线",
       "numbers": [
         "30%",
@@ -7423,7 +7409,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 73,
+      "line": 71,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "47.2"
@@ -7436,7 +7422,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 75,
+      "line": 73,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "2026 年",
@@ -7450,7 +7436,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 79,
+      "line": 77,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "4",
@@ -7464,7 +7450,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 83,
+      "line": 81,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "~2B",
@@ -7479,7 +7465,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 84,
+      "line": 82,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "3",
@@ -7495,7 +7481,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 85,
+      "line": 83,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "~1B",
@@ -7510,7 +7496,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 86,
+      "line": 84,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "~500M",
@@ -7524,7 +7510,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 92,
+      "line": 90,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "4.2 个",
@@ -7539,7 +7525,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 100,
+      "line": 98,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "15%",
@@ -7554,7 +7540,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 108,
+      "line": 106,
       "section": "47.2 主流 VLM 数据组成横向对比",
       "numbers": [
         "5 倍",
@@ -7568,7 +7554,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 114,
+      "line": 112,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "224",
@@ -7582,7 +7568,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 122,
+      "line": 120,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "448",
@@ -7600,7 +7586,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 124,
+      "line": 122,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "1",
@@ -7617,7 +7603,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 128,
+      "line": 126,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "1",
@@ -7632,7 +7618,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 130,
+      "line": 128,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "15%"
@@ -7645,7 +7631,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 139,
+      "line": 137,
       "section": "47.3 关键技术差异：Native Resolution vs Dynamic Hi-Res",
       "numbers": [
         "约 30%"
@@ -7658,7 +7644,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 197,
+      "line": 195,
       "section": "47.4 多模态指令数据合成",
       "numbers": [
         "0.7",
@@ -7672,7 +7658,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 200,
+      "line": 198,
       "section": "47.4 多模态指令数据合成",
       "numbers": [
         "≥ 0.30"
@@ -7685,7 +7671,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 211,
+      "line": 209,
       "section": "47.5 长视频 / 文档 / OCR 数据特化处理",
       "numbers": [
         "15%"
@@ -7698,7 +7684,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 214,
+      "line": 212,
       "section": "47.5 长视频 / 文档 / OCR 数据特化处理",
       "numbers": [
         "10 分钟",
@@ -7715,7 +7701,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 216,
+      "line": 214,
       "section": "47.5 长视频 / 文档 / OCR 数据特化处理",
       "numbers": [
         "1",
@@ -7730,7 +7716,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 218,
+      "line": 216,
       "section": "47.5 长视频 / 文档 / OCR 数据特化处理",
       "numbers": [
         "3"
@@ -7743,7 +7729,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 234,
+      "line": 232,
       "section": "Case A：InternVL3 的全开源 SFT 数据复现",
       "numbers": [
         "8 卡",
@@ -7761,7 +7747,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 236,
+      "line": 234,
       "section": "Case A：InternVL3 的全开源 SFT 数据复现",
       "numbers": [
         "1.2M"
@@ -7774,7 +7760,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 244,
+      "line": 242,
       "section": "Case B：LAION 提纯与 LLaVA-Recap-558K",
       "numbers": [
         "0.28",
@@ -7789,7 +7775,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 245,
+      "line": 243,
       "section": "Case B：LAION 提纯与 LLaVA-Recap-558K",
       "numbers": [
         "558K"
@@ -7802,7 +7788,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 246,
+      "line": 244,
       "section": "Case B：LAION 提纯与 LLaVA-Recap-558K",
       "numbers": [
         "150",
@@ -7816,7 +7802,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 247,
+      "line": 245,
       "section": "Case B：LAION 提纯与 LLaVA-Recap-558K",
       "numbers": [
         "0.30",
@@ -7830,7 +7816,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 249,
+      "line": 247,
       "section": "Case B：LAION 提纯与 LLaVA-Recap-558K",
       "numbers": [
         "558K",
@@ -7847,7 +7833,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 255,
+      "line": 253,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "1",
@@ -7865,7 +7851,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 259,
+      "line": 257,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "1"
@@ -7878,7 +7864,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 261,
+      "line": 259,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "3",
@@ -7895,7 +7881,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 262,
+      "line": 260,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "4",
@@ -7909,7 +7895,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 263,
+      "line": 261,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "5"
@@ -7922,7 +7908,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 265,
+      "line": 263,
       "section": "Case C：Qwen2.5-VL 长视频数据配方的工程推断",
       "numbers": [
         "6",
@@ -7936,7 +7922,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 269,
+      "line": 267,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "47.7"
@@ -7949,7 +7935,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 275,
+      "line": 273,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "> 0.7"
@@ -7962,7 +7948,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 281,
+      "line": 279,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "3"
@@ -7975,7 +7961,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 283,
+      "line": 281,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "0.005",
@@ -7992,7 +7978,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 285,
+      "line": 283,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "4"
@@ -8005,7 +7991,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 291,
+      "line": 289,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "> 40%",
@@ -8019,7 +8005,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 295,
+      "line": 293,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "29",
@@ -8035,7 +8021,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 301,
+      "line": 299,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "+ 300",
@@ -8049,7 +8035,7 @@
     },
     {
       "file": "docs/zh/part13/ch47_vlm_data_recipes.md",
-      "line": 303,
+      "line": 301,
       "section": "47.7 实施风险、成本与适用边界",
       "numbers": [
         "约 24"
@@ -8854,7 +8840,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 312,
+      "line": 311,
       "section": "7.3 裁剪页眉页脚",
       "numbers": [
         "5%"
@@ -8867,7 +8853,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 420,
+      "line": 419,
       "section": "8.3 schema 作为种子层底座",
       "numbers": [
         "-5"
@@ -8880,7 +8866,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 435,
+      "line": 434,
       "section": "9.1 法律问答（legal_qa）",
       "numbers": [
         "9.1"
@@ -8893,7 +8879,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 445,
+      "line": 444,
       "section": "9.2 法条解释（statute_explanation）",
       "numbers": [
         "9.2"
@@ -8906,7 +8892,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 480,
+      "line": 479,
       "section": "10. 任务分布与样本结构：分布均衡的控制方式",
       "numbers": [
         "10"
@@ -8919,7 +8905,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 484,
+      "line": 483,
       "section": "10. 任务分布与样本结构：分布均衡的控制方式",
       "numbers": [
         "2577 条",
@@ -8936,7 +8922,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 496,
+      "line": 495,
       "section": "10.2 样本结构的重要性",
       "numbers": [
         "10.2 样本"
@@ -8949,7 +8935,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 509,
+      "line": 508,
       "section": "11.1 合成扩张的作用",
       "numbers": [
         "11.1"
@@ -8962,7 +8948,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 511,
+      "line": 510,
       "section": "11.1 合成扩张的作用",
       "numbers": [
         "193.28 小时",
@@ -8976,7 +8962,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 620,
+      "line": 619,
       "section": "14.1 风险拒答与 system prompt 的关系",
       "numbers": [
         "14.1"
@@ -8989,7 +8975,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 632,
+      "line": 631,
       "section": "14.2 风险拒答样本的作用",
       "numbers": [
         "14.2"
@@ -9002,7 +8988,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 643,
+      "line": 642,
       "section": "14.3 当前项目的风险边界建设",
       "numbers": [
         "6 条"
@@ -9015,7 +9001,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 701,
+      "line": 700,
       "section": "16. 供应商协同与人机分工：规模扩展下的审核机制",
       "numbers": [
         "16"
@@ -9028,7 +9014,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 705,
+      "line": 704,
       "section": "16. 供应商协同与人机分工：规模扩展下的审核机制",
       "numbers": [
         "193.28 小时",
@@ -9042,7 +9028,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 737,
+      "line": 736,
       "section": "17. 训练封装：从监督样本到训练接口",
       "numbers": [
         "17"
@@ -9055,7 +9041,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 778,
+      "line": 777,
       "section": "18.1 样本规模",
       "numbers": [
         "18.1 样本"
@@ -9068,7 +9054,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 780,
+      "line": 779,
       "section": "18.1 样本规模",
       "numbers": [
         "2577"
@@ -9081,7 +9067,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 784,
+      "line": 783,
       "section": "18.1 样本规模",
       "numbers": [
         "7737"
@@ -9094,7 +9080,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 813,
+      "line": 812,
       "section": "18.4 偏好与风险数据",
       "numbers": [
         "6"
@@ -9107,7 +9093,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 841,
+      "line": 840,
       "section": "19.1 验证设计",
       "numbers": [
         "= 20260409",
@@ -9121,7 +9107,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 851,
+      "line": 850,
       "section": "19.2 验证指标",
       "numbers": [
         "50 条"
@@ -9134,7 +9120,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 872,
+      "line": 871,
       "section": "19.3 验证结果",
       "numbers": [
         "100.00%"
@@ -9147,7 +9133,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 873,
+      "line": 872,
       "section": "19.3 验证结果",
       "numbers": [
         "= 100.00%",
@@ -9161,7 +9147,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 874,
+      "line": 873,
       "section": "19.3 验证结果",
       "numbers": [
         "= 0.00%",
@@ -9175,7 +9161,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 896,
+      "line": 895,
       "section": "19.5 这组结果在工程上的含义",
       "numbers": [
         "100%",
@@ -9189,7 +9175,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 898,
+      "line": 897,
       "section": "19.5 这组结果在工程上的含义",
       "numbers": [
         "0%",
@@ -9203,7 +9189,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 909,
+      "line": 908,
       "section": "19.6 如何解读这类实验",
       "numbers": [
         "-17",
@@ -9217,7 +9203,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 917,
+      "line": 916,
       "section": "20.1 从 2577 到 7737，说明工厂具备扩张能力",
       "numbers": [
         "20.1",
@@ -9232,7 +9218,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 931,
+      "line": 930,
       "section": "20.4 偏好、QA 与轻量下游验证一起，说明项目正在从“会答”走向“答得更稳”",
       "numbers": [
         "50 条"
@@ -9245,7 +9231,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 937,
+      "line": 936,
       "section": "20.5 人审成本已经可见，说明后续必须考虑自动化与协同优化",
       "numbers": [
         "20.5"
@@ -9258,7 +9244,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 939,
+      "line": 938,
       "section": "20.5 人审成本已经可见，说明后续必须考虑自动化与协同优化",
       "numbers": [
         "28 小时"
@@ -9271,7 +9257,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 983,
+      "line": 982,
       "section": "22. 版本演进：行业 SFT 数据集的版本管理",
       "numbers": [
         "22"
@@ -9284,7 +9270,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1012,
+      "line": 1011,
       "section": "23. 成本优化：法律数据的主要成本项",
       "numbers": [
         "23"
@@ -9297,7 +9283,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1021,
+      "line": 1020,
       "section": "23.1 当前项目的成本启示",
       "numbers": [
         "23.1"
@@ -9310,7 +9296,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1034,
+      "line": 1033,
       "section": "23.3 成本分析的必要性",
       "numbers": [
         "23.3"
@@ -9323,7 +9309,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1081,
+      "line": 1080,
       "section": "25.2 合成比例较高",
       "numbers": [
         "25.2"
@@ -9336,7 +9322,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1085,
+      "line": 1084,
       "section": "25.3 风险拒答样本仍然偏少",
       "numbers": [
         "25.3"
@@ -9349,7 +9335,7 @@
     },
     {
       "file": "docs/zh/part14/p02_legal_sft.md",
-      "line": 1089,
+      "line": 1088,
       "section": "25.4 QA 成本高",
       "numbers": [
         "25.4"
@@ -17011,7 +16997,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 123,
-      "section": "22.2 视觉 Chunk 与对象建模",
+      "section": "22.2 视觉 chunk 与对象建模",
       "numbers": [
         "22.2"
       ],
@@ -17019,12 +17005,12 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "## 22.2 视觉 Chunk 与对象建模"
+      "context": "## 22.2 视觉 chunk 与对象建模"
     },
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 125,
-      "section": "22.2.1 视觉 Chunk 的基本概念与挑战",
+      "section": "22.2.1 视觉 chunk 的基本概念与挑战",
       "numbers": [
         "22.2"
       ],
@@ -17032,12 +17018,12 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "### 22.2.1 视觉 Chunk 的基本概念与挑战"
+      "context": "### 22.2.1 视觉 chunk 的基本概念与挑战"
     },
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 127,
-      "section": "22.2.1 视觉 Chunk 的基本概念与挑战",
+      "section": "22.2.1 视觉 chunk 的基本概念与挑战",
       "numbers": [
         "2020",
         "2021"
@@ -17051,7 +17037,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 143,
-      "section": "22.2.2 视觉 Chunk 的生成与建模方法",
+      "section": "22.2.2 视觉 chunk 的生成与建模方法",
       "numbers": [
         "22.2"
       ],
@@ -17059,12 +17045,12 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "### 22.2.2 视觉 Chunk 的生成与建模方法"
+      "context": "### 22.2.2 视觉 chunk 的生成与建模方法"
     },
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 145,
-      "section": "22.2.2 视觉 Chunk 的生成与建模方法",
+      "section": "22.2.2 视觉 chunk 的生成与建模方法",
       "numbers": [
         "2015",
         "2017",
@@ -17107,7 +17093,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 173,
-      "section": "22.2.4 视觉 Chunk 的索引与检索策略",
+      "section": "22.2.4 视觉 chunk 的索引与检索策略",
       "numbers": [
         "22.2"
       ],
@@ -17115,12 +17101,12 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "### 22.2.4 视觉 Chunk 的索引与检索策略"
+      "context": "### 22.2.4 视觉 chunk 的索引与检索策略"
     },
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 175,
-      "section": "22.2.4 视觉 Chunk 的索引与检索策略",
+      "section": "22.2.4 视觉 chunk 的索引与检索策略",
       "numbers": [
         "2021"
       ],
@@ -17133,7 +17119,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 177,
-      "section": "22.2.4 视觉 Chunk 的索引与检索策略",
+      "section": "22.2.4 视觉 chunk 的索引与检索策略",
       "numbers": [
         "2023"
       ],
@@ -17146,7 +17132,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 179,
-      "section": "22.2.4 视觉 Chunk 的索引与检索策略",
+      "section": "22.2.4 视觉 chunk 的索引与检索策略",
       "numbers": [
         "2024 年"
       ],
@@ -17159,7 +17145,7 @@
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 183,
-      "section": "22.2.5 视觉 Chunk 的评测与优化",
+      "section": "22.2.5 视觉 chunk 的评测与优化",
       "numbers": [
         "22.2"
       ],
@@ -17167,12 +17153,12 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "### 22.2.5 视觉 Chunk 的评测与优化"
+      "context": "### 22.2.5 视觉 chunk 的评测与优化"
     },
     {
       "file": "docs/zh/part7/ch22_multimodal_rag_visual_retrieval.md",
       "line": 185,
-      "section": "22.2.5 视觉 Chunk 的评测与优化",
+      "section": "22.2.5 视觉 chunk 的评测与优化",
       "numbers": [
         "2024",
         "2021"
@@ -17895,7 +17881,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "**需求三：标注质量的持续监控**。人工标注的质量会随着时间漂移：标注员的疲劳状态会影响一致性，标注任务边界不清会导致标准分歧，外包商之间的理解差异会产生系统性偏差。这需要一套持续运营的质量监控体系，而不是\"上线前做一次抽检\"就完事。数据级联研究表明，早期数据质量问题会在下游模型、产品和组织流程中不断放大，因此必须把数据工作视为一等工程对象（Sambasivan et al. 2021）。"
+      "context": "**需求三：标注质量的持续监控**。人工标注的质量会随着时间漂移：标注员的疲劳状态会影响一致性，标注任务边界不清会导致标准分歧，外包商之间的理解差异会产生系统性偏差。这需要一套持续运营的质量监控体系，而不是上线前做一次抽检就能解决问题。数据级联研究表明，早期数据质量问题会在下游模型、产品和组织流程中不断放大，因此必须把数据工作视为一等工程对象（Sambasivan et al. 2021）。"
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
@@ -17926,7 +17912,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 169,
+      "line": 171,
       "section": "24.2.2 角色接口协议设计",
       "numbers": [
         "< 1%",
@@ -17941,7 +17927,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 170,
+      "line": 172,
       "section": "24.2.2 角色接口协议设计",
       "numbers": [
         "18",
@@ -17955,7 +17941,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 180,
+      "line": 182,
       "section": "24.2.2 角色接口协议设计",
       "numbers": [
         "> 0.85",
@@ -17969,7 +17955,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 181,
+      "line": 183,
       "section": "24.2.2 角色接口协议设计",
       "numbers": [
         "5 个"
@@ -18017,9 +18003,9 @@
       ],
       "category": "performance-or-percentage",
       "source_status": "chapter-reference-section-only",
-      "risk": "low",
-      "action": "人工抽检即可。",
-      "context": "飞轮要持续转动，需要固定的时间节点来驱动。持续交付实践强调固定节奏、自动化验证和小批量变更，目的正是降低交付风险并提高反馈速度（Humble and Farley 2010; Humble, Molesky and O'Reilly 2015）。以下是一套适合中等规模 LLM 数据团队（10-30 人）的周度节奏设计："
+      "risk": "medium",
+      "action": "判断是否为项目实测值；若是，补充日志/产物证据，否则改写为示例或建议口径。",
+      "context": "飞轮要持续转动，需要固定的时间节点来驱动。持续交付实践强调固定节奏、自动化验证和小批量变更，目的正是降低交付风险并提高反馈速度（Humble and Farley 2010; Humble, Molesky and O'Reilly 2015）。这里的“周度节奏”主要指需求推进、交付协同和短周期反馈的运行节奏；月度评审和季度冻结则是叠加其上的治理与校准节点。以下是一套适合中等规模 LLM 数据团队（10-30 人）的分层节奏设计："
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
@@ -18049,7 +18035,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 391,
+      "line": 393,
       "section": "24.3.3 SLA 设置与版本冻结机制",
       "numbers": [
         "24小时",
@@ -18064,7 +18050,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 392,
+      "line": 394,
       "section": "24.3.3 SLA 设置与版本冻结机制",
       "numbers": [
         "3个",
@@ -18080,7 +18066,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 393,
+      "line": 395,
       "section": "24.3.3 SLA 设置与版本冻结机制",
       "numbers": [
         "5个",
@@ -18116,7 +18102,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "解决这些冲突的有效机制是建立**数据资产目录（Data Asset Registry）**，统一登记所有已生产的数据集，明确：数据集的归属团队、使用限制（哪些项目可以用、哪些不能）、使用申请流程。需要跨项目共享数据时，必须通过目录中的申请流程，而不是直接\"拿走\"。数据网格和数据产品化思想都强调，跨团队共享应通过明确所有权、契约和产品接口来实现，而不是依赖临时复制（Dehghani 2022）。"
+      "context": "解决这些冲突的有效机制是建立**数据资产目录（Data Asset Registry）**，统一登记所有已生产的数据集，明确：数据集的归属团队、使用限制（哪些项目可以用、哪些不能）、使用申请流程。需要跨项目共享数据时，必须通过目录中的申请流程，而不是直接使用。数据网格和数据产品化思想都强调，跨团队共享应通过明确所有权、契约和产品接口来实现，而不是依赖临时复制（Dehghani 2022）。"
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
@@ -18160,7 +18146,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 538,
+      "line": 540,
       "section": "24.4.3 风险升级与决策委员会",
       "numbers": [
         "4 小时",
@@ -18186,7 +18172,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "某在线教育公司（以下简称 E 公司）在 2023 年初开始构建面向 K12 场景的教育大模型。初期团队只有 5 人：2 名算法工程师兼数据工程师，3 名兼职标注员（均为公司内部教研人员）。这个阶段运转顺畅，因为团队小、沟通成本低，有问题当面说一声就解决了。"
+      "context": "某在线教育公司（以下简称 E 公司）在 2023 年初开始构建面向 K12 场景的教育大模型。初期团队只有 5 人：2 名算法工程师兼数据工程师，3 名兼职标注员（均为公司内部教研人员）。因为团队小、沟通成本低而效率较高，这个阶段运转相对顺畅。"
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
@@ -18205,7 +18191,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 653,
+      "line": 655,
       "section": "重组过程",
       "numbers": [
         "1"
@@ -18218,7 +18204,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 655,
+      "line": 657,
       "section": "重组过程",
       "numbers": [
         "5"
@@ -18231,7 +18217,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 665,
+      "line": 667,
       "section": "结果",
       "numbers": [
         "约 40%",
@@ -18245,7 +18231,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 666,
+      "line": 668,
       "section": "结果",
       "numbers": [
         "约 82%",
@@ -18259,7 +18245,7 @@
     },
     {
       "file": "docs/zh/part8/ch24_dataops_flywheel_team.md",
-      "line": 668,
+      "line": 670,
       "section": "结果",
       "numbers": [
         "约 5%",
@@ -18391,7 +18377,7 @@
       "source_status": "nearby-source-signal",
       "risk": "low",
       "action": "保留；出版终稿阶段核对引用条目格式和 DOI/URL。",
-      "context": "这个案例揭示了缺乏版本管理的核心代价：**问题发现的时间和排查的时间之间，存在一个巨大的信息黑洞**。没有版本管理，就没有可复盘的迭代。实验管理系统和机器学习生命周期平台的设计，正是为了解决模型、数据、参数和结果之间难以追踪的问题（Vartak et al. 2016; Zaharia et al. 2018）。"
+      "context": "这个案例揭示了缺乏版本管理的核心代价：**问题发现的时间和排查的时间之间，存在一个巨大的信息缺口**。没有版本管理，就没有可复盘的迭代。实验管理系统和机器学习生命周期平台的设计，正是为了解决模型、数据、参数和结果之间难以追踪的问题（Vartak et al. 2016; Zaharia et al. 2018）。"
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
@@ -18537,7 +18523,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "一个常见的误区是：失败实验不需要认真记录，因为\"反正没有价值\"。生产就绪度评估框架强调，失败案例、数据异常、测试覆盖和监控信号都是降低 ML 技术债的重要证据，而不应在实验结束后丢失（Breck et al. 2017）。这个观点会造成巨大的知识浪费。"
+      "context": "一个常见的误区是：失败实验没有价值，不需要认真记录。这样的观点会造成巨大的知识浪费。生产就绪度评估框架强调，失败案例、数据异常、测试覆盖和监控信号都是降低 ML 技术债的重要证据，而不应在实验结束后丢失（Breck et al. 2017）。"
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
@@ -18555,20 +18541,21 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 469,
+      "line": 457,
       "section": "25.4.3 谱系治理规则",
       "numbers": [
+        "2005",
         "2019"
       ],
       "category": "model-or-token-scale",
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "任何进入模型训练的数据版本，必须经过自动化质量检查。自动化数据验证系统通过统计约束、schema 检查和异常检测帮助团队在训练前发现数据质量问题（Breck et al. 2019）。"
+      "context": "谱系治理规则是数据团队约定的一套\"数据行为准则\"，规定了哪些操作是被允许的、哪些需要审批、哪些是被禁止的。数据溯源综述指出，血缘信息只有与查询、审计、调试和复现需求结合，才会真正产生工程价值（Simmhan, Plale and Gannon 2005）。任何进入模型训练的数据版本，必须经过自动化质量检查。自动化数据验证系统通过统计约束、schema 检查和异常检测帮助团队在训练前发现数据质量问题（Breck et al. 2019）。"
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 518,
+      "line": 519,
       "section": "案例背景",
       "numbers": [
         "82%",
@@ -18582,7 +18569,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 528,
+      "line": 529,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "5分钟"
@@ -18595,7 +18582,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 540,
+      "line": 541,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "18.2 万",
@@ -18609,7 +18596,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 541,
+      "line": 542,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "32,156 条"
@@ -18622,7 +18609,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 542,
+      "line": 543,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "1,823 条"
@@ -18635,7 +18622,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 550,
+      "line": 551,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "6,847 条"
@@ -18648,21 +18635,20 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 551,
+      "line": 552,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
-        "4,102 条",
-        "40%"
+        "4,102 条"
       ],
       "category": "performance-or-percentage",
       "source_status": "chapter-reference-section-only",
       "risk": "low",
       "action": "人工抽检即可。",
-      "context": "- `v2.8.0`：退款流程样本 4,102 条（减少了 40%！）"
+      "context": "- `v2.8.0`：退款流程样本 4,102 条（减少了40%）"
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 559,
+      "line": 560,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "3,201 条"
@@ -18675,7 +18661,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 562,
+      "line": 563,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "3 月",
@@ -18689,7 +18675,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 576,
+      "line": 577,
       "section": "回溯过程（有版本管理的情况下）",
       "numbers": [
         "85 分钟",
@@ -18703,7 +18689,7 @@
     },
     {
       "file": "docs/zh/part8/ch25_data_versioning_experiment_tracking.md",
-      "line": 651,
+      "line": 652,
       "section": "延伸阅读",
       "numbers": [
         "2018",
@@ -18755,7 +18741,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "以下为匿名化复合案例，数值用于说明可观测性问题的量级，不代表某个公开平台的真实统计。某公司的 LLM 数据平台每天处理约 200 万条原始数据，经过清洗、标注、格式转换后，产出约 10 万条训练样本。平台的监控面板显示：过去一个月，所有 Airflow DAG 的成功率保持在 99.2% 以上，作业平均耗时稳定，存储空间充足，看起来一切正常。"
+      "context": "以下为匿名化复合案例，数值用于说明可观测性问题的量级，不代表某个公开平台的真实统计。某公司的 LLM 数据平台每天处理约 200 万条原始数据，经过清洗、标注、格式转换后，产出约 10 万条训练样本。平台的监控面板显示：过去一个月，所有调度系统 DAG 的成功率保持在 99.2% 以上，作业平均耗时稳定，存储空间充足，看起来一切正常。"
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
@@ -18781,7 +18767,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "排查结果令人震惊：三周前，数据清洗管线的一个依赖库悄悄升级了版本，新版本的分词器对中文长文的截断处理发生了变化，导致超过 512 token 的长文本被错误地截断，而不是按语义边界切分。作业仍然成功运行，输出文件的样本数量看起来正常，所有\"任务指标\"都是绿色的——但数据内容已经悄悄地变了，而没有任何一个告警被触发。"
+      "context": "排查结果如下：三周前，数据清洗管线的一个依赖库升级了版本，新版本的分词器对中文长文的截断处理发生了变化，导致超过 512 token 的长文本被错误地截断，而不是按语义边界切分。作业仍然成功运行，输出文件的样本数量看起来正常，所有任务指标都已达成——但数据内容已经变了，而没有任何一个告警被触发。"
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
@@ -18920,17 +18906,18 @@
       "section": "26.3.1 告警设计原则",
       "numbers": [
         "> 5%",
+        "30 天",
         "3 个"
       ],
       "category": "performance-or-percentage",
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "**原则四：区分静态阈值和动态基线**。静态阈值（如\"空白率 > 5% 就告警\"）适用于有明确质量标准的指标；动态基线（如\"今天的数值比过去30天均值高 3 个标准差\"）适用于正常值会随时间变化的指标（如日处理量可能随业务增长而正常增加）。"
+      "context": "**原则四：区分静态阈值和动态基线**。静态阈值（如\"空白率 > 5% 就告警\"）适用于有明确质量标准的指标；动态基线（如\"今天的数值比过去 30 天均值高 3 个标准差\"）适用于正常值会随时间变化的指标（如日处理量可能随业务增长而正常增加）。"
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 283,
+      "line": 285,
       "section": "26.3.2 四级告警体系",
       "numbers": [
         "> 50%",
@@ -18945,7 +18932,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 284,
+      "line": 286,
       "section": "26.3.2 四级告警体系",
       "numbers": [
         "20",
@@ -18970,7 +18957,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "P0 和 P1 告警必须有人工确认（ACK）机制。高可靠系统通常通过分级告警、升级路径和明确值班责任来缩短平均恢复时间，并避免事故在无人接手时扩大（Beyer et al. 2018; Nygard 2018）：收到告警的工程师必须在规定时间内确认\"我知道了，正在处理\"，否则自动升级。P2 和 P3 告警不需要立即确认，但必须在 SLA 时间内处理完毕并关闭。"
+      "context": "P0 和 P1 告警必须有人工确认（ACK）机制。高可靠系统通常通过分级告警、升级路径和明确值班责任来缩短平均恢复时间，并避免事故在无人接手时扩大（Beyer et al. 2018; Nygard 2018）。收到告警的工程师必须在规定时间内进行确认，否则系统将自动升级。P2 和 P3 告警不需要立即确认，但必须在 SLA 时间内处理完毕并关闭。"
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
@@ -19195,7 +19182,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 508,
+      "line": 510,
       "section": "26.5.1 事故概述",
       "numbers": [
         "5月",
@@ -19210,7 +19197,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 513,
+      "line": 515,
       "section": "26.5.1 事故概述",
       "numbers": [
         "5月",
@@ -19253,7 +19240,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 582,
+      "line": 584,
       "section": "26.5.4 事故复盘模板",
       "numbers": [
         "6天"
@@ -19266,7 +19253,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 583,
+      "line": 585,
       "section": "26.5.4 事故复盘模板",
       "numbers": [
         "42万",
@@ -19311,7 +19298,7 @@
     },
     {
       "file": "docs/zh/part8/ch26_data_platform_observability.md",
-      "line": 610,
+      "line": 612,
       "section": "26.5.5 关键指标改进",
       "numbers": [
         "约 35%",
@@ -19718,7 +19705,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "在上一章中，我们讨论了如何通过数据资产目录与元数据治理，让组织内的数据从可见但不可达的状态，转变为可被发现、可被理解、可被信任的资产。然而，能够被发现和理解不等于能够被可靠地、长期地依赖。一个被登记在目录中的数据集，仍然可能被上游悄悄改变字段含义，或因为采集任务的一次故障而停止更新。当下游的训练流水线、RAG 知识库或评测系统正依赖这份数据稳定运转时，这类看似微小的变化，往往会沿着数据链路被层层放大，最终演变为模型效果下降、线上事故甚至合规风险（Sambasivan et al. 2021）。"
+      "context": "在上一章中，我们讨论了如何通过数据资产目录与元数据治理，让组织内的数据从可见但不可达的状态，转变为可被发现、可被理解、可被信任的资产。然而，能够被发现和理解不等于能够被可靠地、长期地依赖。一个被登记在目录中的数据集，仍然可能被上游改变字段含义，或因为采集任务的一次故障而停止更新。当下游的训练流水线、RAG 知识库或评测系统正依赖这份数据稳定运转时，这类看似微小的变化，往往会沿着数据链路被层层放大，最终演变为模型效果下降、线上事故甚至合规风险（Sambasivan et al. 2021）。"
     },
     {
       "file": "docs/zh/part9/ch28_data_productization_and_data_contracts.md",
@@ -19874,7 +19861,7 @@
     {
       "file": "docs/zh/part9/ch28_data_productization_and_data_contracts.md",
       "line": 176,
-      "section": "28.3.1 变更：数据产品的头号风险",
+      "section": "28.3.1 数据变更",
       "numbers": [
         "2021"
       ],
@@ -19938,7 +19925,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "这并不是一个可以凭直觉回答的问题。在大量组织中，数据价值的判断长期停留在朴素而经不起推敲的代理指标上——数据量越大越有价值、采购花的钱越多越重要、能让模型某个指标涨一点就值得保留。这些判断方式看似合理，却频繁导致严重的资源错配：组织在低价值数据上反复投入清洗与存储成本，却忽视了真正撑起多个下游场景的关键语料；团队为一次性的指标提升采购了昂贵的数据，事后却无人复用、无人维护，最终沦为技术债（Sculley et al. 2015）。在大模型时代，数据的获取、标注与治理成本急剧上升，而数据对模型效果的边际贡献又高度非线..."
+      "context": "这并不是一个可以凭直觉回答的问题。在大量组织中，数据价值的判断长期停留在朴素而经不起推敲的代理指标上——数据量越大越有价值、采购投入越高越值得优先保障、能让模型某个指标涨一点就值得保留。这些判断方式看似合理，却频繁导致严重的资源错配：组织在低价值数据上反复投入清洗与存储成本，却忽视了真正撑起多个下游场景的关键语料；团队为一次性的指标提升采购了昂贵的数据，事后却无人复用、无人维护，最终沦为技术债（Sculley et al. 2015）。在大模型时代，数据的获取、标注与治理成本急剧上升，而数据对模型效果的边际贡献又高..."
     },
     {
       "file": "docs/zh/part9/ch29_data_valuation_and_reuse.md",
@@ -20347,7 +20334,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "这种跨路径的收益归因，依赖前两章建立的基础设施：数据目录提供资产的统一身份，血缘追踪记录数据如何流向各条路径，数据契约约束各路径上的使用边界。没有这些基础，收益归因就只能依赖人工拼凑，既不准确也不可持续。反过来，一旦收益归因可被自动维护，组织就能第一次清楚地看到：哪些数据资产是被反复复用、价值被层层放大的核心资产，哪些只是躺在库里、从未产生第二次价值的沉睡库存。这一洞察，正是 29.5 资产组合管理与 29.6 资产复盘的决策依据。"
+      "context": "这种跨路径的收益归因，依赖前两章建立的基础设施：数据目录提供资产的统一身份，血缘追踪记录数据如何流向各条路径，数据契约约束各路径上的使用边界。没有这些基础，收益归因就只能依赖人工拼凑，既不准确也不可持续。反过来，一旦收益归因可被自动维护，组织就能第一次清楚地看到：哪些数据资产是被反复复用、价值被层层放大的核心资产，哪些只是长期沉积于存储中、从未产生第二次价值的沉睡库存。这一洞察，正是 29.5 资产组合管理与 29.6 资产复盘的决策依据。"
     },
     {
       "file": "docs/zh/part9/ch29_data_valuation_and_reuse.md",
@@ -20609,7 +20596,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "核对本节数值是否能对应到参考文献；必要时补内联来源或脚注。",
-      "context": "但这个结论背后有几点决策启示，比数字本身更重要。其一，**这份资产的高净价值，主要来自跨路径复用而非任何单一路径**——若只看预训练路径的 30 万元收益，结论会完全相反。这有力印证了 29.3 的核心论点：复用是价值的放大器。其二，**维护成本中的更新与合规投入不可削减**——正是它们保证了 RAG 命中的时效价值与合规的风险降低价值，砍掉它们会直接摧毁占收益大头的两条路径。其三，**价值评估必须定期重做**——金融法规在变、客服问题分布在变、基础模型能力在变，今天的高价值资产可能因外部变化而衰减，这正是 29...."
+      "context": "但这个结论背后有几点决策启示，比数字本身更重要。其一，**这份资产的高净价值，主要来自跨路径复用而非任何单一路径**——若只看预训练路径的 30 万元收益，结论会完全相反。这有力印证了 29.3 的核心论点：复用是价值的放大器。其二，**维护成本中的更新与合规投入不可削减**——正是它们保证了 RAG 命中的时效价值与合规的风险降低价值，削减这部分投入会直接摧毁占收益大头的两条路径。其三，**价值评估必须定期重做**——金融法规在变、客服问题分布在变、基础模型能力在变，今天的高价值资产可能因外部变化而衰减，这正是 ..."
     },
     {
       "file": "docs/zh/part9/ch29_data_valuation_and_reuse.md",
@@ -20855,7 +20842,7 @@
       "source_status": "chapter-reference-section-only",
       "risk": "medium",
       "action": "已按示例/匿名化案例口径处理；出版前确认不会被误读为真实统计。",
-      "context": "最后，企业金融语料的评估案例表明，这套方法不是纸上谈兵：一份获取成本约 200 万元、年维护约 60 万元的语料，因沿五条路径复用而创造约 250 万元的年收益，其高价值高度依赖复用与持续维护。在此基础上，成本—收益矩阵把单份评估提升为资产组合管理，资产复盘卡则把价值评估常态化为持续治理的闭环。"
+      "context": "最后，企业金融语料的评估案例表明，这套方法并非停留于概念层面：一份获取成本约 200 万元、年维护约 60 万元的语料，因沿五条路径复用而创造约 250 万元的年收益，其高价值高度依赖复用与持续维护。在此基础上，成本—收益矩阵把单份评估提升为资产组合管理，资产复盘卡则把价值评估常态化为持续治理的闭环。"
     },
     {
       "file": "docs/zh/part9/ch30_internal_data_market_and_sharing_governance.md",
@@ -21020,23 +21007,23 @@
     }
   ],
   "summary": {
-    "claims": 1520,
+    "claims": 1519,
     "by_risk": {
-      "low": 875,
-      "medium": 645
+      "low": 871,
+      "medium": 648
     },
     "by_category": {
       "dataset-size-or-composition": 520,
       "performance-or-percentage": 452,
-      "cost-resource-or-scale": 259,
+      "cost-resource-or-scale": 258,
       "other-quantitative": 185,
       "model-or-token-scale": 88,
       "internal-target-or-threshold": 16
     },
     "by_source_status": {
-      "chapter-reference-section-only": 1214,
-      "nearby-source-signal": 155,
-      "inline-source-signal": 151
+      "chapter-reference-section-only": 1217,
+      "nearby-source-signal": 152,
+      "inline-source-signal": 150
     }
   }
 }

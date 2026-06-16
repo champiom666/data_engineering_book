@@ -88,7 +88,7 @@ Gongpeng Zhao, Alibaba Group, China.
 
 **Can Wang**
 
-Can Wang, Alibaba Group, China.
+Can Wang received his M.B.A. from Zhejiang University. He has worked at Alibaba Group for many years and has extensive experience in cross-border e-commerce. His current work and research interests focus on AI agents and their applications in enterprise and e-commerce scenarios.
 
 **Feng Zhao**
 
